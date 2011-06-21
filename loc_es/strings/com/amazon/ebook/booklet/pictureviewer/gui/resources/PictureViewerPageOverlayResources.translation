@@ -1,0 +1,27 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+getContents
+()[[Ljava/lang/Object;
+[Ljava/lang/Object;
+java/lang/Object
+view.mode.menu.item.option
+Scale	Escala
+view.mode.menu.item.option.1
+Fit Screen	Ajustar a pantalla
+view.mode.menu.item.option.2
+Fit Width	Ajustar en anchura
+view.mode.menu.item.option.3
+Fit Height	Ajustar en altura
+actual.size.menu.item.option
+Actual Size	Tamaño real
+actual.size.menu.item.option.1
+no	no
+actual.size.menu.item.option.2
+true	verdadero
+com/amazon/ebook/booklet/pictureviewer/gui/resources/PictureViewerPageOverlayResources
+java/util/ListResourceBundle
+Lcom/amazon/ebook/booklet/pictureviewer/gui/resources/PictureViewerPageOverlayResources;
+LocalVariableTable
+a

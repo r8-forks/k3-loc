@@ -1,0 +1,51 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+annotation.disable
+Annotating is disabled	Anotaciones desactivadas
+annotation.disable.sample
+Annotating is disabled for sample content	Anotaciones desactivadas para el contenido de muestra
+annotation.disable.feed
+Annotating is disabled for blogs	Anotaciones desactivadas para blogs
+annotation.disable.low.disk.space
+Annotating is disabled - Memory is full	Anotaciones desactivadas - Memoria llena
+add.note
+Begin typing to create a note	Empiece a teclear para crear una nota
+usual.cursor.interaction
+Begin typing to create a note or click to start a highlight	Empiece a teclear para crear una nota o haga clic para iniciar un destacado
+create.highlight
+Move cursor to create a highlight	Mueva el cursor para crear un destacado
+end.highlight.sharing.disabled
+Click to end highlight or press Back to cancel	Haga clic para terminar el destacado o pulse Back para cancelar
+end.highlight.sharing.enabled
+Click to end highlight, {0} to tweet/share, or Back to cancel	Haga clic para terminar el destacado, {0} para compartir, o Back para cancelar
+java/lang/String
+Home_Icon_AltReturn.gif
+highlight.hover.sharing.disabled
+Begin typing to create a note or {0} to delete highlight	Empiece a teclear para crear una nota o {0} para borrar el destacado
+Home_Icon_Delete.gif
+highlight.hover.sharing.enabled
+Type to create note, {0} to delete highlight, {1} to share	Teclee para crear una nota, {0} para borrar el destacado, {1} para compartir
+highlight.hover.annotation.view.sharing.enabled
+{0} delete   {1} share	{0} borrar   {1} compartir
+highlight.hover.annotation.view.sharing.disabled
+{0} delete	{0} borrar
+link.hover
+Begin typing to create a note or click to follow the link	Empiece a teclear para crear una nota o haga clic para seguir el enlace
+com/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources
+java/util/ListResourceBundle
+(Ljava/lang/String;I)V
+(Ljava/lang/String;[Ljava/lang/String;I)V
+a
+uzc
+com/amazon/ebook/booklet/reader/gui/infobox/h

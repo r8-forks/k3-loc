@@ -1,0 +1,31 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+clip.this.article.finish
+Article clipped	Artículo recortado
+menu.go.to
+Go to...	Ir a...
+menu.my.notes.and.marks
+View My Notes & Marks	Ver mis notas y marcas
+View Notes & Marks	Ver notas y marcas
+menu.popular.highlights
+View Popular Highlights	Ver destacados populares
+most.popular.highlights.max
+java/lang/Integer
+most.popular.highlights.label
+View Most Popular Highlights	Ver los destacados más populares
+com/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources
+java/util/ListResourceBundle
+(I)V
+a
+wzc
