@@ -1,0 +1,19 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/tabularview/resources/PopularHighlightsListViewResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+close.label
+Close Popular Highlights	Cerrar destacados populares
+com/amazon/ebook/booklet/reader/gui/view/tabularview/resources/PopularHighlightsListViewResources
+java/util/ListResourceBundle
+a
+puc

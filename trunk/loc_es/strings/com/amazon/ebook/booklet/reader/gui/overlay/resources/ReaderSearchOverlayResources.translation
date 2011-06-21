@@ -1,0 +1,54 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/overlay/resources/ReaderSearchOverlayResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+search.overlay.hints
+(press 'SYM' key for symbols)	(pulse la tecla 'SYM' para insertar símbolos)
+search.overlay.find
+find	encontrar
+search.overlay.find.active
+search.overlay.myitems
+my items	mis elementos
+search.overlay.myitems.active
+search my items
+search.overlay.store
+store	tienda
+search.overlay.store.active
+search store	buscar en tienda
+search.overlay.google
+google
+search.overlay.google.active
+search google	buscar en google
+search.overlay.wikipedia
+wikipedia
+search.overlay.wikipedia.active
+search wikipedia	buscar en wikipedia
+search.overlay.dictionary
+dictionary	diccionario
+search.overlay.dictionary.active
+search dictionary	buscar en diccionario
+search.overlay.note
+note	nota
+search.overlay.note.active
+search.overlay.cancel
+close	cerrar
+search.overlay.next
+search next	buscar siguiente
+search.overlay.prev
+search previous	buscar anterior
+search.overlay.bottom.margin
+java/lang/Integer
+com/amazon/ebook/booklet/reader/gui/overlay/resources/ReaderSearchOverlayResources
+java/util/ListResourceBundle
+(I)V
+a
+qyc

@@ -1,0 +1,36 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+downloading.items.format
+java/text/ChoiceFormat
+0#Downloading {0} items...|1#Downloading {0} item...|2#Downloading {0} items...	0#Descargando {0} elementos...|1#Descargando {0} elemento...|2#Descargando {0} elementos...
+downloaded.items.format
+0#Downloaded {0} items...|1#Downloaded {0} item...|2#Downloaded {0} items...	0#{0} elementos descargados...|1#{0} elemento descargado...|2#{0} elementos descargados...
+download.task.manager.one.item
+item	elemento
+download.task.manager.multiple.items
+items	elementos
+download.task.manager.downloading.message
+Downloading {0} {1}...	Descargando {0} {1}...
+download.task.manager.downloaded.message
+Downloaded {0} {1}...	Descargado(s) {0} {1}...
+add.to.home.action.text
+add to home	añadir a inicio
+add.to.home.action.text.offset
+java/lang/Integer
+com/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+a
+uod

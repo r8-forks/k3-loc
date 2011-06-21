@@ -1,0 +1,14 @@
+gui.overlay.removal_confirmation.title = 
+gui.overlay.removal_confirmation.yes = OK
+gui.overlay.removal_confirmation.no = No
+gui.overlay.removal_confirmation.msg = Va a eliminar de su Kindle los elementos seleccionados. \u00bfQuiere continuar?
+gui.overlay.removal_confirmation_for_group.msg = Va a eliminar de su Kindle los elementos del grupo seleccionados. \u00bfQuiere continuar?
+gui.overlay.removal_book_confirmation.msg = Va a eliminar el contenido que est\u00e1 leyendo. \u00bfQuiere continuar?
+gui.overlay.removal_confirmation.x = 93
+gui.overlay.removal_confirmation.y = 500
+gui.overlay.removal_confirmation.width = 550
+gui.overlay.removal_confirmation.height = 96
+gui.overlay.removal_confirmation.msgBox.x = 28
+gui.overlay.removal_confirmation.msgBox.y = 0
+gui.overlay.removal_confirmation.msgBox.width = 480
+gui.overlay.removal_confirmation.msgBox.height = 61
