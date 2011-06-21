@@ -1,0 +1,65 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/AdListResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+adList.header.text
+Special Offers and Sponsors	Speciális ajánlatok és támogatók
+adList.subheader.top.margin
+java/lang/Integer
+adList.subheader.height
+adList.wireless.notice.text
+(choosing an item turns wireless on)	(egy elem kiválasztása bekapcsolja a vezeték nélküli hálózatot)
+adList.wireless.notice.font
+adList.filter.format
+java/text/ChoiceFormat
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing All {0,number,integer} Items	0#Megjelenítve: {0,number,integer} elem|1#Megjelenítve {0,number,integer} elem|2#Megjelenítve {0,number,integer} elem
+adList.pause.sound
+, 
+adList.view.sound
+Special offers and sponsors, choosing an item turns wireless on	Speciális ajánlatok és támogatók, egy elem kiválasztása bekapcsolja a vezeték nélküli hálózatot
+adList.additem.sound
+Show Detail Page	Részletek megjelenítése
+adList.item.position.sound.template
+item {0,number,integer} of {1,number,integer}	{0,number,integer}. / {1,number,integer} elem
+adList.top.padding
+adList.row.height
+adList.text.line.margin
+adList.line.thickness
+adList.line.horizontal.margin
+adList.label.left.margin
+adList.label.right.margin
+adList.label.font
+adList.headline.top.margin
+adList.headline.row.height
+adList.thumbnail.dimension.max
+java/awt/Dimension
+adList.headline.left.margin
+adList.headline.underline.dotspacing.x
+adList.headline.font
+adList.subheadline.font
+adList.subheadline.row.height
+adList.item.screen.cursor.x
+adList.item.screen.cursor.y
+adList.item.screen.cursor.height
+adList.item.line.spacing
+adList.item.cursor.spacing
+adList.item.line.margin
+com/amazon/ebook/booklet/home/foundation/resources/AdListResources
+java/util/ListResourceBundle
+(I)V
+(IZZ)Ljava/awt/Font;
+(Ljava/lang/String;)V
+(II)V
+a
+uc
+()Lcom/amazon/ebook/framework/font/a;
+com/amazon/ebook/framework/font/a

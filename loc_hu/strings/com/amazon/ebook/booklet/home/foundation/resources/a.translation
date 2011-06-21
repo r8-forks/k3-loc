@@ -1,0 +1,81 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+exp.label
+Experimental	Kísérleti lehetőségek
+exp.text
+We are working on these experimental prototypes. Do you find them useful? Should we continue working on them? We would love to hear what you think, so please send your comments to {0}	A következő szolgáltatásokon még dolgozunk.~~Ha hasznosnak találja őket, küldje el véleményét: {0}
+exp.font
+exp.text.x
+java/lang/Integer
+exp.text.margin
+exp.text.spacing
+exp.text.offset
+exp.widget.label.font
+exp.widget.desc.font
+exp.widget.link.font
+exp.widget.desc.y
+exp.widget.desc.spacing
+exp.widget.base.buffer
+exp.widget.left.margin
+exp.widget.right.margin
+exp.widget.offset
+exp.link.line.offset
+feedback.email.default
+kindle-feedback@amazon.com
+exp.cursor.disabled.color
+bw.widget.label
+Web Browser	Web böngésző
+bw.widget.cursor.label
+launch browser	böngésző indítása
+bw.widget.desc
+Select this item to launch Web Browser and browse, choose a bookmark, or enter a URL.	Nyissa meg a web böngészőt, majd válasszon ki egy könyvjelzőt vagy írjon be egy URL-t és böngésszen.
+mp3.widget.label
+Play MP3	MP3 lejátszó
+mp3.widget.cursor.label.play
+play music	zene lejátszása
+mp3.widget.cursor.label.pause
+pause music	zene szüneteltetése
+mp3.widget.desc
+Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle's 'music' folder to use this feature.	Olvasás közben zene vagy podcast hallgatásának lehetősége.~~Tartsa lenyomva az 'ALT' és a szóköz gombot az indításhoz vagy a leállításhoz. 'F' gombbal léphet a következő számra.~~A működéshez az MP3 fájlokat a számítógépről a Kindle 'music' mappájába kell másolni.
+mp3.not.found.alert.text
+No MP3 Files Found~~~~To play MP3 files, you must first copy them from your computer to your Kindle's "music" folder.	Nem találhatóak MP3 fájlok~~~~MP3 fájlok lejátszásához mindenképp a Kindle "music" mappájába kell másolni őket.
+t2s.widget.label
+Text-to-Speech	Felolvasás (Text-to-Speech)
+t2s.widget.cursor.label
+
+t2s.widget.desc
+Start Text-to-Speech in the Text menu while you are reading and your Kindle will start reading to you (where allowed by the rights holder). Hold down the 'Shift' key and press the 'SYM' key to stop or play.	Indítsa el a felolvasást a Szöveg menüből olvasás közben, és a Kindle fel fogja olvasni azokat a könyveket, melyeknél ezt a kiadó nem tiltotta le.~~Tartsa lenyomva a 'Shift' és a 'SYM' gombot az indításhoz és a leállításhoz.~~Csak angol nyelvű szöveget tud helyesen felolvasni.
+exp.view.sound
+Experimental Items
+exp.pause.sound
+, 
+feedback.email
+kindledx-feedback@amazon.com
+com/amazon/ebook/framework/device/util/DeviceResourceBundle
+(IZZ)Ljava/awt/Font;
+(I)V
+Ljava/awt/Color;
+a
+A
+b
+B
+c
+C
+d
+D
+e
+Lcom/amazon/ebook/booklet/home/foundation/resources/a;
+com/amazon/ebook/booklet/home/foundation/resources/a
+mod
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/gui/d
+com/amazon/ebook/framework/c/a

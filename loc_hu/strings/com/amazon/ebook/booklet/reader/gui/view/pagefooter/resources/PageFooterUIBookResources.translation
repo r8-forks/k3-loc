@@ -1,0 +1,29 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIBookResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+footer.choice.limits
+footer.choice.formats.location
+java/lang/String
+
+Location {1}	Pozíció: {1}
+Locations {1}	Pozíciók: {1}
+footer.choice.formats.page
+Page {1}	{1}. oldal
+Pages {1}-{2}	{1}.-{2}. oldal
+footer.choice.format
+Location {3} of {4}	Pozíció: {3} / {4}
+Page {1} of {2} • Location {3} of {4}	{1}. / {2} oldal • Pozíció: {3} / {4}
+com/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIBookResources
+java/util/ListResourceBundle
+a
+uj

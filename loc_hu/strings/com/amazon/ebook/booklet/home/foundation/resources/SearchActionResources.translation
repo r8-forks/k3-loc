@@ -1,0 +1,23 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/SearchActionResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+go.to.page.action.template
+click to go to page {0,number,integer}	ugrás a {0,number,integer}. oldalra
+go.to.letter.action.titles.template
+click to go to {0} titles	ugrás a {0} címre
+go.to.letter.action.authors.template
+click to go to {0} authors	ugrás a {0} szerzőre
+com/amazon/ebook/booklet/home/foundation/resources/SearchActionResources
+java/util/ListResourceBundle
+a
+bod

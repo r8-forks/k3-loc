@@ -1,0 +1,36 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+downloading.items.format
+java/text/ChoiceFormat
+0#Downloading {0} items...|1#Downloading {0} item...|2#Downloading {0} items...	0#{0} elem letöltése...|1#{0} elem letöltése...|2#{0} elem letöltése...
+downloaded.items.format
+0#Downloaded {0} items...|1#Downloaded {0} item...|2#Downloaded {0} items...	0#{0} elem letöltve...|1#{0} elem letöltve...|2#{0} elem letöltve...
+download.task.manager.one.item
+item	elem
+download.task.manager.multiple.items
+items	elemek
+download.task.manager.downloading.message
+Downloading {0} {1}...	Letöltés: {0} {1}...
+download.task.manager.downloaded.message
+Downloaded {0} {1}...	Letöltve: {0} {1}...
+add.to.home.action.text
+add to home	Adja a főoldalhoz
+add.to.home.action.text.offset
+java/lang/Integer
+com/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+a
+uod

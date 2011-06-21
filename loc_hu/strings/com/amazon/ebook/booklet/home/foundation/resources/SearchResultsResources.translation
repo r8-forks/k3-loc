@@ -1,0 +1,57 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/SearchResultsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+sr.matchcount.font
+sr.matchcount.left.offset
+java/lang/Integer
+sr.matchcount.left.width
+sr.matchcount.baseline.offset
+sr.matchcount.format
+java/text/MessageFormat
+({0})
+sr.notenoughspace.str
+Your search cannot be completed due to insufficient Kindle memory. Please free up memory by removing content from Home.	A keresést nem sikerült befejezni, mert kevés az üres hely. Szabadítson fel helyet az elemek eltávolításával.
+sr.notyetindexed.groupingtitle.str
+Items Not Yet Indexed	Az elemek még nem lettek indexelve
+sr.netyetindexed.text.2
+
+sr.yml.shortcut.prefix
+archiv	archív
+sr.backissues.shortcut.prefix
+back	korábbi
+sr.header.filter.all.format
+java/text/ChoiceFormat
+0#Search Results: All {0,number,integer} Items|1#Search Results: All {0,number,integer} Item|2#Search Results: All {0,number,integer} Items	0#Találatok: összesen {0,number,integer} elem|1#Találatok: összesen {0,number,integer} elem|2#találatok: összesen {0,number,integer} elem
+sr.header.filter.books.format
+0#Search Results: {0,number,integer} Books|1#Search Results: {0,number,integer} Book|2#Search Results: {0,number,integer} Books	0#Találatok: {0,number,integer} könyv|1#Találatok: {0,number,integer} könyv|2#Találatok: {0,number,integer} könyv
+sr.header.filter.collections.format
+0#Search Results: {0,number,integer} Collections|1#Search Results: {0,number,integer} Collection|2#Search Results: {0,number,integer} Collections	0#Találatok: {0,number,integer} gyűjtemény|1#Találatok: {0,number,integer} gyűjtemény|2#Találatok: {0,number,integer} gyűjtemény
+sr.header.filter.subs.format
+0#Search Results: {0,number,integer} Periodicals|1#Search Results: {0,number,integer} Periodical|2#Search Results: {0,number,integer} Periodicals	0#Találatok: {0,number,integer} folyóirat|1#Találatok: {0,number,integer} folyóirat|2#Találatok: {0,number,integer} folyóirat
+sr.header.filter.pdocs.format
+0#Search Results: {0,number,integer} Personal Docs|1#Search Results: {0,number,integer} Personal Doc|2#Search Results: {0,number,integer} Personal Docs	0#Találatok: {0,number,integer} személyes doksi|1#Találatok: {0,number,integer} személyes doksi|2#Találatok: {0,number,integer} személyes doksi
+sr.results.sound
+0#{0,number,integer} search results, |1#{0,number,integer} search result, |1<{0,number,integer} search results,.	0#{0,number,integer} találat, |1#{0,number,integer} találat, |1<{0,number,integer} találat, 
+sr.view.sound
+search results
+sr.pause.sound
+, 
+com/amazon/ebook/booklet/home/foundation/resources/SearchResultsResources
+java/util/ListResourceBundle
+(I)Ljava/awt/Font;
+(I)V
+(Ljava/lang/String;)V
+a
+aod
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a

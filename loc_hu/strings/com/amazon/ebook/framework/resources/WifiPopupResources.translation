@@ -1,0 +1,145 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/resources/WifiPopupResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+dim.width
+java/lang/Integer
+dim.height
+dim.x
+dim.y
+dim.maxNetsPerPage
+dim.landscape.height
+dim.landscape.x
+dim.landscape.y
+dim.landscape.maxNetsPerPage
+dim.net.height
+dim.net.effectiveHeight
+dim.overlay.width
+margin.left
+margin.right
+margin.top
+margin.body.top
+margin.line.top
+margin.lock
+margin.name
+margin.requireWifiText
+margin.landscape.newNetworkPromptBottomMargin
+text.connect
+connect	csatlakozás
+text.disconnect
+forget	elfelejt
+text.connecting
+connecting...	kapcsolódás...
+text.newNetwork
+enter other Wi-Fi network	saját Wi-Fi kapcsolat beállítása
+text.rescanning
+scanning...	keresés...
+text.rescanLink
+rescan	frissítés
+text.secureNetwork.accessible
+secure	védett
+text.openNetwork.accessible
+open	megnyit
+text.connectionRequired
+A Wi-Fi connection is required to complete this task. Connect to a Wi-Fi network or try again later.	Wi-Fi kapcsolat szükséges a feladat elvégzéséhez. Csatlakozzon egy hálózathoz vagy később próbálja újra.
+text.button.advanced
+advanced	részletes
+message.enterPassword
+Enter password for {0}:	Írja be a jelszót - {0}:
+message.unableToConnectHeader
+Unable to Connect to Wi-Fi Network~~~~	Nem sikerült csatlakozni a Wi-Fi hálózathoz~~~~
+message.unableToConnect
+Your Kindle is unable to connect to the Wi-Fi network "{0}". 	A Kindle nem tud csatlakozni ehhez a Wi-Fi hálózathoz: "{0}". 
+message.manuallyEnterSettingsUnsecure
+Would you like to try again or manually set up this network?	Később újra próbálja vagy beállítja manuálisan ezt a hálózatot?
+message.manuallyEnterSettingsSecure
+Would you like to enter the password again or manually set up this network?	Beírja a jelszót újra vagy beállítja manuálisan ezt a hálózatot?
+message.availableNetworks
+{0} Wi-Fi Networks	Wi-Fi hálózatok: {0}
+message.pageNumber
+Page {0} of {1}	{0}. / {1} oldal
+font.title
+font.wifiRequiredText
+font.networkName
+font.action
+font.newNetworkLinkFont
+font.action.connecting
+font.pageNumber
+color.connecting
+enter.new.wifi.network.overlay.header
+Enter other Wi-Fi network	Saját Wi-Fi hálózat beállítása
+enter.new.wifi.network.overlay.ssid.label
+Network name:	Hálózat neve:
+enter.new.wifi.network.overlay.password.label
+Password:	Jelszó:
+enter.new.wifi.network.overlay.left.margin
+enter.new.wifi.network.overlay.right.margin
+enter.new.wifi.network.overlay.top.margin
+enter.new.wifi.network.overlay.line.spacing
+enter.new.wifi.network.overlay.height
+enter.new.wifi.network.label.font
+enter.new.wifi.network.header.font
+enter.new.wifi.network.field.font
+button.enter.network.info.text
+set up network	hálózat beállítása
+button.enter.password.again.text
+enter password again	jelszó újra beírása
+button.enter.try.again.text
+try again	próbálja újra
+captive.title
+Sign-in required	Bejelentkezés szükséges
+captive.msg
+The Wi-Fi network you are connecting to requires you to sign in before accessing the Internet.~~~~Do you wish to go to Web Browser to sign in?
+A Wi-Fi hálózat, melyre csatlakozik bejelentkezést igényel az internet hozzáférés előtt.~~~~Szeretne bejelentkezni a böngésző segítségével?
+captive.button.text
+go to browser	böngésző indítása
+new.network.widget.action.overlay.width
+text.error.101
+The password you entered is incorrect or invalid.~~	A beírt jelszó hibás.~~
+text.error.102
+There is no Wi-Fi Profile configured for this network.~~	Nincs Wi-Fi profil beállítva ehhez a hálózathoz.~~
+text.error.103
+Wi-Fi network connection failed.~~	Nem sikerült csatlakozni a Wi-Fi hálózathoz.~~
+text.error.104
+Wi-Fi is not available right now. If the problem persists, please restart your device.~~	Jelenleg nem elérhető a Wi-Fi. Ha a probléma továbbra is fennáll, indítsa újra a Kindle-t.~~
+text.error.105
+text.error.106
+Local network connection failed.~~	Nem sikerült csatlakozni a helyi hálózathoz.~~
+text.error.107
+Internet connection failed.~~	Nem sikerült csatlakozni az internethez.~~
+text.error.201
+The name of the Wi-Fi network is too long.~~	Túl hosszú a Wi-Fi hálózat neve.~~
+text.error.202
+text.error.203
+Enterprise Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	A Kindle nem támogatja a vállalati szintű Wi-Fi hálózatot. Próbáljon másik hálózathoz csatlakozni.~~
+text.error.204
+The password you entered is longer than allowed by the Wi-Fi network. Try entering the password again.~~	A beírt jelszó hosszabb, mint amit egy Wi-Fi hálózat engedélyez. Írja be újra a jelszót.~~
+text.error.205
+The password you entered is missing one or more characters. Try entering the password again.~~	A beírt jelszóból hiányzik egy vagy több karakter. Írja be újra a jelszót.~~
+text.error.206
+The security type you entered does not match the security type of the Wi-Fi network you are trying to connect to.~~	A kiválasztott biztosnági típus nem egyezik meg a megadott Wi-Fi hálózat biztonsági típusával.~~
+text.error.207
+Peer-to-peer Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	A Kindle nem támogatja a "peer-to-peer" Wi-Fi hálózatokat. Próbáljon másik hálózathoz csatlakozni.~~
+text.msg.unsupportedNetwork
+Unsupported Wi-Fi network~~~~Enterprise or peer-to-peer Wi-Fi networks are not supported. Try connecting to another network.	Nem támogatott Wi-Fi hálózat~~~~A Kindle nem támogatja a vállalati szintű vagy a "peer-to-peer" Wi-Fi hálózatokat. Próbáljon másik hálózathoz csatlakozni.
+com/amazon/ebook/framework/resources/WifiPopupResources
+java/util/ListResourceBundle
+(I)V
+(IZZ)Ljava/awt/Font;
+(I)Ljava/awt/Font;
+Ljava/awt/Color;
+a
+mvb
+b
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/gui/d
+com/amazon/ebook/framework/c/a
