@@ -1,0 +1,52 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+annotation.disable
+Annotating is disabled	Jegyzetelés letiltva
+annotation.disable.sample
+Annotating is disabled for sample content	Jegyzetelés letiltva a mintáknál
+annotation.disable.feed
+Annotating is disabled for blogs	Jegyzetelés letiltva a blogoknál
+annotation.disable.low.disk.space
+Annotating is disabled - Memory is full	Jegyzetelés letiltva - nincs szabad hely
+add.note
+Begin typing to create a note	Új megjegyzéshezkezdjen el írni
+usual.cursor.interaction
+Begin typing to create a note or click to start a highlight	Új megjegyzéshez írjon, vagy kattintson a kiemeléshez
+create.highlight
+Move cursor to create a highlight	Mozgassa a kurzort a kiemeléshez
+end.highlight.sharing.disabled
+Click to end highlight or press Back to cancel
+Befejezéshez kattintson, "Back" - elvetés
+end.highlight.sharing.enabled
+Click to end highlight, {0} to tweet/share, or Back to cancel	Befejezéshez kattintson, {0} - megosztás, "Back" -  törlés
+java/lang/String
+Home_Icon_AltReturn.gif
+highlight.hover.sharing.disabled
+Begin typing to create a note or {0} to delete highlight	Új megjegyzéshez kedjen el írni, vagy {0} - kiemelés törlése
+Home_Icon_Delete.gif
+highlight.hover.sharing.enabled
+Type to create note, {0} to delete highlight, {1} to share	Új megjegyzéshez írjon, {0} - törlés, {1} - megosztás
+highlight.hover.annotation.view.sharing.enabled
+{0} delete   {1} share	{0} - törlés   {1} - megosztás
+highlight.hover.annotation.view.sharing.disabled
+{0} delete	{0} - törlés
+link.hover
+Begin typing to create a note or click to follow the link	Új megjegyzéshez írjon, vagy kattintson a linkre ugráshoz
+com/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources
+java/util/ListResourceBundle
+(Ljava/lang/String;I)V
+(Ljava/lang/String;[Ljava/lang/String;I)V
+a
+uzc
+com/amazon/ebook/booklet/reader/gui/infobox/h

@@ -1,0 +1,32 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/HomeResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+home.booklet.name
+Home
+home.menu.personalization.label
+My Kindle	Kindle
+download.wan.off
+Your wireless is turned off, please turn it on and try again.	A vezeték nélküli hálózat ki van kapcsolva. Kapcsolja be, majd próbálja újra.
+exceeded.licenses.alert
+This item cannot be currently downloaded because all of its licenses are in use on your other devices.~~~~To download it to this device, you can either delete it from another one of your devices or purchase another copy from the Kindle store.~~~~	Ezt az elemet jelenleg nem lehet letölteni, mert a licensze használatban van az ön másik eszközén.~~~~A letöltéshez törölheti a másik eszközről, vagy megveheti újra erre az eszközre is az Amazon áruházból.~~~~
+home.viewdownloaditem.menuitem.label
+View Downloading Items	Aktív letöltések megtekintése
+home.view.sound
+home.delete.button.sound
+delete
+home.remove.button.sound
+remove from device
+com/amazon/ebook/booklet/home/foundation/resources/HomeResources
+java/util/ListResourceBundle
+a
+god

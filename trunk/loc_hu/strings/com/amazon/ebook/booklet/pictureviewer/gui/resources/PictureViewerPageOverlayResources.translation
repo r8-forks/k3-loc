@@ -1,0 +1,27 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+getContents
+()[[Ljava/lang/Object;
+[Ljava/lang/Object;
+java/lang/Object
+view.mode.menu.item.option
+Scale	Skála
+view.mode.menu.item.option.1
+Fit Screen	Képernyőhöz illesztés
+view.mode.menu.item.option.2
+Fit Width	Szélességhez illesztés
+view.mode.menu.item.option.3
+Fit Height	Magassághoz illesztés
+actual.size.menu.item.option
+Actual Size	Valódi méret
+actual.size.menu.item.option.1
+no	nem
+actual.size.menu.item.option.2
+true	igen
+com/amazon/ebook/booklet/pictureviewer/gui/resources/PictureViewerPageOverlayResources
+java/util/ListResourceBundle
+Lcom/amazon/ebook/booklet/pictureviewer/gui/resources/PictureViewerPageOverlayResources;
+LocalVariableTable
+a

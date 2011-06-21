@@ -1,0 +1,35 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/DeviceCollectionsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.collections.header.format
+java/text/ChoiceFormat
+0#Showing {0,number,integer} Devices|1#Showing 1 Device|2#Showing {0,number,integer} Devices	0#Megjelenítve: {0,number,integer} eszköz|1#Megjelenítve: 1 eszköz|2#Megjelenítve: {0,number,integer} eszköz
+device.collections.label
+Add Other Device Collections	Másik eszköz hozzáadása a gyűjteményhez
+device.collections.widget.author.label
+
+device.collections.merge.title
+Add Collections	Gyűjtemények hozzáadása
+device.collections.merge.body.template
+You are about to add the collections from "{0}" to this Kindle.~~~~Any items that are currently on both devices will automatically be organized into the new collections. Please refer to the Kindle User''s Guide to learn more about adding collections from another Kindle. This may take a few minutes if you have a large number of items, would you like to continue?	Hozzá akar adni ehhez a Kindle-höz egy gyűjteményt innen: "{0}".~~~~Minden elem, ami mindkét eszközön megtalálható, automatikusan új gyűjteménybe lesz rendezve. Kérjük olvassa el a Kindle használati útmutatóban (User's Guide) a másik eszközről gyűjtemény hozzáadása részt. Ez több percig is eltarthat, ha sok elem van a gyűjteményben. Biztosan folytatja?
+device.collections.merge.message
+Importing collections...	Gyűjtemények importálása...
+device.collections.merge.width
+java/lang/Integer
+device.collections.view.sound
+com/amazon/ebook/booklet/home/foundation/resources/DeviceCollectionsResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+a
+ood

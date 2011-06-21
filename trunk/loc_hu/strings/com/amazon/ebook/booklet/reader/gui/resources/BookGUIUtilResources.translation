@@ -1,0 +1,30 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/resources/BookGUIUtilResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+default.opening.string
+Opening...	Megnyitás...
+turing.screen.size
+java/lang/Integer
+go.to.location.hint
+Enter location number (1 - {0})	Írjon be egy pozíciót (1 - {0})
+Enter a location number (1 - {0}).	Írjon be egy pozíciót (1 - {0}).
+go.to.page.hint
+Enter a page number ({0}).	Írjon be egy oldalszámot ({0}).
+go.to.page.or.location.hint
+Enter a page ({0}) or location (1 - {1}).	Írjon be egy oldalszámot ({0}) vagy pozíciót (1 - {1}).
+search.result.characters.offset
+com/amazon/ebook/booklet/reader/gui/resources/BookGUIUtilResources
+java/util/ListResourceBundle
+(I)V
+a
+sxc

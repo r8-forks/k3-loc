@@ -1,0 +1,78 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/lab126/booklet/audiblePlayer/resources/AudiblePlayerResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+error.could.not.open.file.caption
+This item could not be opened on your Kindle.	A Kindle nem tudja megnyitni ezt a hangoskönyvet.
+audible.activation.filename
+/mnt/us/system/AudibleActivation.sys
+audible.player.cache.filename
+audiofilecache
+audible.player.play.button.seek.sec
+java/lang/Integer
+audible.player.play.minimum.kb.required.on.disk
+audible.player.position.file.extension
+.pos
+audible.player.booklet.name
+Audible Player	Audible Lejátszó
+audible.player.invalid.format.alert.caption
+This item is in an unsupported Audible format and cannot be read on your Kindle. Please use an Audible format 4 or AAX file.	Ez a hangoskönyv nem támogatott Audible formátum, melyet a Kindle nem tud megnyitni. Használjon az 'Audile format 4'-et, vagy AAX fájlokat.
+audible.player.file.does.not.exist.error.message
+The item you were listening to has been removed and is no longer available on your Kindle.	A hallgatott hangoskönyv el lett távolítva és többé nem elérhető az ön Kindle-jén.
+audible.player.low.disk.space.error.message
+The selected item could not be opened because you do not have enough Kindle memory available. Please make more Kindle memory available by removing content from Home.	A kiválasztott hangoskönyvet nem lehet megnyitni, mert nincs elég szabad hely. Szabadítson fel helyet azzal, hogy töröl néhány elemet.
+audible.player.control.text.stop
+Stop
+audible.player.control.text.play
+Play	Lejátszás
+audible.player.control.text.default
+audible.content.handler.supported.file.extension.3
+mp3
+audible.content.handler.supported.file.extension.2
+aax
+audible.content.handler.home.progress.meter.max.length.sec
+audible.content.handler.supported.file.extension.1
+aa
+audible.view.sound.template
+audio view for {0}, current position is {1} out of {2}	audió nézet: {0}, jelenlegi pozíció: {1} / {2}
+audible.view.pause.sound
+, 
+audible.view.seconds.sound.format
+java/text/ChoiceFormat
+0#{0} seconds|1#{0} second|2#{0} seconds	0#{0} mp.|1#{0} mp.|2#{0} mp.
+audible.view.minutes.sound.format
+0#{0} minutes|1#{0} minute|2#{0} minutes	0#{0} perc|1#{0} perc|2#{0} perc
+audible.view.hours.sound.format
+0#{0} hours|1#{0} hour|2#{0} hours	0#{0} óra|1#{0} óra|2#{0} óra
+audible.button.reset.sound
+go back to beginning	ugrás az elejére
+audible.button.prevsection.sound
+go to previous section	ugrás az előző fejezetre
+audible.button.goback30secs.sound
+go back 30 seconds	visszaugrás 30 másodpercet
+audible.button.play.sound
+play	lejátszás
+audible.button.pause.sound
+pause	szünet
+audible.button.goforward30secs.sound
+go forward 30 seconds	előre ugrás 30 másodpercet
+audible.button.gotonextsection.sound
+go to next section	ugrás a következő fejezetre
+com/lab126/booklet/audiblePlayer/resources/AudiblePlayerResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)Ljava/lang/String;
+(I)V
+(Ljava/lang/String;)V
+a
+gbb
+D
+()Lcom/amazon/ebook/framework/device/util/e;
+com/amazon/ebook/framework/device/util/e

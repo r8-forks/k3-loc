@@ -1,0 +1,29 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+getContents
+()[[Ljava/lang/Object;
+[Ljava/lang/Object;
+java/lang/Object
+actual_size
+Actual Size	Valódi méret
+enable
+Enable	Bekapcsolás:
+disable
+Disable	Kikapcsolás:
+rotate_to
+Rotate to	Forgatás
+landscape
+Landscape	Fekvő
+portrait
+Portrait	Álló
+dithering
+Dithering
+pan_to_next_page
+Pan to Next Page
+com/amazon/ebook/booklet/pictureviewer/resources/PictureViewerResources
+java/util/ListResourceBundle
+Lcom/amazon/ebook/booklet/pictureviewer/resources/PictureViewerResources;
+LocalVariableTable
+a

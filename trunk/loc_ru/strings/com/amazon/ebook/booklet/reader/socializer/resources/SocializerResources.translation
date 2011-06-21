@@ -1,0 +1,107 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/socializer/resources/SocializerResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+share.note.success
+Message shared	Сообщение расшарено
+share.note.processing
+
+share.highlight.success
+share.highlight.processing
+no.external.accounts.title
+Social Networks Not Registered	Социальные сети не настроены
+no.external.accounts.message
+Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	Ваш Kindle не зарегистрирован в социальных сетях. Выберите ниже "регистрировать"  чтобы открыть "Менеджер социальных сетей" где вы сможете их настроить. Когда завершите, выберите "Продолжить чтение" что бы вернуться сюда.
+authentication.error.title
+Invalid Social Networks	Неправильные социальные сети
+authentication.error.message
+One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	У вас неправильно настроены одна или несколько социальных сетей. Выберите ниже "управление" чтобы исправить ошибки. Когда завершите, выберите "Продолжить чтение" что бы вернуться сюда.
+server.unavailable.title
+Sharing unavailable. Try later	Расшаривание недоступно. Попробуйте позже
+server.unavailable.message
+The sharing service is currently unavailable. Please try again later.	В данный момент сервера Amazon недоступны. Попробуйте еще раз позже.
+sharing.not.supported.title
+Sharing Not Supported	Расшаривание не поддерживается
+sharing.not.supported.message
+This content does not support sharing.	Это содержимое не поддерживает расшаривание.
+sharing.limit.reached.title
+Clipping Limit Reached	Достигнут предел вырезок
+sharing.limit.reached.message
+Unable to share. You have reached the clipping limit for this item.	Невозможно расшарить. Вы достигли предела количества вырезок для этой книги.
+sharing.pdf.password.protected.title
+Password Protected PDF File	Этот PDF защищен паролем
+sharing.pdf.password.protected.message
+Unable to share. This is a password protected PDF file.	Невозможно расшарить. Этот PDF документ защищен паролем.
+sharing.limit.by.publisher.reached.message.no.publisher.name
+Unable to share. You have reached the clipping limit for this item set by the publisher.	Невозможно расшарить. Вы достигли предела расшариваний установленный издателем.
+sharing.limit.by.publisher.reached.message
+Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	Невозможно расшарить. Вы достигли предела расшариваний установленный издателем: {0}.
+unknown.error.title
+Communication error. Try later	Ошибка связи, попробуйте позже.
+unknown.error.message
+The sharing service encountered a communication error. Please try again later.	Сервера Amazon недоступны, попробуйте позже.
+failure.title
+Sharing Failed	Ошибка расшаривания
+failure.message
+The sharing service encountered an unrecoverable error. Sharing aborted.	Ошибка в процессе расшаривания. Операция отменена.
+empty.note.title
+Empty Note	Пустая заметка
+empty.note.message
+You cannot share an empty note or note containing only whitespace.	Вы не можете расшаривать пустые заметки.
+wireless.unavailable.title
+Wireless unavailable. Try later	Нет связи.
+wireless.unavailable.message
+Wireless connectivity is currently unavailable. Please try again later.	В данный момент беспроводная связь недоступна. Попробуйте еще раз.
+note.too.long
+java/text/MessageFormat
+{0,choice,1#Your note is too long to share. Please remove one character.|2#Your note is too long to share. Please remove {0} characters.}	{0,choice,1#Ваша заметка слишком длинная. Удалите один символ.|2#Ваша заметка слишком длинная. Удалите {0} символов.}
+browser.return.menu.button.text
+Continue reading	Продолжить чтение
+register.button.text
+register	регистрировать
+manage.accounts.button.text
+manage accounts	управление 
+cancel.button.text
+cancel	отмена
+append.to.shortened.string
+...
+note.context.char.size
+java/lang/Integer
+note.context.word.size
+share.button.text
+share	расшарить
+social.message.button.width
+social.message.input.line.num
+social.message.title
+Enter Your Message	Введите ваше сообщение
+social.message.subtitle
+A link to your highlight will be appended to your message.	Ссылка на ваше выделение будет добавлена к сообщению.
+social.message.counter.format
+{0,choice,-2#{1} characters over |-1#{1} character over | 0#{1} characters left | 1#{1} character left | 2#{1} characters left}	{0,choice,-2#Лишних символов {1} |-1#Лишних символов {1} | 0#Осталось символов: {1}| 1#Осталось символов: {1}| 2#Осталось символов: {1}}
+title.subtitle.content.panel.default.font
+title.subtitle.content.panel.title.subtitle.spacing
+title.subtitle.content.panel.title.text.spacing
+title.subtitle.content.panel.input.bottom.margin
+left.corner.message.feature.panel.left.margin
+left.corner.message.feature.panel.color
+left.corner.message.feature.panel.font
+com/amazon/ebook/booklet/reader/socializer/resources/SocializerResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+(I)Ljava/awt/Font;
+Ljava/awt/Color;
+a
+bsc
+b
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/gui/d
+com/amazon/ebook/framework/c/a
