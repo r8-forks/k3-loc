@@ -4,7 +4,7 @@ set PKGVER=0.14
 rem copy ..\..\K3Translator.jar .\
 
 echo Pack images
-..\bin\7z a ui_loc.tar ui_loc\
+..\bin\7z a ui_loc.tar  ui_loc\*.gif
 ..\bin\7z a ui_loc.tar.gz ui_loc.tar
 del ui_loc.tar
 
