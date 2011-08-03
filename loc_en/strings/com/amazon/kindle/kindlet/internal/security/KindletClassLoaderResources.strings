@@ -1,0 +1,34 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/kindle/kindlet/internal/security/KindletClassLoaderResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+kindlet.load.certificate.read.error
+Unable to verify the signatures of the requested title.
+kindlet.class.signing.error
+The requested title is not correctly signed to run on this device.
+kindlet.class.load.error
+Error in loading the main class of the requested title.
+kindlet.class.not.found.error
+Main class of the requested title could not be found.
+kindlet.no.developer.cert
+The title is not signed by a registered developer.
+kindlet.test.device.error
+The device is not registered as a Test Kindle to run this title. Please ask the developer to add this device to the list of registered Test Kindles.
+kindlet.expired.certificate
+The permissions to open the requested title have expired. Please contact customer service.
+kindlet.notyet.valid.certificate
+The permissions to open the requested title have an invalid date. Please contact customer service.
+kindlet.not.x509.certificate
+The permissions to open the requested title cannot be verified. Please contact customer service.
+com/amazon/kindle/kindlet/internal/security/KindletClassLoaderResources
+java/util/ListResourceBundle
+a
+jhb

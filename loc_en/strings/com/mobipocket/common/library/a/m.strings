@@ -1,0 +1,67 @@
+Ljava/lang/String;
+Z
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+LoadEBookStoreDetails
+InnerClasses
+run
+()V
+Ljava/io/IOException;
+I
+Ljava/io/DataInputStream;
+SourceFile
+error HTTPConnection failed
+java/lang/StringBuffer
+HTTP Connection failed: code 
+essr is null --> Request stop very quickly ?
+java/io/DataInputStream
+java/io/IOException
+HTTPConnection IOException occured:
+DataInputStream close error
+close error
+(ILjava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(I)V
+(IZLjava/lang/String;)V
+()Ljava/io/InputStream;
+(Ljava/io/InputStream;)V
+getMessage
+close
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+(Ljava/lang/Object;Ljava/lang/Object;)V
+a
+Lcom/mobipocket/common/library/historizer/e;
+A
+b
+Lcom/mobipocket/common/library/a/m;
+Lcom/mobipocket/common/library/a/k;
+(Ljava/lang/String;ZLcom/mobipocket/common/library/historizer/e;Lcom/amazon/a/a/b;Lcom/mobipocket/common/library/a/a;Lcom/amazon/a/d/a;)V
+Lcom/amazon/a/a/b;
+Lcom/mobipocket/common/library/a/a;
+Lcom/amazon/a/d/a;
+com/mobipocket/common/library/a/m
+jx
+B
+(Lcom/mobipocket/common/a/b;)V
+(Lcom/mobipocket/common/a/e;Z)V
+f
+Lcom/mobipocket/common/library/a/j;
+e
+(Lcom/amazon/a/a/b;Ljava/lang/String;)I
+(Lcom/amazon/a/a/b;Lcom/mobipocket/common/library/a/a;Lcom/amazon/a/d/a;)V
+com/mobipocket/common/library/a/n
+com/mobipocket/common/library/historizer/e
+com/amazon/a/a/b
+com/mobipocket/common/library/a/j
+com/mobipocket/common/library/a/k
+com/mobipocket/common/d/b
+com/mobipocket/common/a/d
+com/mobipocket/common/library/a/d
+com/mobipocket/common/a/e
+com/mobipocket/common/a/b

@@ -1,0 +1,44 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/kindle/kindlet/internal/media/AudioErrorMessageResources;
+getContents
+()[[Ljava/lang/Object;
+()Ljava/lang/String;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+A general audio error occurred.
+Could not retrieve the length of the audio data or the file prefetch is not yet complete
+Could not retrieve the current playback position of the audio data or the file prefetch is not yet complete
+An internal audio error occurred.
+Audio manager has not been initialized.
+Error occurred after audio data has reached the end of stream.
+Error occurred when trying to rewind audio data for looping.
+Invalid data provided for the audio object.
+Could not shut down audio manager properly.
+Could not create any more audio objects.
+Out of memory when trying to create a new audio object.
+Could not create a new audio object.
+Could not start playback for audio object.
+Could not stop playback for audio object.
+Could not pause playback for audio object.
+Could not release resources for audio object.
+Could not seek to the desired playback position.
+Invalid loop count.
+Audio data was illegally modified.
+Could not prepare the audio data source for playback.
+Unsupported operation called on a non-seekable audio input data.
+Illegal operation after end of stream of the audio instance.
+Illegal operation after the release of the audio instance.
+Illegal operation after the audio instance has encountered an error.
+com/amazon/kindle/kindlet/internal/media/AudioErrorMessageResources
+java/util/ListResourceBundle
+java/lang/Integer
+toString
+(I)Ljava/lang/String;
+a
+wkb

@@ -1,0 +1,9 @@
+(Lcom/amazon/kindle/kindlet/internal/net/metering/BytesSentEvent;)V
+(Lcom/amazon/kindle/kindlet/internal/net/metering/BytesReceivedEvent;)V
+SourceFile
+java/lang/Object
+java/util/EventListener
+a
+com/amazon/kindle/kindlet/internal/net/metering/a
+mg
+LocalVariableTable

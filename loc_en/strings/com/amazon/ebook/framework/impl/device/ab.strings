@@ -1,0 +1,247 @@
+BatteryStateEventRegistrar
+InnerClasses
+PowerStateEventRegistrar
+I
+ConstantValue
+Ljava/util/ResourceBundle;
+Z
+PowerState
+J
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+dispatchFirstPowerEvent
+()I
+onBatteryCritical
+()V
+onBatteryError
+event
+onBatteryStateChange
+Ljava/lang/StringBuffer;
+onPowerStateChange
+p
+(II)V
+()Z
+(Z)V
+d
+listener
+(IZ)V
+(I)V
+Ljava/lang/String;
+Synthetic
+<clinit>
+SourceFile
+PowerImpl() starting up
+BATTERY_VERY_LOW_THRESHOLD_WANOFF
+BATTERY_LOW_THRESHOLD_WANOFF
+BATTERY_VERY_LOW_THRESHOLD_WANON
+BATTERY_LOW_THRESHOLD_WANON
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet USB-Password
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (USB)
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (SS)
+dispatchFirstPowerEvent() switch to ScreenSaverBooklet (SS / Password)
+java/lang/StringBuffer
+onBatteryStateChange level = 
+ isCharging = 
+Total time to handle power event:
+handlePowerStateChangeEvent 
+ 
+handlePowerChangeEvent() EVENT_ABOUT_TO_SUSPEND
+handlePowerChangeEvent() EVENT_SUSPENDING, EVENT_USER_SHUTDOWN
+SwitchingToScreenSaver
+handlePowerChangeEvent() Switching to ScrnSaver: PWR OFF
+Switched to screen saver
+handlePowerChangeEvent() already sent.
+handlePowerChangeEvent() EVENT_LOCKING
+handlePowerChangeEvent() Switching to ScrnSaver: SCRN_SAVER
+handlePowerChangeEvent() OTA update... 
+handlePowerChangeEvent() EVENT_UNSUSPENDING EVENT_OUT_OF_SHUTDOWN
+handlePowerChangeEvent() EVENT_OUT_OF_SHUTDOWN
+handlePowerChangeEvent() reason IS NOT REASON_USB_CONFIGURED
+handlePowerChangeEvent() ScrnSaverBooklet switchToLastBooklet
+EVENT_UNSUSPENDING/EVENT_OUT_OF_SHUTDOWN case
+handlePowerChangeEvent() EVENT_UNLOCKING 
+handlePowerEvent out_of_screen_saver because usb is plugged
+handlePowerChangeEvent finish EVENT_SUSPENDING or EVENT_USER_SHUTDOWN.
+handlePowerChangeEvent switchToLastBooklet
+java/lang/String
+
+isBatteryLow() wan_on 
+isBatteryLow() wan_off 
+PowerManager.isBatteryVeryLow wan_on 
+PowerManager.isBatteryVeryLow wan_off 
+checkLowBatteryCondition _start_ battery 
+checkLowBatteryCondition charging!
+checkLowBatteryCondition drivemode!
+checkLowBatteryCondition screen saver mode!
+pb.battery.depleted.msg
+pb.battery.low.msg
+pb.battery.low.wanoff.msg
+checkLowBatteryCondition _end_
+pb.battery.error.msg
+pb.battery.temprange.msg
+setLowBatteryAlertDisplayed = 
+setVeryLowBatteryAlertDisplayed = 
+PowerImpl
+HWID
+Hw Name
+UnknownPowerEvent
+DeferingSuspend
+com.amazon.ebook.framework.resources.SystemMessages
+java/lang/Object
+(Ljava/lang/String;)V
+(Ljava/lang/String;I)I
+com/amazon/ebook/framework/impl/Framework
+append
+(I)Ljava/lang/StringBuffer;
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Z)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+java/lang/System
+currentTimeMillis
+()J
+java/lang/Math
+max
+(JJ)J
+(Ljava/net/URI;Z)V
+valueOf
+(I)Ljava/lang/String;
+(Ljava/lang/Object;)V
+java/util/ResourceBundle
+getString
+(Ljava/lang/String;)Ljava/lang/String;
+(Ljava/lang/String;I)V
+(Ljava/lang/String;[Ljava/lang/String;)V
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+a
+A
+b
+B
+c
+C
+D
+Lcom/amazon/ebook/framework/service/g;
+e
+E
+Lcom/amazon/ebook/framework/gui/foundation/eb;
+f
+F
+g
+G
+h
+H
+i
+Lcom/amazon/ebook/framework/impl/device/x;
+Lcom/amazon/ebook/framework/impl/device/w;
+j
+Lcom/amazon/ebook/framework/b/a;
+Lcom/amazon/ebook/pl/service/i;
+k
+Lcom/amazon/ebook/pl/service/l;
+K
+Lcom/amazon/ebook/pl/a;
+l
+L
+Lcom/amazon/ebook/util/log/i;
+m
+M
+n
+Lcom/amazon/ebook/util/log/e;
+N
+o
+O
+P
+q
+Q
+r
+R
+s
+S
+t
+T
+u
+(Lcom/amazon/ebook/framework/impl/device/ab;Lcom/amazon/ebook/framework/gui/foundation/eb;)Lcom/amazon/ebook/framework/gui/foundation/eb;
+Lcom/amazon/ebook/framework/impl/device/ab;
+(Lcom/amazon/ebook/framework/impl/device/ab;Z)Z
+()Lcom/amazon/ebook/util/log/i;
+(ZLcom/amazon/ebook/framework/gui/foundation/eb;)V
+(Lcom/amazon/ebook/framework/service/event/b;)V
+Lcom/amazon/ebook/framework/service/event/b;
+(Lcom/amazon/ebook/framework/device/a/d;)V
+Lcom/amazon/ebook/framework/device/a/d;
+()Lcom/amazon/ebook/framework/service/g;
+Lcom/amazon/ebook/util/log/d;
+(Lcom/amazon/ebook/pl/service/event/cb;)I
+Lcom/amazon/ebook/pl/service/event/cb;
+(Lcom/amazon/ebook/pl/service/event/hb;)V
+Lcom/amazon/ebook/pl/service/event/hb;
+(Lcom/amazon/ebook/pl/service/event/fb;)V
+Lcom/amazon/ebook/pl/service/event/fb;
+Lcom/amazon/ebook/framework/a/a;
+Lcom/amazon/ebook/framework/impl/device/t;
+(Lcom/amazon/ebook/pl/a;Lcom/amazon/ebook/framework/b/a;)V
+com/amazon/ebook/framework/impl/device/ab
+gcc
+com/amazon/ebook/pl/service/event/g
+com/amazon/ebook/pl/service/event/h
+com/amazon/ebook/framework/service/d
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+(Lcom/amazon/ebook/framework/gui/foundation/eb;)Z
+(Lcom/amazon/ebook/framework/impl/device/ab;)V
+(Lcom/amazon/ebook/framework/gui/foundation/eb;)V
+()Lcom/amazon/ebook/framework/gui/c;
+(Ljava/lang/String;ILcom/amazon/ebook/framework/gui/event/c;)V
+x
+()Lcom/amazon/ebook/framework/service/comm/a;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+()Lcom/amazon/ebook/framework/ad/b/b;
+()Lcom/amazon/ebook/framework/kos/content/catalog/n;
+()Lcom/amazon/ebook/framework/impl/device/c;
+(Ljava/lang/String;Lcom/amazon/ebook/util/log/e;)V
+Y
+()Lcom/amazon/ebook/framework/kos/event/i;
+()Lcom/amazon/ebook/framework/service/a;
+()Lcom/amazon/ebook/framework/impl/booklet/a;
+()Lcom/amazon/ebook/framework/a/a;
+y
+X
+(Lcom/amazon/ebook/pl/service/event/g;)V
+(Lcom/amazon/ebook/pl/service/event/h;)V
+()Lcom/amazon/ebook/pl/service/i;
+()Lcom/amazon/ebook/pl/service/l;
+()Lcom/amazon/ebook/pl/config/a;
+com/amazon/ebook/framework/gui/c
+com/amazon/ebook/framework/service/comm/a
+com/amazon/ebook/framework/ad/b/b
+com/amazon/ebook/framework/kos/content/catalog/n
+com/amazon/ebook/pl/service/event/cb
+com/amazon/ebook/framework/impl/f
+com/amazon/ebook/pl/service/event/hb
+com/amazon/ebook/pl/service/event/fb
+com/amazon/ebook/framework/impl/booklet/screensaver/j
+com/amazon/ebook/framework/kos/event/i
+com/amazon/ebook/framework/impl/booklet/a
+com/amazon/ebook/framework/a/a
+com/amazon/ebook/pl/service/i
+com/amazon/ebook/framework/b/a
+com/amazon/ebook/pl/service/l
+com/amazon/ebook/pl/config/a
+com/amazon/ebook/pl/a
+com/amazon/ebook/util/log/e
+com/amazon/ebook/framework/service/g
+com/amazon/ebook/util/log/i
+com/amazon/ebook/framework/impl/device/y
+com/amazon/ebook/framework/impl/device/z
+com/amazon/ebook/framework/gui/foundation/eb
+com/amazon/ebook/framework/service/event/e
+com/amazon/ebook/framework/device/a/n
+com/amazon/ebook/framework/impl/device/mario/d
+com/amazon/ebook/util/log/d
+com/amazon/ebook/framework/impl/l
+com/amazon/ebook/framework/impl/device/t
+com/amazon/ebook/framework/impl/device/x
+com/amazon/ebook/framework/impl/device/w

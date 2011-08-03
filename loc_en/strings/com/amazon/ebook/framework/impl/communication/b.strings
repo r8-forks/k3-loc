@@ -1,0 +1,81 @@
+Ljava/util/Map;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/lang/String;
+Ljava/lang/ThreadGroup;
+()Ljava/util/Map;
+Synthetic
+<clinit>
+SourceFile
+java/lang/IllegalArgumentException
+delegate cannot be null
+java/lang/IllegalStateException
+Could not add the delegate because the current Thread's ThreadGroup is null
+java/lang/StringBuffer
+adding URLStreamHandlerDelegate for ThreadGroup: 
+ and protocol: 
+java/util/Map
+Didn't find an entry for the current ThreadGroup, creating new ThreadGroup entry.
+java/util/Hashtable
+Found entry for the current ThreadGroup. Adding a delegate for protocol: 
+Attempting to find a URLStreamHandlerDelegate for ThreadGroup: 
+
+InnerClasses
+Delegate entries were found for the current ThreadGroup. Checking whether any can handle protocol: 
+java/lang/String
+Traversed whole ThreadGroup tree and no registered URLSTreamHandlerDelegate was found.
+URLStreamHandlerRegistry
+KindleURLStreamHandlerDelegator error
+threadGroup
+java/util/WeakHashMap
+java/lang/Object
+(Ljava/lang/String;)V
+java/lang/Thread
+currentThread
+()Ljava/lang/Thread;
+getThreadGroup
+()Ljava/lang/ThreadGroup;
+java/util/Locale
+US
+Ljava/util/Locale;
+toLowerCase
+(Ljava/util/Locale;)Ljava/lang/String;
+()Z
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+get
+(Ljava/lang/Object;)Ljava/lang/Object;
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+java/security/AccessController
+doPrivileged
+(Ljava/security/PrivilegedAction;)Ljava/lang/Object;
+java/lang/ThreadGroup
+(Ljava/lang/String;[Ljava/lang/String;)V
+a
+A
+Lcom/amazon/ebook/util/log/i;
+b
+Lcom/amazon/ebook/util/log/e;
+()Lcom/amazon/ebook/util/log/e;
+()Lcom/amazon/ebook/util/log/i;
+(Ljava/lang/String;)Lcom/amazon/ebook/framework/device/comm/c;
+Lcom/amazon/ebook/framework/impl/communication/b;
+(Ljava/lang/String;Lcom/amazon/ebook/framework/device/comm/c;)V
+Lcom/amazon/ebook/framework/device/comm/c;
+com/amazon/ebook/framework/impl/communication/b
+lcc
+d
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+(Lcom/amazon/ebook/framework/impl/communication/b;Ljava/lang/ThreadGroup;)V
+com/amazon/ebook/util/log/e
+com/amazon/ebook/util/log/i
+com/amazon/ebook/framework/device/comm/c
+com/amazon/ebook/framework/impl/communication/a

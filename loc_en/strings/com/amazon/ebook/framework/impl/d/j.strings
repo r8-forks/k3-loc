@@ -1,0 +1,48 @@
+Z
+Ljava/lang/String;
+I
+<init>
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+(Z)V
+equals
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Z
+()Z
+(Ljava/lang/StringBuffer;)V
+Ljava/lang/StringBuffer;
+<clinit>
+()V
+SourceFile
+EBSP
+<book
+ key="
+ type="
+ version="
+ guid="
+AnnotBook
+InnerClasses
+(Ljava/lang/String;Ljava/lang/String;)Z
+(II)Z
+java/lang/String
+(Ljava/lang/Object;)Z
+java/lang/StringBuffer
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(C)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+a
+A
+b
+B
+c
+C
+Lcom/amazon/ebook/framework/impl/d/j;
+(Lcom/amazon/ebook/framework/impl/d/j;)Z
+com/amazon/ebook/framework/impl/d/j
+rec
+com/amazon/ebook/framework/kos/d/f
+com/amazon/ebook/framework/impl/d/h
+com/amazon/ebook/framework/kos/d/h

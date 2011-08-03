@@ -1,0 +1,84 @@
+[Ljava/lang/Object;
+I
+Ljava/util/Vector;
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+(I)V
+()[B
+Ljava/io/IOException;
+Ljava/io/ByteArrayOutputStream;
+()V
+()Z
+[B
+Ljava/io/ByteArrayInputStream;
+Exceptions
+([B)V
+SourceFile
+java/util/Vector
+java/lang/Object
+java/io/ByteArrayOutputStream
+java/io/IOException
+IOException in addHistoryState/updateCurrentState --> not historized
+removeHistoryState but no available historyState!
+No state added ! AddHistory state before updating it!
+java/io/ByteArrayInputStream
+IOException in back/forward --> not restored ?
+backward not possible
+com/mobipocket/common/library/historizer/RestoreStateException
+must not be !!!
+forward not possible
+should not reach
+An History Element must not be null --> not added
+java/lang/StringBuffer
+history too small and full (
+) --> first element lost
+java/lang/System
+arraycopy
+(Ljava/lang/Object;ILjava/lang/Object;II)V
+(Ljava/io/OutputStream;)V
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+toByteArray
+(IZLjava/lang/String;)V
+(ILjava/lang/String;)V
+(Ljava/io/InputStream;)V
+ID_STATE_NOT_AVAILABLE
+Ljava/lang/String;
+(Ljava/lang/String;)V
+(ZLjava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+addElement
+(Ljava/lang/Object;)V
+removeElement
+(Ljava/lang/Object;)Z
+size
+()I
+elementAt
+(I)Ljava/lang/Object;
+a
+A
+b
+B
+c
+Lcom/mobipocket/common/library/historizer/a;
+D
+Lcom/mobipocket/common/library/historizer/d;
+(Lcom/mobipocket/common/library/historizer/c;)V
+Lcom/mobipocket/common/library/historizer/c;
+e
+E
+C
+d
+f
+(Lcom/mobipocket/common/library/historizer/a;I)V
+com/mobipocket/common/library/historizer/d
+px
+com/mobipocket/common/library/historizer/b
+com/mobipocket/common/d/b
+com/mobipocket/common/library/historizer/a
+com/mobipocket/common/library/historizer/c

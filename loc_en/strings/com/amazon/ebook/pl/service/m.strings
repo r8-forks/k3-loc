@@ -1,0 +1,13 @@
+I
+ConstantValue
+(Ljava/lang/String;Lcom/amazon/ebook/pl/service/LipcPropertyProvider;I)V
+(Ljava/lang/String;Lcom/amazon/ebook/pl/service/LipcPropertyProvider;)V
+(Ljava/lang/String;Ljava/util/List;)V
+SourceFile
+java/lang/Object
+a
+A
+b
+com/amazon/ebook/pl/service/m
+bd
+LocalVariableTable

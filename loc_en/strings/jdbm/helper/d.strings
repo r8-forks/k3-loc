@@ -1,0 +1,16 @@
+Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+(Ljava/lang/Object;Ljava/lang/Object;)V
+()Ljava/lang/Object;
+(Ljava/lang/Object;)V
+SourceFile
+java/lang/Object
+a
+A
+Ljdbm/helper/d;
+jdbm/helper/d
+nq

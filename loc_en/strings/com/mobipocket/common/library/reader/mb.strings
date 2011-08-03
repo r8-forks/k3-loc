@@ -1,0 +1,245 @@
+InfiniteMode
+InnerClasses
+TableEngine
+Layout
+Z
+ConstantValue
+I
+Ljava/util/Vector;
+<init>
+TableLimiter
+Code
+LineNumberTable
+LocalVariableTable
+()V
+(IZ)V
+(I)Z
+C
+()I
+()Z
+addElement
+i
+Ljava/lang/String;
+(IZ)Z
+e
+[I
+(I)V
+j
+(Ljava/util/Vector;)Z
+(ZI)Z
+(Z)Z
+size
+Synthetic
+SourceFile
+java/util/Vector
+Page Begin not initialized
+this is not normal
+ERROR
+Element bigger than the screen (not a textElement) --> removed
+pb
+The screen is too small to print one TextElement - So this will be cut
+This case should be handled by checkInsertable() instead of here
+-
+
+The first character is greater than the screen - can't handle this case
+the hyphenated word and the hyphen string was not added in the line. This should never happen
+the hyphenation failed even if the right hyphenation point was found - should never happen
+java/lang/StringBuffer
+Frame created with a bad size :width=
+; height=
+Bad frame location x=
+ to 
+; y=
+strange strange strange
+strange resizing
+must not be !
+Pb in positionXElements
+element out of the screen(x)
+element out of the screen(y) !
+Pb in positionJustifiedElements
+unknow Alignment
+Pb in positionYElements
+wrong call to reInit
+TABLE_FEATURE
+[addFlowelementVector] Adding new TableElement view in the current page with current page begin position:
+OK if previous page
+Wrong element as width as authorized detected. --> default behaviour
+Element will be out of the screen (x)
+element bigger than screen or wrong blockquote size.
+TO BIG !! --> Element out of the screen (x)
+java/lang/Integer
+[setEndInformations] A Table which overrun on next page was found so adding it to the next page.
+[setEndInformations] A Table which overrun on next page was found but the entire table was moved on the next screen.
+[setEndInformations] The bottom of the table is displayed so, trying to remove the <table>@
+ tag from the TagStack
+[setEndInformations] The bottom of the table is displayed so, removing the opening tag @ position:
+ from the current page TagStack
+getNonInsertedFlowElements called but no elements at all in pageObjects
+unknow position
+[setEndInformations] Page end information setted. Next page begin position:
+ Current page end position:
+No Elements
+java/lang/Object
+()Ljava/util/Vector;
+PageTableData
+removeAllElements
+(I)I
+elementAt
+(I)Ljava/lang/Object;
+(IZLjava/lang/String;)V
+(Ljava/lang/Object;)V
+(I)C
+(C)Z
+(ILjava/lang/String;)V
+setSize
+(Ljava/util/Vector;)V
+toString
+()Ljava/lang/String;
+java/lang/String
+indexOf
+(Ljava/lang/String;)I
+(Ljava/lang/String;)V
+(II)I
+()[I
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+(III)V
+()S
+(Ljava/lang/String;Ljava/lang/String;)V
+(II)V
+isEmpty
+removeElementAt
+(Ljava/util/Vector;ILjava/util/Vector;I)Z
+insertElementAt
+(Ljava/lang/Object;I)V
+a
+A
+d
+D
+E
+F
+Lcom/mobipocket/common/library/reader/jb;
+b
+B
+c
+f
+g
+G
+h
+H
+J
+k
+K
+l
+L
+m
+M
+n
+N
+o
+O
+Lcom/mobipocket/common/parser/styles/a;
+p
+P
+q
+Lcom/mobipocket/common/library/reader/z;
+Q
+Lcom/mobipocket/common/library/reader/lb;
+r
+Lcom/mobipocket/common/library/reader/kb;
+R
+s
+S
+t
+T
+u
+(Lcom/mobipocket/common/library/reader/mb;)I
+Lcom/mobipocket/common/library/reader/mb;
+(Lcom/mobipocket/common/library/reader/mb;)Z
+(Lcom/mobipocket/common/library/reader/mb;Z)Z
+(Lcom/mobipocket/common/library/reader/mb;)Lcom/mobipocket/common/parser/styles/a;
+(Lcom/mobipocket/common/library/reader/mb;I)I
+(ILcom/mobipocket/common/parser/h;)Z
+Lcom/mobipocket/common/parser/h;
+Lcom/mobipocket/common/library/reader/l;
+Lcom/mobipocket/common/library/reader/s;
+Lcom/mobipocket/common/library/reader/fd;
+Lcom/mobipocket/common/library/reader/ed;
+(Lcom/mobipocket/common/library/reader/fd;I)V
+()Lcom/mobipocket/common/library/reader/fd;
+(Lcom/mobipocket/common/parser/styles/a;)Z
+(Lcom/mobipocket/common/library/reader/yb;)Z
+Lcom/mobipocket/common/library/reader/yb;
+Lcom/amazon/a/b/c;
+(Lcom/mobipocket/common/library/reader/l;)V
+(Lcom/mobipocket/common/library/reader/l;)Z
+Lcom/mobipocket/common/library/reader/m;
+Lcom/mobipocket/common/library/reader/a/a;
+Lcom/mobipocket/common/parser/k;
+Lcom/mobipocket/common/library/reader/a/c;
+Lcom/mobipocket/common/library/reader/gb;
+Lcom/mobipocket/common/parser/d;
+Lcom/mobipocket/common/library/reader/hb;
+(Lcom/mobipocket/common/library/reader/m;)I
+(Lcom/mobipocket/common/parser/styles/a;)V
+(Lcom/mobipocket/common/library/reader/z;Lcom/mobipocket/common/library/reader/z;)Z
+(Lcom/mobipocket/common/library/reader/g;)V
+Lcom/mobipocket/common/library/reader/g;
+com/mobipocket/common/library/reader/mb
+qw
+(Ljava/util/Vector;ILcom/mobipocket/common/parser/h;)V
+()Lcom/mobipocket/common/parser/d;
+(Lcom/mobipocket/common/parser/h;)V
+()Lcom/mobipocket/common/parser/h;
+(Ljava/util/Vector;I)Lcom/mobipocket/common/library/reader/fd;
+(Lcom/mobipocket/common/library/reader/fd;Lcom/mobipocket/common/parser/d;I)V
+(Ljava/util/Vector;Lcom/mobipocket/common/library/reader/fd;I)V
+(Lcom/mobipocket/common/library/reader/jb;)Lcom/mobipocket/common/library/reader/r;
+(ILcom/mobipocket/common/parser/d;I)V
+()Lcom/mobipocket/common/library/reader/r;
+(Lcom/mobipocket/common/library/reader/s;IILcom/amazon/a/b/k;)V
+(Lcom/mobipocket/common/parser/k;Lcom/mobipocket/common/parser/d;I)V
+(I)Lcom/mobipocket/common/library/reader/gb;
+(Ljava/lang/String;)Lcom/mobipocket/common/library/reader/a/c;
+(Lcom/mobipocket/common/parser/k;Lcom/amazon/a/b/c;)I
+()Lcom/amazon/a/b/c;
+(I)Lcom/mobipocket/common/parser/d;
+(I)Lcom/mobipocket/common/library/reader/a/a;
+()Lcom/mobipocket/common/library/reader/a/b;
+(Lcom/mobipocket/common/library/reader/gb;I)V
+(Lcom/mobipocket/common/library/reader/m;I)V
+(Lcom/mobipocket/common/parser/styles/a;Lcom/mobipocket/common/parser/d;)V
+Lcom/mobipocket/common/library/reader/r;
+(Lcom/mobipocket/common/library/reader/jb;)Lcom/mobipocket/common/library/reader/y;
+(Lcom/mobipocket/common/library/reader/jb;Lcom/mobipocket/common/library/reader/y;)V
+Lcom/mobipocket/common/library/reader/y;
+(Lcom/mobipocket/common/library/reader/mb;)V
+com/mobipocket/common/library/reader/gc
+com/mobipocket/common/parser/h
+com/mobipocket/common/library/reader/a/c
+com/mobipocket/common/library/reader/a/a
+com/mobipocket/common/library/reader/a/b
+com/mobipocket/common/parser/b
+com/mobipocket/common/d/b
+com/mobipocket/common/library/reader/r
+com/mobipocket/common/library/reader/y
+com/mobipocket/common/parser/d
+com/amazon/a/b/c
+com/mobipocket/common/library/reader/z
+com/mobipocket/common/library/reader/g
+com/mobipocket/common/library/reader/fd
+com/amazon/a/b/k
+com/mobipocket/common/library/reader/ed
+com/mobipocket/common/library/reader/fb
+com/mobipocket/common/library/reader/hb
+com/mobipocket/common/parser/k
+com/mobipocket/common/library/reader/s
+com/mobipocket/common/library/reader/gb
+com/mobipocket/common/library/reader/m
+com/mobipocket/common/parser/styles/a
+com/mobipocket/common/library/reader/l
+com/mobipocket/common/library/reader/yb
+com/mobipocket/common/library/reader/jb
+com/mobipocket/common/library/reader/lb
+com/mobipocket/common/library/reader/kb

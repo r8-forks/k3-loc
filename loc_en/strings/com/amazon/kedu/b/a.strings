@@ -1,0 +1,112 @@
+Ljava/io/PrintStream;
+Ljava/lang/String;
+ConstantValue
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+main
+([Ljava/lang/String;)V
+[Ljava/lang/String;
+(Ljava/lang/String;)V
+[I
+I
+Lorg/json/JSONObject;
+iterator
+Ljava/util/Iterator;
+e
+Ljava/io/FileNotFoundException;
+Ljava/lang/Exception;
+SourceFile
+Usage: java BinaryPageLabelSidecarDisplayer <sidecarFileSource>
+java/io/File
+java/lang/StringBuffer
+~~----------
+Header Version: 
+Header Metadata: 
+Number of Editions: 
+----- Edition 
+ -----
+Edition File format verson: 
+Page Count: 
+org/json/JSONObject
+pageMap
+Page number sidecar edition doesn't contain appropriate metadata (missing pageMap).
+Page Map: 
+java/lang/String
+Arabic Only?: 
+Largest Page Label: 
+Num Sequences: 
+Sequence -- start: 
+, end: 
+ Arabic
+ Roman
+ Custom
+ Other page label type
+   first ordinal page: 
+, first page label: 
+   last ordinal page: 
+, last page label: 
+ordinal page: 
+, position: 
+, page label: "
+"
+java/io/FileNotFoundException
+File not found: 
+java/lang/Exception
+java/lang/Object
+java/lang/System
+out
+java/io/PrintStream
+println
+(Ljava/io/File;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+()I
+(I)Ljava/lang/StringBuffer;
+(I)I
+(I)Ljava/lang/String;
+has
+(Ljava/lang/String;)Z
+(I)[I
+get
+(Ljava/lang/String;)Ljava/lang/Object;
+(Ljava/lang/String;I)V
+()Z
+(Z)Ljava/lang/StringBuffer;
+()Ljava/util/Collection;
+java/util/Collection
+size
+()Ljava/util/Iterator;
+java/util/Iterator
+hasNext
+next
+()Ljava/lang/Object;
+()[I
+print
+equals
+(Ljava/lang/Object;)Z
+printStackTrace
+a
+A
+Lcom/amazon/kedu/b/a;
+Lcom/amazon/kedu/b/b;
+Lcom/amazon/kedu/pagelabels/g;
+Lcom/amazon/kedu/pagelabels/d;
+com/amazon/kedu/b/a
+ec
+b
+B
+C
+d
+Lcom/amazon/kedu/pagelabels/c;
+c
+()Lcom/amazon/kedu/pagelabels/c;
+D
+com/amazon/kedu/pagelabels/c
+com/amazon/kedu/pagelabels/d
+com/amazon/kedu/pagelabels/g
+com/amazon/kedu/b/b

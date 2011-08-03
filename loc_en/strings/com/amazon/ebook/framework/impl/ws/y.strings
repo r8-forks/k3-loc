@@ -1,0 +1,64 @@
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+UploadReadingJournalScheduleThread
+InnerClasses
+run
+()V
+Ljava/io/IOException;
+Lcom/amazon/ebook/framework/device/comm/CommunicationException;
+J
+Ljava/lang/InterruptedException;
+
+SourceFile
+java/io/IOException
+IO Error while uploading in schedule
+com/amazon/ebook/framework/device/comm/CommunicationException
+Communication Error while uploading in schedule
+Reading Experience Journal Upload ScheduleThread - Waiting...
+Reading Experience Journal Upload ScheduleThread - Waking up
+java/lang/StringBuffer
+Reading Experience Journal Upload ScheduleThread - Waiting for 
+ ms
+java/lang/InterruptedException
+java/lang/Object
+java/lang/Runnable
+java/lang/System
+currentTimeMillis
+()J
+(Z)V
+(Ljava/lang/String;)V
+wait
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(J)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(J)V
+a
+Lcom/amazon/ebook/framework/impl/ws/f;
+(Lcom/amazon/ebook/framework/impl/ws/f;Lcom/amazon/ebook/framework/impl/ws/e;)V
+Lcom/amazon/ebook/framework/impl/ws/y;
+Lcom/amazon/ebook/framework/impl/ws/e;
+(Lcom/amazon/ebook/framework/impl/ws/f;)V
+com/amazon/ebook/framework/impl/ws/y
+zxb
+A
+(Lcom/amazon/ebook/framework/impl/ws/f;Ljava/lang/Runnable;)Ljava/lang/Runnable;
+(Lcom/amazon/ebook/framework/impl/ws/f;J)J
+D
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+Q
+Lcom/amazon/ebook/util/log/i;
+K
+()Lcom/amazon/ebook/util/log/e;
+d
+E
+(Lcom/amazon/ebook/framework/impl/ws/f;)J
+f
+(Lcom/amazon/ebook/framework/impl/ws/f;)Ljava/lang/Runnable;
+com/amazon/ebook/util/log/e
+com/amazon/ebook/framework/impl/ws/f
+com/amazon/ebook/framework/impl/ws/e

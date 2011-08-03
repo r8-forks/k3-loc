@@ -1,0 +1,9 @@
+bookletEventHandler
+getBookletEventIDs
+()[I
+SourceFile
+java/lang/Object
+(Lcom/amazon/ebook/framework/kos/event/d;)V
+com/amazon/ebook/framework/kos/event/a
+ud
+LocalVariableTable

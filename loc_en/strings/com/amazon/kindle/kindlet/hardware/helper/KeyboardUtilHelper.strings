@@ -1,0 +1,13 @@
+getKeys
+(I)Ljava/util/Set;
+Exceptions
+(C)Ljava/util/Set;
+getAvailableModifierKeys
+()Ljava/util/Set;
+getModifierKeys
+SourceFile
+com/amazon/kindle/kindlet/hardware/helper/KeyboardUtilHelper
+java/lang/Object
+com/amazon/kindle/kindlet/hardware/InputMethodsException
+f
+LocalVariableTable

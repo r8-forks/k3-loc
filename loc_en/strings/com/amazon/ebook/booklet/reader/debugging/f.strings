@@ -1,0 +1,244 @@
+[Ljava/lang/String;
+I
+ConstantValue
+Ljava/util/Random;
+C
+Ljava/text/MessageFormat;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()Ljava/lang/String;
+(Ljava/awt/event/KeyEvent;)V
+Ljava/awt/event/KeyEvent;
+c
+i
+Ljava/util/List;
+a
+Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;Ljava/lang/String;)V
+e
+Ljava/lang/Exception;
+Lcom/amazon/ebook/booklet/reader/sdk/Position;
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;)V
+Ljava/util/ArrayList;
+size
+format
+Entry
+InnerClasses
+Ljava/util/Map$Entry;
+Ljava/lang/StringBuffer;
+Ljava/io/IOException;
+Ljava/io/BufferedWriter;
+Ljava/util/HashMap;
+Ljava/util/Iterator;
+<clinit>
+SourceFile
+com.amazon.ebook.booklet.reader.debugging.resources.AnnotationDebuggerResources
+java/util/Random
+java/text/MessageFormat
+<shared timestamp="{0}" type="EBOK" key="{1}" version="{2}" guid="{3}" >~~{4}</shared>~~
+<content cid="{1}" cname="{2}" nickname="{3}" subscription_date="{0}">~~{4}</content>~~
+<annotation type="highlight" start_pos="{0}" end_pos="{1}" />~~
+<annotation type="note" start_pos="{0}" end_pos="{1}">{2}</annotation>~~
+<popular timestamp="2010-07-07 05:50:02" update_id="1">~~<content guid="{0}" type="EBOK" version="0" key="{1}">~~{2}</content>~~</popular>~~
+<annotation start_pos="{0}" end_pos="{1}" type="popular_highlight" num_users="{2}" />~~
+cycle.range.states
+cycle.annotation.states
+convert.annotations
+delete.annotations
+create.all.overlapping.highlight.cases
+create.all.note.combination.cases
+overwrite.sidecars
+java/lang/StringBuffer
+ = cycle between range states (at cursor, current page, entire book)~~
+ = cycle between annotation states (popular highlights, subscribed highlights, subscribed notes)~~
+ = convert all applicable user annotations in the current range state to the current annotation state.~~
+ = delete the annotations in the current range state that are the same type as the current annotation state~~
+ = create all overlapping highlight cases on the page (must have 7 lines on the page)~~
+ = create all combinations of user and subscribed notes on the page~~
+ = overwrite the book's subscribed annotations file and popular highlights file with the annotations currently in the annotations cache~~
+At cursor range
+Current page range
+Entire book range
+Popular highlights
+Subscribed highlights
+Subscribed notes
+java/util/LinkedList
+Not enough lines!
+This is a subscribed note.  Isn't it fun?  We need a little more text here so that the scroll bar appears.  I think it should be good now.
+This is my note.
+java/lang/Exception
+user
+sa
+java/util/Date
+java/util/HashMap
+java/util/ArrayList
+java/util/Map$Entry
+java/lang/String
+start 
+ end 
+result: 
+java/lang/Object
+java/lang/Integer
+java/io/BufferedWriter
+java/io/FileWriter
+java/io/File
+java/io/IOException
+phl
+Jack Black
+Jill Thrill
+Jane Maine
+John Phon
+Jeremiah Papaya
+Jack
+Jill
+Jane
+John
+Jeremiah
+A
+B
+D
+E
+(Ljava/lang/String;)V
+(Ljava/lang/String;)C
+append
+(C)Ljava/lang/StringBuffer;
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+java/awt/event/KeyEvent
+getKeyChar
+()C
+consume
+java/util/List
+()I
+get
+(I)Ljava/lang/Object;
+addAll
+(Ljava/util/Collection;)Z
+java/lang/System
+out
+Ljava/io/PrintStream;
+java/io/PrintStream
+println
+()Lcom/amazon/ebook/booklet/reader/sdk/Position;
+nextInt
+(I)I
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+printStackTrace
+()Z
+(I)Ljava/lang/StringBuffer;
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;Ljava/lang/String;Ljava/lang/String;)V
+(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+(Ljava/util/Date;)Ljava/lang/String;
+()Ljava/util/List;
+(Ljava/lang/Object;)Ljava/lang/Object;
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+add
+(Ljava/lang/Object;)Z
+entrySet
+()Ljava/util/Set;
+java/util/Set
+iterator
+()Ljava/util/Iterator;
+java/util/Iterator
+hasNext
+next
+()Ljava/lang/Object;
+java/util/Map
+getKey
+getValue
+com/amazon/ebook/booklet/reader/sdk/Position
+()Ljava/lang/Integer;
+(Ljava/lang/Object;)Ljava/lang/String;
+(I)V
+(Ljava/io/File;)V
+(Ljava/io/Writer;)V
+write
+close
+(I)Ljava/lang/String;
+b
+d
+f
+F
+g
+G
+h
+H
+j
+J
+k
+K
+l
+L
+m
+M
+n
+N
+o
+O
+Lcom/amazon/ebook/booklet/reader/debugging/f;
+Lcom/amazon/ebook/booklet/reader/yb;
+Lcom/amazon/ebook/booklet/reader/state/i;
+Lcom/amazon/ebook/booklet/reader/sdk/d;
+Lcom/amazon/ebook/booklet/reader/metadata/annotation/o;
+Lcom/amazon/ebook/booklet/reader/sdk/a/b;
+Lcom/amazon/ebook/booklet/reader/sdk/a/c;
+(Lcom/amazon/ebook/booklet/reader/sdk/e;)Lcom/amazon/ebook/booklet/reader/sdk/e;
+Lcom/amazon/ebook/booklet/reader/sdk/e;
+()Lcom/amazon/ebook/booklet/reader/state/k;
+Lcom/amazon/ebook/booklet/reader/sdk/b;
+Lcom/amazon/ebook/booklet/reader/state/k;
+Lcom/amazon/ebook/booklet/reader/gui/eb;
+Lcom/amazon/ebook/booklet/reader/sdk/w;
+com/amazon/ebook/booklet/reader/debugging/f
+mm
+U
+t
+w
+IA
+()Lcom/amazon/ebook/booklet/reader/sdk/d;
+Kb
+()Lcom/amazon/ebook/framework/kos/content/d;
+(Lcom/amazon/ebook/booklet/reader/sdk/b;)Lcom/amazon/ebook/booklet/reader/state/k;
+(Lcom/amazon/ebook/booklet/reader/state/f;)Lcom/amazon/ebook/booklet/reader/state/k;
+xA
+()Lcom/amazon/ebook/booklet/reader/state/f;
+NB
+(Lcom/amazon/ebook/booklet/reader/sdk/e;)V
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;)Lcom/amazon/ebook/booklet/reader/sdk/e;
+(Ljava/lang/String;Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;)Lcom/amazon/ebook/booklet/reader/sdk/e;
+(Lcom/amazon/ebook/booklet/reader/sdk/Position;Lcom/amazon/ebook/booklet/reader/sdk/Position;ILcom/amazon/ebook/booklet/reader/sdk/b;)V
+(I)Lcom/amazon/ebook/booklet/reader/sdk/s;
+(I)Lcom/amazon/ebook/booklet/reader/sdk/w;
+LB
+()Lcom/amazon/ebook/booklet/reader/sdk/b;
+QB
+()Lcom/amazon/ebook/booklet/reader/gui/eb;
+(Lcom/amazon/ebook/booklet/reader/state/k;)Ljava/util/List;
+rB
+(Lcom/amazon/ebook/booklet/reader/sdk/e;ZZ)V
+()Lcom/amazon/ebook/booklet/reader/sdk/e;
+rc
+()Lcom/amazon/ebook/booklet/reader/state/i;
+hc
+()Lcom/amazon/ebook/booklet/reader/yb;
+com/amazon/ebook/booklet/reader/sdk/d
+com/amazon/ebook/booklet/reader/readingexperience/a
+com/amazon/ebook/booklet/reader/metadata/c
+com/amazon/ebook/framework/kos/content/d
+com/amazon/ebook/booklet/reader/sdk/b
+com/amazon/ebook/booklet/reader/sdk/s
+com/amazon/ebook/booklet/reader/sdk/w
+com/amazon/ebook/booklet/reader/gui/eb
+com/amazon/ebook/booklet/reader/sdk/e
+com/amazon/ebook/booklet/reader/state/k
+com/amazon/ebook/booklet/reader/jc
+com/amazon/ebook/booklet/reader/state/i
+com/amazon/ebook/booklet/reader/yb
+com/amazon/ebook/booklet/reader/debugging/a
+com/amazon/ebook/booklet/reader/sdk/a/c
+com/amazon/ebook/booklet/reader/sdk/a/b
+com/amazon/ebook/booklet/reader/metadata/annotation/o

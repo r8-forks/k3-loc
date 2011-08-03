@@ -1,0 +1,11 @@
+()V
+(I)Z
+(Ljava/lang/String;)Z
+SourceFile
+java/lang/Object
+a
+()Lcom/amazon/ebook/booklet/reader/sdk/p;
+A
+com/amazon/ebook/booklet/reader/sdk/o
+no
+LocalVariableTable

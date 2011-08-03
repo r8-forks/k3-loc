@@ -1,0 +1,67 @@
+Ljava/lang/String;
+ConstantValue
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+(Ljava/lang/String;)Ljava/lang/Object;
+(Ljava/lang/String;I)I
+I
+Ljava/lang/Object;
+(Ljava/lang/String;)Ljava/lang/String;
+()Ljava/util/Set;
+SourceFile
+java/lang/Integer
+java/lang/String
+java/lang/Object
+cover
+title
+author
+narrator
+provider
+publication date
+publication date parsed
+description
+chapters offset
+chapter count
+playback position
+total time sec
+audio format
+is format supported
+artist
+album
+comment
+genre
+year
+bitrate
+sample rate
+channel
+track number
+intValue
+()I
+a
+A
+b
+B
+c
+C
+d
+D
+e
+E
+f
+F
+g
+G
+h
+H
+i
+j
+J
+k
+K
+l
+Lcom/amazon/ebook/framework/service/media/event/f;
+com/amazon/ebook/framework/service/media/event/f
+bbc

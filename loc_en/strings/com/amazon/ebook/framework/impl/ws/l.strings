@@ -1,0 +1,125 @@
+HTTP_UNPROCESSABLE_ENTITY
+I
+ConstantValue
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+(Z)Ljava/lang/String;
+Z
+()Ljava/lang/String;
+Ljava/lang/String;
+Ljava/lang/Integer;
+Exceptions
+Lcom/amazon/ebook/framework/device/comm/AmazonSocialException;
+Ljava/net/HttpURLConnection;
+Ljava/lang/Exception;
+[Ljava/lang/String;
+request
+(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/Object;
+<clinit>
+()V
+SourceFile
+cmd.sharing.registration
+java/lang/String
+1
+0
+java/lang/StringBuffer
+X_SKEY: 
+cmd.share.highlight.and.note
+
+Calling SocializerService: 
+java/io/ByteArrayInputStream
+java/net/HttpURLConnection
+com/amazon/ebook/framework/device/comm/AmazonSocialException
+HTTPS call failed due to a violation of a business rule (HTTP code 422)
+HTTPS call failed due to timeout
+HTTPS call failed
+java/lang/Exception
+SocializerClient
+UnexpectedError
+response code
+response message
+errors
+UnexpectedErrorDueToException
+exception type
+exception message
+BusinessRuleError
+error code
+error title
+error message
+java/lang/Object
+getAmazonServices
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+getXFSN
+toString
+indexOf
+(I)I
+substring
+(II)Ljava/lang/String;
+(C)Ljava/lang/StringBuffer;
+(I)Ljava/lang/String;
+()Z
+(Ljava/lang/String;)V
+getBytes
+()[B
+([B)V
+RequestResult
+InnerClasses
+getResponseCode
+()I
+getErrorStream
+()Ljava/io/InputStream;
+(Ljava/io/InputStream;)Ljava/lang/String;
+java/lang/Integer
+(ILjava/lang/String;Ljava/lang/String;)V
+getResponseMessage
+getClass
+()Ljava/lang/Class;
+java/lang/Class
+getName
+getMessage
+trim
+length
+(Ljava/lang/String;[Ljava/lang/String;)V
+a
+Lcom/amazon/ebook/framework/b/a;
+A
+b
+Lcom/amazon/ebook/util/log/i;
+B
+c
+C
+Lcom/amazon/ebook/util/log/e;
+Lcom/amazon/ebook/framework/impl/ws/l;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;ZLcom/amazon/ebook/framework/device/comm/d;)V
+Lcom/amazon/ebook/framework/device/comm/d;
+Lcom/amazon/ebook/util/file/e;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Lcom/amazon/ebook/framework/device/comm/d;)V
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;Lcom/amazon/ebook/framework/device/comm/d;)V
+(Lcom/amazon/ebook/framework/b/a;)V
+com/amazon/ebook/framework/impl/ws/l
+dyb
+com/amazon/ebook/framework/device/comm/ws/c
+d
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+D
+(Ljava/lang/String;Ljava/io/InputStream;Lcom/amazon/ebook/framework/device/comm/f;Ljava/lang/String;Ljava/util/Map;ZZZ)Ljava/lang/Object;
+Lcom/amazon/ebook/framework/device/comm/f;
+()Lcom/amazon/ebook/framework/device/comm/a;
+(Lcom/amazon/ebook/util/file/e;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+()Lcom/amazon/ebook/util/file/e;
+()Lcom/amazon/ebook/framework/service/b;
+com/amazon/ebook/util/net/d
+com/amazon/ebook/framework/device/comm/a
+com/amazon/ebook/framework/device/comm/f
+com/amazon/ebook/util/log/e
+com/amazon/ebook/framework/device/comm/d
+com/amazon/ebook/util/net/b
+com/amazon/ebook/framework/service/b
+com/amazon/ebook/framework/b/a
+com/amazon/ebook/util/log/i

@@ -1,0 +1,16 @@
+I
+<init>
+(I)V
+Code
+LineNumberTable
+LocalVariableTable
+()I
+SourceFile
+java/lang/Object
+()V
+d
+a
+Lcom/amazon/ebook/framework/impl/d;
+com/amazon/ebook/framework/impl/d
+sec
+com/amazon/ebook/framework/device/a/f

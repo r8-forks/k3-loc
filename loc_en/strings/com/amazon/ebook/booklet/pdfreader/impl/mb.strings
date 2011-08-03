@@ -1,0 +1,15 @@
+J
+Code
+LineNumberTable
+<init>
+()V
+LocalVariableTable
+()J
+SourceFile
+java/lang/Object
+a
+Lcom/amazon/ebook/booklet/pdfreader/impl/mb;
+A
+()Lcom/amazon/ebook/booklet/pdfreader/impl/mb;
+com/amazon/ebook/booklet/pdfreader/impl/mb
+udd

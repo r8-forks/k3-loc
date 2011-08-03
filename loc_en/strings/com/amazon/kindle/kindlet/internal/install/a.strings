@@ -1,0 +1,14 @@
+Exceptions
+()V
+SourceFile
+java/lang/Object
+com/amazon/kindle/kindlet/internal/install/InstallException
+com/amazon/kindle/kindlet/internal/install/MissingExtensionException
+A
+a
+(Ljava/io/File;Lcom/amazon/ebook/framework/service/a;)Z
+(Lcom/amazon/kindle/kindlet/internal/install/e;)V
+(Ljava/io/File;)Lcom/amazon/kindle/kindlet/internal/install/e;
+com/amazon/kindle/kindlet/internal/install/a
+dh
+LocalVariableTable

@@ -1,0 +1,712 @@
+WebServicesAsyncTransferStatusListener
+InnerClasses
+UploadReadingJournalScheduleThread
+UploadAnnotsScheduleThread
+UploadAnnotsThread
+Ljava/lang/String;
+ConstantValue
+Z
+I
+J
+Ljava/lang/Runnable;
+Ljava/util/List;
+Code
+LineNumberTable
+LocalVariableTable
+<init>
+()V
+(Ljava/lang/String;Ljava/lang/String;)Z
+i
+[Ljava/lang/String;
+()Ljava/util/Date;
+f
+Ljava/io/File;
+Exceptions
+(ZZ)V
+(Ljava/lang/String;[CZ)V
+[C
+(Ljava/lang/String;Ljava/lang/String;Z)V
+Ljava/net/MalformedURLException;
+Ljava/io/IOException;
+()Z
+Ljava/util/ListIterator;
+(JLjava/lang/String;Ljava/lang/String;)V
+(JLjava/lang/String;Ljava/lang/String;Z)V
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZ)Ljava/io/File;
+cdeKey
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZZ)Ljava/io/File;
+e
+Ljava/lang/Exception;
+Ljava/util/Map;
+success
+t
+Ljava/lang/Throwable;
+URIHandlerState
+Lcom/amazon/ebook/framework/device/comm/NotEnoughDiskSpaceException;
+Ljava/lang/StringBuffer;
+ConnInterfaceType
+network
+[Ljava/lang/Object;
+Ljava/util/ResourceBundle;
+key
+type
+Ljava/text/MessageFormat;
+(Ljava/lang/String;)V
+details
+(I)V
+id
+(Ljava/lang/String;)Ljava/util/Map;
+Entry
+Ljava/util/Map$Entry;
+Ljava/util/Iterator;
+(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Z)Ljava/io/File;
+uploadSyslog
+(Z)Z
+status
+(J)V
+Ljava/lang/OutOfMemoryError;
+JournalInputStream
+uploadAnnots
+(Ljava/lang/String;Ljava/lang/String;Z)I
+[[Ljava/io/File;
+[Ljava/io/File;
+Lcom/amazon/ebook/framework/device/comm/CommunicationException;
+Lcom/amazon/ebook/framework/BookletException;
+()Ljava/lang/String;
+(Ljava/util/List;)Z
+(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/List;
+removeUploadedOdotFiles
+(Ljava/lang/String;Ljava/lang/String;)I
+Ljava/net/URI;
+(Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;)Z
+(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+(Ljava/util/Map;Ljava/lang/String;)Z
+(Z)V
+uploadReadingExperienceJournal
+Ljava/io/InputStream;
+j
+ext
+k
+(I)Z
+error
+dumpTransferQueues
+Synthetic
+<clinit>
+SourceFile
+java/util/LinkedList
+java/lang/Thread
+UploadAnnotationsScheduleThread
+,
+java/io/File
+java/util/Date
+WebServicesImpl.getRegistrationInfo
+java/lang/String
+java/lang/StringBuffer
+WebServicesImpl.registerUser 
+java/net/MalformedURLException
+com/amazon/ebook/framework/device/comm/CommunicationException
+java/io/IOException
+WebServicesImpl.isUserRegistered = 
+WebServicesImpl.downloadFile
+java/lang/Exception
+Unable to delete old versions
+
+FWUO
+FWUP
+An error occurred while trying to rename 
+java/util/HashMap
+patch_rev
+failed
+OTA download failed
+delete
+delete old verison
+Unable to delete old version
+java/lang/Throwable
+Plugin threw exception
+Performing legacy download handling
+Unable to delete old version - file open
+com/amazon/ebook/framework/impl/ws/FileOpenException
+Cannot Delete
+fileDownloaded
+downloadFileAsync -- requested
+java/lang/IllegalArgumentException
+NULL title, key or type
+1
+0
+cmd.get.content
+com/amazon/ebook/framework/device/comm/NotEnoughDiskSpaceException
+CatalogUtil.pickDirectory chose an unexpected location: 
+temporary file directory issue
+Cannot determine directory to copy to
+downloadFileURLAsync -- requested
+NULL url
+NULL uniqueId
+cmd.get.content.global.params
+.partdldtmp
+java/lang/Object
+User-Agent
+Fiona
+{0}: {1}
+unknown
+recoverable
+unrecoverable
+Unrecoverable Async Transfer failure
+uploadFileAsync -- requested
+com.amazon.ebook.framework.resources.WebServicesResources
+logsupload.showlog.command.dnt
+logsupload.showlog.param.full.dnt
+logsupload.showlog.param.fsn.dnt
+logsupload.http.header.key.device.type.dnt
+logsupload.http.header.key.device.fwversion.dnt
+~~
+logsupload.http.header.key.anonymous.dnt
+logsupload.http.header.key.device.dsn.dnt
+PUT
+logsupload.showlog.param.nohead.dnt
+logsupload.odotlite.filename.dnt
+java/text/MessageFormat
+logsupload.http.header.key.device.fsn.dnt
+logsupload.http.header.content.type.dnt
+logsupload.http.header.content.type.value.kindlelog.dnt
+logsupload.http.header.content.encoding.dnt
+logsupload.http.header.content.encoding.value.gzip.dnt
+POST
+Failed to cancel Async Transfer
+java/util/Map$Entry
+WebServicesImpl.downloadFileURL 
+tempDownloadFileURL
+Unable to persist downloaded file from 
+Unable to persist downloaded file
+java/text/SimpleDateFormat
+yyyyMMddHHmmssSSS
+:SYSLOG:UPLOAD
+first journal empty
+Wiresless turned off. Aborting.
+No registered user. Aborting.
+failed, put back journal
+done
+java/lang/OutOfMemoryError
+/userannotlog.0
+uploadAnnotations
+error closing stream
+Annotations Uploader
+Unable to download sidecar files for the given items
+com/amazon/ebook/framework/BookletException
+com.amazon.ebook.framework.resources.ExternalLink
+link.legal.eula
+Bookworm
+getMetaData() WAN turned off.  Aborting.
+Could not contact server
+Cannot find last sent log file.
+Cannot delete last send log file
+Cannot delete last sent ODOT transfer file
+java/util/ArrayList
+deleteOldVersions( 
+, 
+)
+deleteOldVersions: found (null) items
+deleteOldVersions: found 
+ items
+deleteOldVersions: 0 version: 
+deleteOldVersions: 
+ version: 
+deleteOldVersions: newestVersion: 
+deleteOldVersions: deleting 
+performLegacyDownloadHandling for 
+ with headers 
+ [key=
+ type=
+Unable to access the downloaded file, reporting failure.
+Unable to process URI, invalid map
+Content-Type
+Content-Length
+content-disposition
+Hint-Sidecar-Download
+Hint-APNX-Available
+Hint-APNX-URL
+Hint-PHL-Available
+Hint-PHL-URL
+Short read:received=
+:expected=
+Unknown content length
+this item does not exist
+application/x-mobipocket-ebook-delta
+Unable to patch existing content
+Unable to download content
+Unable to download content (file access), reporting failure.
+Unable to download content, reporting failure
+Unable to get sidecar file
+Error getting sidecar file
+Unable to move file
+Failed to add content to the catalog
+Sidecar APNX URL hint unavailable. Using assumed URL: 
+APNX
+Error getting page numbers side car file
+Sidecar PHL URL hint unavailable. Using assumed URL: 
+PHL
+Error getting popular highlight side car
+java/util/List
+WAN turned off.  Aborting.
+No registered user.  Aborting.
+Null input stream
+com.amazon.ebook.booklet.reader
+application/x-mobipocket-ebook
+application/x-mobipocket-subscription
+azw
+application/x-mobipocket-sidecar
+mbp
+application/x-topaz-ebook
+azw1
+application/x-topaz-sidecar
+tan
+application/pdf
+pdf
+text/plain
+txt
+text/html
+html
+text/xyml
+xyml
+image/jpeg
+jpg
+application/x-kindle-application
+azw2
+application/x-developer-certificate
+kcrt
+application/xml+phl
+phl
+application/x-apnx-sidecar
+apnx
+application/xml+ea
+ea
+application/xml+sa
+sa
+application/audible-activation
+aa
+audio/audible-sample
+aax
+audio/vnd.audible.aax
+audio/mpeg
+mp3
+application/x-apg-zip
+apg
+Unknown content-type/mime-type: 
+Missing content-type header
+filename=
+Unable to find extension from content-disposition: 
+Missing content-disposition header
+key can not be null
+WebServicesImpl
+CannotDelete
+asin
+FileAction
+action
+OTADownload
+path
+TPHScheduled
+UploadAnnotations
+UploadReadingExperienceJournal
+UploadSyslogs
+SwitchToFullDownload
+RetryDownload
+OutOfMemory
+file-length
+DownloadHandlingError
+DownloadHandlingTrace
+AsyncTransferStarted
+download
+AsyncTransferSuccess
+AsyncTransferFailure
+DeleteCatalogItemRetry
+retryDelay
+UploadLogDetails
+HeaderError
+UsingContent
+content
+CannotCloseStream
+TransferProgress
+ExecError
+command
+com/amazon/ebook/framework/device/comm/BrowserLoginRequiredException
+com/amazon/ebook/framework/device/comm/NoConnectionException
+com/amazon/ebook/framework/service/comm/WirelessSwitchOffException
+com/amazon/ebook/framework/device/comm/ServerException
+com/amazon/ebook/framework/device/comm/ws/CustomerNotFoundException
+com/amazon/ebook/framework/device/comm/ws/AuthenticationFailedException
+java/util/Collections
+synchronizedList
+(Ljava/util/List;)Ljava/util/List;
+(Ljava/lang/Runnable;Ljava/lang/String;)V
+start
+length
+()I
+(Ljava/lang/String;Ljava/lang/String;I)[Ljava/lang/String;
+equals
+(Ljava/lang/Object;)Z
+exists
+()J
+lastModified
+Prompt
+CaptivePortalOption
+([C)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+(Ljava/lang/Throwable;)V
+(Z)Ljava/lang/StringBuffer;
+add
+remove
+listIterator
+()Ljava/util/ListIterator;
+java/util/ListIterator
+hasNext
+next
+()Ljava/lang/Object;
+getVersionInfo
+(Ljava/lang/String;)Ljava/lang/String;
+renameTo
+(Ljava/io/File;)Z
+valueOf
+(J)Ljava/lang/String;
+java/util/Map
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+(Ljava/util/Map;)V
+equalsIgnoreCase
+(Ljava/lang/String;)Z
+toURI
+()Ljava/net/URI;
+()Ljava/util/Map;
+HandlerState
+(Ljava/net/URI;)V
+(Ljava/lang/String;Ljava/util/List;)V
+getAmazonServices
+java/lang/Integer
+(I)Ljava/lang/String;
+com/amazon/ebook/framework/impl/Framework
+startsWith
+(Ljava/lang/StringBuffer;Ljava/lang/String;)Z
+(Ljava/lang/String;Ljava/lang/String;)V
+getCanonicalPath
+format
+(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java/lang/Boolean
+(Z)Ljava/lang/String;
+upload
+java/util/ResourceBundle
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+getObject
+(Ljava/lang/String;)Ljava/lang/Object;
+get
+(Ljava/lang/Object;)Ljava/lang/Object;
+getGUID
+getString
+([Ljava/lang/Object;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;
+(C)Ljava/lang/StringBuffer;
+getTransferRequest
+cancel
+cancelAll
+()Ljava/util/List;
+getTransferRequests
+entrySet
+()Ljava/util/Set;
+java/util/Set
+iterator
+()Ljava/util/Iterator;
+java/util/Iterator
+getKey
+getValue
+createTempFile
+(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+getName
+lastIndexOf
+(I)I
+substring
+(II)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+()[Ljava/lang/String;
+(Ljava/util/Date;)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;Z)Z
+java/lang/System
+currentTimeMillis
+java/lang/Math
+max
+(JJ)J
+notify
+(Ljava/io/InputStream;Z)Z
+close
+()Lcom/amazon/ebook/framework/impl/catalog/UDLStorage;
+com/amazon/ebook/framework/impl/catalog/UDLStorage
+isEmpty
+(Ljava/util/List;Z)[[Ljava/io/File;
+(Ljava/util/List;[Ljava/io/File;[Ljava/io/File;)V
+(Ljava/lang/String;Ljava/lang/String;ZZ)Ljava/util/List;
+size
+(I)Ljava/lang/Object;
+(Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;)J
+(Ljava/lang/String;)I
+schedule
+(Ljava/util/TimerTask;J)V
+(I)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+parseInt
+(J)Ljava/lang/StringBuffer;
+(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;II)Z
+java/net/URI
+getPath
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;Z)Ljava/io/File;
+getBookletContext
+Key
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
+getParentFile
+()Ljava/io/File;
+java/util/Locale
+US
+Ljava/util/Locale;
+toLowerCase
+(Ljava/util/Locale;)Ljava/lang/String;
+getBoolean
+()Ljava/io/InputStream;
+getAbsolutePath
+separator
+java/lang/Long
+java/io/InputStream
+indexOf
+trim
+charAt
+(I)C
+(II)I
+forceProgressStatus
+(Ljava/lang/String;[Ljava/lang/String;)V
+a
+A
+Lcom/amazon/ebook/framework/device/comm/ws/k;
+b
+Lcom/amazon/ebook/framework/device/comm/ws/c;
+c
+C
+Lcom/amazon/ebook/framework/impl/ws/w;
+d
+Lcom/amazon/ebook/framework/impl/booklet/a;
+B
+D
+E
+m
+N
+o
+O
+p
+P
+q
+Q
+r
+Lcom/amazon/ebook/util/log/i;
+V
+w
+M
+n
+R
+s
+S
+W
+T
+u
+U
+v
+Lcom/amazon/ebook/util/log/e;
+()Lcom/amazon/ebook/util/log/i;
+(Lcom/amazon/ebook/framework/impl/ws/f;)Ljava/util/List;
+Lcom/amazon/ebook/framework/impl/ws/f;
+(Lcom/amazon/ebook/framework/impl/ws/f;)Lcom/amazon/ebook/framework/impl/ws/w;
+(Lcom/amazon/ebook/framework/impl/ws/f;)Lcom/amazon/ebook/framework/impl/booklet/a;
+(Lcom/amazon/ebook/framework/impl/ws/f;Ljava/lang/Runnable;)Ljava/lang/Runnable;
+(Lcom/amazon/ebook/framework/impl/ws/f;J)J
+(Lcom/amazon/ebook/framework/impl/ws/f;)J
+(Lcom/amazon/ebook/framework/impl/ws/f;)Ljava/lang/Runnable;
+(Lcom/amazon/ebook/framework/impl/ws/f;Lcom/amazon/ebook/framework/kos/content/d;)V
+Lcom/amazon/ebook/framework/kos/content/d;
+F
+g
+K
+()Lcom/amazon/ebook/util/log/e;
+(Lcom/amazon/ebook/framework/impl/ws/f;Z)Z
+G
+(Lcom/amazon/ebook/framework/impl/ws/f;)Z
+(Ljava/lang/String;)Lcom/amazon/ebook/framework/device/comm/ws/h;
+Lcom/amazon/ebook/pl/service/d;
+Lcom/amazon/ebook/pl/service/event/d;
+Lcom/amazon/ebook/framework/impl/ws/a;
+l
+Lcom/amazon/ebook/framework/service/a/a;
+(Ljava/net/URI;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcom/amazon/ebook/framework/kos/content/k;
+Lcom/amazon/ebook/framework/a;
+Lcom/amazon/ebook/framework/impl/ws/b/c;
+(Lcom/amazon/ebook/framework/kos/content/d;)V
+(Ljava/lang/String;Ljava/lang/String;Lcom/amazon/ebook/framework/device/comm/ws/i;Z)I
+Lcom/amazon/ebook/framework/device/comm/ws/i;
+Lcom/amazon/ebook/framework/gui/event/k;
+Lcom/amazon/ebook/framework/kos/event/d;
+H
+()Lcom/amazon/ebook/framework/device/comm/ws/k;
+()Lcom/amazon/ebook/framework/device/comm/ws/c;
+Lcom/amazon/ebook/framework/service/c/a;
+Lcom/amazon/ebook/framework/service/c/h;
+L
+Lcom/amazon/ebook/framework/kos/content/k;
+Lcom/amazon/ebook/framework/kos/content/b;
+Lcom/amazon/ebook/framework/device/comm/ws/h;
+(Lcom/amazon/ebook/framework/device/comm/ws/g;)Z
+Lcom/amazon/ebook/framework/device/comm/ws/g;
+Lcom/amazon/ebook/pl/service/e;
+(Lcom/amazon/ebook/framework/device/comm/ws/h;)V
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;Lcom/amazon/ebook/framework/device/comm/ws/b;)V
+Lcom/amazon/ebook/framework/device/comm/ws/b;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZILjava/util/List;Lcom/amazon/ebook/framework/device/comm/ws/b;)V
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;Ljava/lang/String;Ljava/lang/String;Lcom/amazon/ebook/framework/device/comm/ws/b;)V
+Lcom/amazon/ebook/pl/service/gb;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;ZLcom/amazon/ebook/framework/device/comm/ws/b;)V
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZJILjava/util/List;ZZLjava/lang/String;ZLcom/amazon/ebook/framework/device/comm/ws/b;)V
+Lcom/amazon/ebook/util/file/e;
+Lcom/amazon/ebook/framework/impl/device/mario/d;
+(Lcom/amazon/ebook/framework/device/comm/ws/e;)V
+Lcom/amazon/ebook/framework/device/comm/ws/e;
+Lcom/amazon/ebook/framework/device/comm/ws/a;
+(Lcom/amazon/ebook/framework/device/comm/ws/a;)Z
+(Lcom/amazon/ebook/framework/device/comm/ws/a;)V
+()Lcom/amazon/ebook/framework/device/comm/ws/d;
+(Lcom/amazon/ebook/framework/impl/booklet/a;)V
+com/amazon/ebook/framework/impl/ws/f
+zxb
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+(Ljava/lang/String;)Lcom/amazon/ebook/pl/service/d;
+(Lcom/amazon/ebook/util/log/i;)V
+h
+()Lcom/amazon/ebook/framework/service/a/a;
+(Lcom/amazon/ebook/framework/kos/content/j;Ljava/net/URI;)V
+Lcom/amazon/ebook/framework/kos/content/m;
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;Lcom/amazon/ebook/framework/kos/content/m;)Ljava/lang/Object;
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;)Ljava/lang/String;
+()Lcom/amazon/ebook/framework/b/a;
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;Lcom/amazon/ebook/framework/kos/content/d;)V
+()Lcom/amazon/ebook/framework/a;
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+(Lcom/amazon/ebook/framework/impl/ws/f;)V
+(Lcom/amazon/ebook/framework/b/a;Ljava/util/List;Lcom/amazon/ebook/framework/kos/a/d;)I
+UA
+NA
+lA
+(Lcom/amazon/ebook/framework/kos/content/d;)Z
+(Ljava/util/List;Lcom/amazon/ebook/framework/device/comm/ws/i;)V
+(Lcom/amazon/ebook/framework/b/a;)V
+(Lcom/amazon/ebook/framework/kos/event/d;)V
+(ILjava/lang/Object;Z)Lcom/amazon/ebook/framework/kos/event/d;
+(Lcom/amazon/ebook/framework/b/a;)Z
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+(Lcom/amazon/ebook/framework/impl/ws/f;Z)V
+()Lcom/amazon/ebook/util/a/h;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+()Lcom/amazon/ebook/framework/service/c/h;
+()Lcom/amazon/ebook/framework/service/c/a;
+Lcom/amazon/ebook/framework/device/comm/ws/f;
+nA
+()Lcom/amazon/ebook/framework/impl/n;
+(Ljava/lang/String;Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;ZZ)Lcom/amazon/ebook/framework/impl/ws/b/c;
+(Lcom/amazon/ebook/pl/service/d;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcom/amazon/ebook/framework/device/comm/ws/b;)V
+()Lcom/amazon/ebook/pl/service/event/d;
+(Lcom/amazon/ebook/pl/service/d;)Lcom/amazon/ebook/pl/service/d;
+(I)Lcom/amazon/ebook/pl/service/d;
+y
+()Lcom/amazon/ebook/framework/impl/o;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;ILjava/lang/String;Ljava/lang/String;Lcom/amazon/ebook/pl/service/event/d;)Lcom/amazon/ebook/pl/service/d;
+()Lcom/amazon/ebook/pl/service/gb;
+()Lcom/amazon/ebook/pl/service/t;
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/List;ILjava/lang/String;Lcom/amazon/ebook/pl/service/event/d;)Lcom/amazon/ebook/pl/service/d;
+(Lcom/amazon/ebook/framework/impl/ws/f;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/amazon/ebook/framework/device/comm/ws/b;)V
+()Lcom/amazon/ebook/pl/service/e;
+(Lcom/amazon/ebook/framework/b/a;IZ)Ljava/lang/String;
+()Lcom/amazon/ebook/framework/impl/booklet/a;
+(Lcom/amazon/ebook/util/file/e;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+()Lcom/amazon/ebook/util/file/e;
+(Ljava/lang/String;Ljava/lang/String;)Lcom/amazon/ebook/framework/kos/content/d;
+()Lcom/amazon/ebook/pl/service/m;
+()Lcom/amazon/ebook/pl/a;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+()Lcom/amazon/ebook/framework/kos/content/j;
+Lcom/amazon/ebook/framework/kos/content/j;
+(Lcom/amazon/ebook/framework/kos/content/j;)V
+(Ljava/lang/String;)Lcom/amazon/ebook/framework/kos/content/b;
+()Lcom/amazon/ebook/framework/service/e;
+()Lcom/amazon/ebook/framework/service/c;
+()Lcom/amazon/ebook/framework/service/b;
+()Lcom/amazon/ebook/framework/kos/content/d;
+()Lcom/amazon/ebook/framework/service/a;
+(Ljava/lang/String;Ljava/lang/String;ZLcom/amazon/ebook/framework/impl/ws/b/c;ZZZ)Lcom/amazon/ebook/framework/impl/ws/b/c;
+(Lcom/amazon/ebook/framework/impl/booklet/a;Lcom/amazon/ebook/framework/impl/ws/w;JLjava/lang/String;Ljava/lang/String;Z)V
+(Lcom/amazon/ebook/framework/b/a;Ljava/lang/String;Ljava/lang/String;)V
+(Lcom/amazon/ebook/framework/b/a;Z)V
+(ZLcom/amazon/ebook/framework/service/comm/b;Lcom/amazon/ebook/framework/service/comm/d;)V
+Lcom/amazon/ebook/framework/service/comm/d;
+Lcom/amazon/ebook/framework/service/comm/b;
+()Lcom/amazon/ebook/framework/service/comm/a;
+(Lcom/amazon/ebook/framework/b/a;)Lcom/amazon/ebook/framework/device/comm/ws/d;
+IA
+(Lcom/amazon/ebook/framework/impl/ws/f;Lcom/amazon/ebook/framework/impl/ws/e;)V
+com/amazon/ebook/framework/kos/content/m
+com/amazon/ebook/framework/service/a/a
+com/amazon/ebook/framework/kos/content/o
+com/amazon/ebook/framework/impl/s
+com/amazon/ebook/framework/impl/catalog/u
+com/amazon/ebook/framework/a
+com/amazon/ebook/framework/impl/f
+com/amazon/ebook/framework/service/c/e
+com/amazon/ebook/util/a/h
+com/amazon/ebook/framework/service/c/a
+com/amazon/ebook/framework/impl/n
+com/amazon/ebook/pl/service/t
+com/amazon/ebook/pl/service/e
+com/amazon/ebook/util/file/e
+com/amazon/ebook/framework/kos/content/catalog/l
+com/amazon/ebook/pl/service/m
+com/amazon/ebook/pl/a
+com/amazon/ebook/framework/kos/content/j
+com/amazon/ebook/framework/kos/content/b
+com/amazon/ebook/framework/service/e
+com/amazon/ebook/util/file/m
+com/amazon/ebook/util/net/b
+com/amazon/ebook/framework/service/b
+com/amazon/ebook/framework/service/a
+com/amazon/ebook/framework/impl/ws/b/c
+com/amazon/ebook/framework/impl/ws/k
+com/amazon/ebook/framework/service/comm/a
+com/amazon/ebook/framework/service/comm/d
+com/amazon/ebook/framework/service/comm/b
+com/amazon/ebook/framework/impl/booklet/a
+com/amazon/ebook/framework/impl/ws/s
+com/amazon/ebook/util/log/e
+com/amazon/ebook/framework/impl/o
+com/amazon/ebook/util/text/f
+com/amazon/ebook/framework/service/c/h
+com/amazon/ebook/pl/service/gb
+com/amazon/ebook/framework/device/comm/ws/f
+com/amazon/ebook/util/log/i
+com/amazon/ebook/framework/impl/ws/e
+com/amazon/ebook/framework/impl/ws/d
+com/amazon/ebook/framework/kos/content/d
+com/amazon/ebook/framework/device/comm/ws/i
+com/amazon/ebook/framework/impl/ws/x
+com/amazon/ebook/framework/impl/ws/l
+com/amazon/ebook/framework/gui/event/k
+com/amazon/ebook/framework/impl/ws/b
+com/amazon/ebook/framework/device/comm/ws/h
+com/amazon/ebook/pl/service/d
+com/amazon/ebook/framework/impl/ws/a
+com/amazon/ebook/framework/kos/content/k
+com/amazon/ebook/framework/impl/device/mario/d
+com/amazon/ebook/framework/device/comm/ws/a
+com/amazon/ebook/framework/impl/ws/y
+com/amazon/ebook/framework/impl/ws/c
+com/amazon/ebook/framework/impl/ws/w

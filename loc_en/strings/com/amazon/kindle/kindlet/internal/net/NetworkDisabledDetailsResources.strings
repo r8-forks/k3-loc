@@ -1,0 +1,52 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/kindle/kindlet/internal/net/NetworkDisabledDetailsResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+kindlet.network.disabled.reason.message.userDisabled
+Network access is currently disabled.
+kindlet.network.disabled.reason.message.deviceUnregistered
+Your Kindle is not registered. Please register and try again.
+kindlet.network.disabled.reason.message.deviceRoaming
+This title is not authorized to access the network in your current location.
+kindlet.network.disabled.reason.message.deviceBlocked
+Network access is no longer authorized for all active content titles. Please contact Customer Support.
+kindlet.network.disabled.reason.message.applicationBlocked
+This title is no longer authorized to access the network. Please try downloading a newer version; otherwise, please contact Customer Support.
+kindlet.network.disabled.reason.message.quotaExceeded
+This title  is no longer authorized to access the network. Please contact Customer Support.
+kindlet.network.disabled.reason.message.serviceUnavailable
+Network access is currently unavailable. Please try again later.
+kindlet.network.disabled.reason.message.unsupportedNetwork
+This title requires a network type not supported on this device. Please contact Customer Support.
+kindlet.network.disabled.reason.message.unknownError
+An unknown error has occurred while trying to access the network. Please try again later. If the problem persists, contact Customer Support.
+This title is not authorized to use the current network connection in this location. Please try connecting to a Wi-Fi network.
+Network access is no longer authorized on the current connection for all active content titles. Please try connecting to a Wi-Fi network or contact Customer Support.
+This title is no longer authorized to use the current network connection. Please try connecting to a Wi-Fi network or downloading a newer version if available; otherwise, please contact Customer Support.
+This title is no longer authorized to use the current network connection. Please contact Customer Support or try connecting to a Wi-Fi network.
+Network access on the current connection is temporarily unavailable. Please try again later or connect to a Wi-Fi network.
+Failed to connect to a Wi-Fi network. Since this title is Wi-Fi only, networking will be unavailable.
+This title requires a Wi-Fi network, which is not available on this device. Please contact Customer Support.
+com/amazon/kindle/kindlet/internal/net/NetworkDisabledDetailsResources
+java/util/ListResourceBundle
+toString
+()Ljava/lang/String;
+a
+qjb
+d
+Lcom/amazon/kindle/kindlet/internal/net/q;
+D
+A
+b
+B
+c
+C
+com/amazon/kindle/kindlet/internal/net/q

@@ -1,0 +1,76 @@
+[B
+Ljava/util/Map;
+<init>
+(Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/lang/String;
+Exceptions
+finalize
+()V
+()I
+(I)V
+I
+([B)I
+([BII)I
+Ljava/util/Iterator;
+<clinit>
+SourceFile
+java/util/HashMap
+r
+File not found in search archive.
+java/io/IOException
+Seek past end of current file in search archive.
+java/io/EOFException
+No current file in search archive.
+Magic number is not correct.
+java/lang/StringBuffer
+Search archive header start is invalid: 
+Search archive header length is invalid: 
+Search archive length does not match, expected: 
+; actual: 
+Search archive directory start is invalid: 
+Search archive directory length is invalid: 
+java/lang/Object
+java/lang/Throwable
+(Ljava/lang/String;Ljava/lang/String;I)V
+java/util/Map
+get
+(Ljava/lang/Object;)Ljava/lang/Object;
+(J)V
+()J
+java/lang/Math
+min
+(JJ)J
+java/util/Arrays
+equals
+([B[B)Z
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(J)Ljava/lang/StringBuffer;
+([B)Ljava/util/Iterator;
+java/util/Iterator
+hasNext
+()Z
+next
+()Ljava/lang/Object;
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+a
+Lcom/amazon/ebook/booklet/search/sdk/searcharchive/d;
+A
+b
+Lcom/amazon/ebook/booklet/search/sdk/zc;
+B
+Lcom/amazon/ebook/booklet/search/sdk/searcharchive/b;
+c
+C
+com/amazon/ebook/booklet/search/sdk/searcharchive/b
+doc
+D
+com/amazon/ebook/booklet/search/sdk/searcharchive/d
+com/amazon/ebook/booklet/search/sdk/zc

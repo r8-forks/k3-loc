@@ -1,0 +1,17 @@
+Ljdbm/btree/BPage;
+Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+InsertResult
+InnerClasses
+SourceFile
+java/lang/Object
+jdbm/btree/BPage
+a
+A
+Ljdbm/btree/c;
+jdbm/btree/c
+gr

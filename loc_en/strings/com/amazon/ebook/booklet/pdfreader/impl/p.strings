@@ -1,0 +1,190 @@
+Ljava/util/HashMap;
+Z
+Ljava/lang/String;
+D
+I
+Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+J
+Exceptions
+setContrastChoice
+setZoomFactor
+Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;
+getPageName
+e
+Lcom/amazon/ebook/booklet/pdfreader/impl/PDFException;
+getPagePosition
+getNativePagePosition
+renderScreenID
+renderDirectScreenID
+(C)Z
+c
+C
+(Ljava/lang/String;)Ljava/lang/String;
+Ljava/util/ArrayList;
+Lcom/ibm/icu/text/BreakIterator;
+Ljava/lang/StringBuffer;
+[Lcom/amazon/ebook/booklet/pdfreader/impl/PDFTextPositionData;
+index
+<clinit>
+SourceFile
+PDFModel
+java/lang/Object
+java/lang/Double
+com.amazon.ebook.booklet.pdfreader.impl.resources.PDFResources
+pdf.search.vertical.margin.percent
+pdf.search.vertical.move.percent
+java/lang/Integer
+pdf.continuous.overlap
+com/amazon/ebook/booklet/pdfreader/impl/PDFAlreadyOpenException
+java/lang/StringBuffer
+file 
+ is already open for viewing
+
+com/amazon/ebook/booklet/pdfreader/impl/PDFPosition
+PDF === Start Opening the PDF File
+PDF === Completed Opening the PDF File time taken = 
+PDF === Native Reference to the PDF file = 
+PDF === Get the number of pages 
+PDF === Done getting the number of pages = 
+PDF === changing the contrast = 
+PDF === completing changing the zoom Factor 
+PDF === changing the font size to zoom Factor = 
+PDF === change the reflow setting
+PDF === changed the reflow setting 
+PDF === gotoPage == 
+PDF === done with gotoPage
+PDF === searchForWord == 
+PDF === done with searchForWord
+com/amazon/ebook/booklet/pdfreader/impl/PDFException
+Entering renderScreenID {{{
+Exiting renderScreenID }}}
+Entering renderDirectScreenID {{{
+Exiting renderDirectScreenID }}}
+Internal error in trimNonPrintable
+java/lang/String
+java/util/ArrayList
+[Ljava/lang/String;
+java/util/HashMap
+java/util/ResourceBundle
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+getString
+(Ljava/lang/String;)V
+doubleValue
+()D
+intValue
+()I
+java/util/Locale
+getDefault
+()Ljava/util/Locale;
+get
+(Ljava/lang/Object;)Ljava/lang/Object;
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+com/amazon/ebook/booklet/pdfreader/impl/PDFNativeInterface
+openPDFFile
+(Ljava/lang/String;IIDIILjava/lang/String;DDI)J
+(JLjava/lang/String;)V
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+(ILjava/lang/String;Ljava/lang/String;F)V
+java/lang/System
+currentTimeMillis
+()J
+(J)Ljava/lang/StringBuffer;
+getNumberOfPages
+(J)I
+(I)Ljava/lang/StringBuffer;
+(J)V
+equals
+(Ljava/lang/Object;)Z
+remove
+(JI)V
+(D)Ljava/lang/StringBuffer;
+(JD)V
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+java/lang/Character
+isWhitespace
+isIdentifierIgnorable
+isISOControl
+length
+charAt
+(I)C
+substring
+(I)Ljava/lang/String;
+(II)Ljava/lang/String;
+com/ibm/icu/text/BreakIterator
+getWordInstance
+(Ljava/util/Locale;)Lcom/ibm/icu/text/BreakIterator;
+setText
+first
+(I)V
+next
+add
+setLength
+size
+toArray
+([Ljava/lang/Object;)[Ljava/lang/Object;
+com/amazon/ebook/booklet/pdfreader/impl/PDFTextPositionData
+(C)Ljava/lang/StringBuffer;
+trim
+a
+A
+Lcom/amazon/ebook/util/log/e;
+b
+B
+d
+Lcom/amazon/ebook/booklet/pdfreader/impl/p;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)I
+Lcom/amazon/ebook/booklet/pdfreader/impl/m;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;)Z
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;ILjava/lang/String;)Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;I)Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;)Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;Ljava/lang/String;Ljava/lang/String;)[Lcom/amazon/ebook/booklet/pdfreader/impl/PDFTextPositionData;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;I)V
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;Ljava/lang/String;)I
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;I)I
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;IDD)Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)[Lcom/amazon/ebook/booklet/pdfreader/impl/PDFTextPositionData;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;ILjava/lang/String;)[Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;I)[Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;)[Ljava/lang/String;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)[I
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;II)V
+E
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)Z
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;D)Z
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;)I
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;)V
+f
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)V
+F
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)[B
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Lcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;J)V
+g
+G
+h
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;)I
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;ZLcom/amazon/ebook/booklet/pdfreader/impl/ScreenIdentifier;)Z
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;III)V
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;D)V
+(Ljava/lang/String;IIDIILjava/lang/String;)Lcom/amazon/ebook/booklet/pdfreader/impl/m;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;Ljava/lang/String;)Lcom/amazon/ebook/booklet/pdfreader/impl/PDFPosition;
+(Ljava/lang/String;)Lcom/amazon/ebook/booklet/pdfreader/impl/m;
+()Lcom/amazon/ebook/booklet/pdfreader/impl/p;
+(Lcom/amazon/ebook/booklet/pdfreader/impl/m;)Ljava/util/Locale;
+com/amazon/ebook/booklet/pdfreader/impl/p
+kdd
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+com/amazon/ebook/util/log/e
+com/amazon/ebook/booklet/pdfreader/impl/m

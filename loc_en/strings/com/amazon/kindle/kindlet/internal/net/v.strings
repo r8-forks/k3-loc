@@ -1,0 +1,43 @@
+KillUngrantedConnectionsRunnable
+InnerClasses
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+NetworkConnectionReaperListener
+SourceFile
+java/lang/IllegalArgumentException
+threadGroup cannot be null!
+runnable cannot be null!
+java/lang/StringBuffer
+onNetworkAvailable: {NetworkInterfaceType => 
+}
+java/lang/Object
+()V
+(Ljava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(Ljava/lang/Runnable;)V
+a
+Lcom/amazon/kindle/kindlet/internal/net/x;
+A
+Lcom/amazon/kindle/kindlet/internal/net/w;
+b
+Lcom/amazon/kindle/kindlet/internal/l;
+(Lcom/amazon/kindle/kindlet/internal/portability/net/c;)V
+Lcom/amazon/kindle/kindlet/internal/net/v;
+Lcom/amazon/kindle/kindlet/internal/portability/net/c;
+(Lcom/amazon/kindle/kindlet/internal/net/x;Lcom/amazon/kindle/kindlet/internal/l;Lcom/amazon/kindle/kindlet/internal/net/w;)V
+com/amazon/kindle/kindlet/internal/net/v
+ujb
+com/amazon/kindle/kindlet/internal/portability/net/b
+c
+(Lcom/amazon/kindle/kindlet/internal/net/x;)Lcom/amazon/kindle/kindlet/internal/d/d;
+com/amazon/kindle/kindlet/internal/l
+com/amazon/kindle/kindlet/internal/d/d
+com/amazon/kindle/kindlet/internal/net/x
+com/amazon/kindle/kindlet/internal/net/w

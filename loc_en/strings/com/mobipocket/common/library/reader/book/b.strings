@@ -1,0 +1,220 @@
+I
+ConstantValue
+Ljava/lang/String;
+S
+[B
+([B)Z
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/io/IOException;
+Exceptions
+<init>
+(SIISSIIII)V
+([B[BZ)V
+Ljava/io/EOFException;
+Z
+(I)I
+()I
+(I)V
+()Z
+()Ljava/lang/String;
+(Ljava/lang/String;I)Ljava/lang/String;
+C
+i
+Ljava/lang/StringBuffer;
+(Ljava/lang/String;)I
+(Ljava/lang/String;)Ljava/lang/String;
+e
+Ljava/lang/Exception;
+([BI)I
+SourceFile
+java/io/IOException
+com/mobipocket/common/library/reader/InvalidBookException
+
+java/lang/StringBuffer
+pdbName : 
+;modificationDate :
+;type :
+;creator :
+java/io/EOFException
+dummy error
+error in header reading
+Bug in the reading of the Mobipocket header record
+    This book was FFV :
+~~
+must not be
+:
+invalid GUID
+wVersion : 
+;  dwStoryLen :
+;  wNumRecs :
+;  wRecSize :
+;  wSpare2 :
+java/lang/Exception
+read error
+magic : 
+;  hsize :
+;  type :
+;  content_type :
+;  encoding :
+;  random_id :
+;  version :
+Index :
+ 
+titleOffset :
+;  title_len :
+;  title :
+; minVersion:
+; embedBase:
+Huffman : hufdic : 
+;  hufdiclen :
+;  absTable :
+; tableLen:
+encoding non supported
+New big title :
+FFV4: idx_slaves :
+; voucherOffset :
+; voucher_tblen :
+; voucher_len :
+; flow_count :
+Wrong trailingByteTypes
+header FFV6, idx=
+Header write supported for FFV >= 2
+Write header error:
+java/lang/Object
+java/lang/NumberFormatException
+([BZ)V
+CORRUPTED
+(Ljava/lang/String;)V
+()V
+BOOK_NOT_SUPPORTED
+(I)Ljava/lang/String;
+java/lang/String
+trim
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+(ILjava/lang/String;)V
+()S
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+BAD_FORMAT
+(IZLjava/lang/String;)V
+(I)B
+PALMDOC_WRONG_FORMAT
+([BII)Ljava/lang/String;
+(C)Ljava/lang/StringBuffer;
+length
+lastIndexOf
+substring
+java/lang/Long
+parseLong
+(Ljava/lang/String;I)J
+(II)Ljava/lang/String;
+(I)[B
+(S)V
+([B)V
+a
+A
+b
+B
+c
+d
+D
+E
+f
+F
+g
+G
+h
+H
+j
+J
+k
+K
+l
+L
+m
+M
+n
+N
+o
+O
+p
+P
+q
+Q
+r
+R
+s
+t
+T
+u
+U
+v
+V
+w
+W
+x
+X
+y
+Y
+z
+aA
+AA
+bA
+BA
+cA
+CA
+dA
+DA
+eA
+EA
+fA
+FA
+gA
+GA
+hA
+HA
+iA
+IA
+jA
+JA
+kA
+KA
+lA
+LA
+mA
+MA
+nA
+NA
+oA
+OA
+pA
+PA
+qA
+QA
+rA
+RA
+sA
+SA
+tA
+TA
+uA
+UA
+vA
+VA
+wA
+WA
+xA
+XA
+Lcom/mobipocket/common/library/reader/book/b;
+Lcom/mobipocket/common/library/reader/book/a;
+(Lcom/mobipocket/common/library/reader/book/a;I)V
+(Lcom/mobipocket/common/library/reader/book/a;)V
+com/mobipocket/common/library/reader/book/b
+ov
+com/mobipocket/common/parser/f
+com/mobipocket/common/d/b
+com/mobipocket/common/library/reader/book/a

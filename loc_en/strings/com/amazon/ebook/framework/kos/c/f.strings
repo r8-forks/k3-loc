@@ -1,0 +1,90 @@
+Ljava/lang/String;
+ConstantValue
+Ljava/util/ResourceBundle;
+Code
+LineNumberTable
+LocalVariableTable
+e
+Ljava/lang/Exception;
+<init>
+(Ljava/lang/String;)Z
+(Ljava/lang/String;)Ljava/lang/String;
+I
+Lcom/amazon/ebook/framework/BookletException;
+<clinit>
+()V
+SourceFile
+java/lang/Exception
+java/lang/IllegalArgumentException
+Booklet cannot be null!
+com.amazon.ebook.framework.resources.ExternalLink
+link.prefix.xyml.detail
+link.prefix.xyml.buy
+link.prefix.xyml.book.asin.symbol
+link.prefix.xyml.book.asin.dummy
+http
+https
+com/amazon/ebook/framework/BookletException
+ExternalLinkDispatcher
+Cannot dispatch null link.
+Failed to send browser event.
+Failed to launch BUY.
+Failed to launch DETAIL.
+ASIN and current Booklet can not be NULL
+URL and current Booklet can not be NULL
+Prefix not recognized.  External link provided does not refer to an action.
+Failed to dispatch.  Exception thrown.
+java/lang/Object
+(Ljava/lang/String;)V
+java/util/ResourceBundle
+getBundle
+(Ljava/lang/String;)Ljava/util/ResourceBundle;
+getString
+java/lang/String
+trim
+()Ljava/lang/String;
+startsWith
+lastIndexOf
+(Ljava/lang/String;)I
+length
+()I
+substring
+(I)Ljava/lang/String;
+(Ljava/lang/String;[Ljava/lang/String;)V
+a
+Lcom/amazon/ebook/framework/a;
+A
+Lcom/amazon/ebook/util/log/i;
+b
+B
+c
+C
+d
+D
+E
+Lcom/amazon/ebook/util/log/e;
+f
+F
+g
+G
+h
+H
+i
+(Ljava/lang/String;Lcom/amazon/ebook/framework/a;)Z
+Lcom/amazon/ebook/framework/kos/event/i;
+Lcom/amazon/ebook/framework/kos/event/d;
+Lcom/amazon/ebook/framework/kos/c/f;
+(Lcom/amazon/ebook/framework/a;)V
+(Lcom/amazon/ebook/framework/a;Ljava/lang/String;)Z
+com/amazon/ebook/framework/kos/c/f
+lwb
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+(Lcom/amazon/ebook/framework/a;Lcom/amazon/ebook/framework/kos/event/d;)V
+(ILjava/lang/Object;Z)Lcom/amazon/ebook/framework/kos/event/d;
+()Lcom/amazon/ebook/framework/kos/event/i;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+(Lcom/amazon/ebook/util/log/i;)V
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+com/amazon/ebook/framework/kos/event/i
+com/amazon/ebook/util/log/e
+com/amazon/ebook/util/log/i

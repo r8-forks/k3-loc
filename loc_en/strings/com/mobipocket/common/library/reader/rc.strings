@@ -1,0 +1,397 @@
+I
+ConstantValue
+Synthetic
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+InternalNavigator
+InnerClasses
+(Z)V
+Ljava/lang/String;
+[Z
+S
+Z
+[B
+Exceptions
+i
+B
+()Z
+toc
+()I
+start
+Lcom/mobipocket/common/parser/TagStack;
+Lcom/mobipocket/common/parser/styles/StyleStack;
+Lcom/mobipocket/common/library/reader/InvalidBookException;
+e
+Ljava/io/IOException;
+()V
+addElement
+(I)V
+[S
+(IZ)S
+(ISZII)Z
+(IZ)V
+(II)Z
+(I)Z
+(Z)Z
+(IZZ)V
+(II)I
+(II)V
+Lcom/mobipocket/common/parser/AttributeStack;
+(Ljava/io/OutputStream;)V
+Ljava/io/OutputStream;
+Ljava/io/DataOutputStream;
+(Ljava/io/InputStream;II)Z
+Ljava/lang/Exception;
+Ljava/io/InputStream;
+Ljava/io/DataInputStream;
+(Ljava/io/InputStream;)V
+SourceFile
+strange reference in the guide
+
+com/mobipocket/common/library/reader/InvalidBookException
+ERROR in GotoTOC : GuideItem found but not valid!
+GotoTOC: no guide item --> first page is opened.
+book with index or non crossable sections --> start reading is first page
+other.ms-firstpage
+ERROR in gotoStartReading : GuideItem found but not valid!
+no start guide --> heuristic
+TOC guideItem invalid!
+Heuristic failed --> first page
+The guide item is null
+guideItem = null or position invalid!
+Book is not set!
+java/lang/StringBuffer
+size invalid:width=
+; height=
+size incompatible with margin:width-xMargin=
+; height-yMargin=
+must not be (tested in setebook
+TagAndAttributeStack must not be null
+TABLE_FEATURE
+[parseNextPage] Saving the TagStack with Current position:
+ and TagStack:
+java/io/IOException
+[parseNextPage] ERROR during history saving: unexpected behaviour !
+ERROR during history saving: unexpected behaviour !
+error ??
+[getPreviousPage] Computing unknown previous page. Current page begin position:
+Previous page search start from position:
+[getPreviousPage] Computing unknown previous page. Jumping the parser to the position:
+[getPreviousPage] Computing unknown previous page. Layouting from @
+ to @
+[getPreviousPage] Computing unknown previous page. Previous page begin position:
+must not be
+CreateMainFrame and parser is at position:
+Prelayouting stopped : not needed anymore
+ZWNJ must be a break text
+[createMainFrame] Table tag:
+ encountered. Table @
+ 
+already parsed. Taking the parser at the end of the table:
+[createMainFrame] Looking inside the TagStack for an opening <table> tag:
+Tag table encountered but isn't the right one since the begenning position doesn't correspond
+[createMainFrame] ERROR, the TagAndAttributeStack seems to be wrong, unexpected behaviour
+The TagAndAttribute Stack seems to be wrong, unexpected behaviour
+[createMainFrame] Tag table found @
+: removing it. New TagStack:
+com/mobipocket/common/parser/TagStack
+com/mobipocket/common/parser/styles/StyleStack
+CDataContent is not used today
+type not handled from parser
+[createMainFrame] Table begin position @
+ page begin position @
+[createMainFrame] The parser will be taken to the beginning of table @
+[createMainFrame] The parser will be taken to the beginning of page @
+[createMainFrame] A table which exceed the limit was encountered table id:
+. The parser was initialized @
+If table is encountered, the parser is expected to be an HTML parser.
+must not be but catched
+[gotoPosition] GoToLocation with recovery. To position:
+. Recovering position:
+[gotoPosition] GoToLocation without recovery. To position:
+[openAnnotation] Open annotation. So restoring tagStack. Annotation position:
+java/io/ByteArrayInputStream
+The annotation file is corrupter and can't be restored
+[initParserAtPosition] findTableFreePosition - firstPosition @
+ initPosition @
+[findTableFreePosition]A table which exceed the limit was found (ID:
+) during step 0. Adding it in the table to flatten array !
+must be in multiJumpTableMode !!!
+[findTableFreePosition] A table free position was found before the book begin position: should not happen !
+[findTableFreePosition] Table free position @
+. To find it 
+ backward jump was made
+[initParserAtPosition] InitParserAtPosition - firstPosition @
+[initParserAtPosition] InitParserAtPosition - Current page begin position @
+[lookForTableTag] Looking for <table> tag in the tagStack
+[lookForTableTag] Tag <table> found @
+[lookForTableTag] Table @
+ was NOT already parsed so creating a new table...
+ was already parsed
+[lookForTableTag] Returning the TagStack to the position:
+. New TagStack contains:
+[lookForTableTag] Taking the parser @
+ with neutralizeStackPosition:
+com/mobipocket/common/parser/AttributeStack
+[initParserAtPosition(int, bool)] Current page reinit - Current page begin position:
+. Parser end position:
+ERROR
+[parseKnownPage] Restoring page begin position:
+[parseKnownPage] Table found in the previous page. Table begin position:
+[parseKnownPage] Parser begin position:
+. Restoring page begin position:
+[parseKnownPage] Adding Previous PAGE_BEGIN with position:
+[parseKnownPage] Saving the TagStack with Current page position:
+ with TagStack:
+ and page number:
+[parseKnownPage] ERROR during history saving: unexpected behaviour !
+[restoreClosedPage] Restoring closed page
+java/io/DataOutputStream
+java/io/DataInputStream
+java/lang/Exception
+version not supported
+focus path not supported
+Wrong format
+Must read 4 I don't know why
+must not be; restoreStateFromStack
+READ ERROR
+parser error
+[restoreStateFromStack] Restoring state from Tag Stack:
+ @ position:
+java/lang/Object
+com/mobipocket/common/library/historizer/RestoreStateException
+([Z[Z)S
+()Lcom/mobipocket/common/parser/AttributeStack;
+(SLcom/mobipocket/common/parser/AttributeStack;I)V
+(S)Ljava/lang/String;
+(ILjava/lang/String;)V
+(S)I
+java/util/Vector
+(Ljava/lang/Object;)V
+(Ljava/lang/String;)V
+()Ljava/lang/String;
+(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+BAD_FORMAT
+size
+elementAt
+(I)Ljava/lang/Object;
+()B
+java/lang/String
+equals
+(Ljava/lang/Object;)Z
+(IZLjava/lang/String;)V
+(Lcom/mobipocket/common/parser/AttributeStack;)Z
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+Layout
+(IIII)V
+(Ljava/lang/String;Ljava/lang/String;)V
+printStackTrace
+(III)V
+(I)I
+(III)I
+UnknownPageLimiter
+InfiniteMode
+TableEngine
+()S
+(I)C
+(S)Z
+(IZZLcom/mobipocket/common/parser/AttributeStack;I)Z
+(SI)V
+(IZZ)S
+([B)V
+TableLimiter
+(ZLjava/lang/String;)V
+Ljava/util/Vector;
+(I)Lcom/mobipocket/common/parser/AttributeStack;
+(IZZLcom/mobipocket/common/parser/AttributeStack;I)V
+()[B
+writeInt
+write
+readInt
+skipBytes
+readFully
+available
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+Position
+a
+Lcom/mobipocket/common/library/reader/gc;
+A
+b
+(Lcom/mobipocket/common/library/reader/rc;Z)V
+Lcom/mobipocket/common/library/reader/rc;
+(Lcom/mobipocket/common/library/reader/rc;Ljava/io/OutputStream;)V
+(Lcom/mobipocket/common/library/reader/rc;)I
+(Lcom/mobipocket/common/library/reader/rc;Lcom/mobipocket/common/library/reader/cd;)V
+Lcom/mobipocket/common/library/reader/cd;
+(Lcom/mobipocket/common/library/reader/rc;)V
+(Lcom/mobipocket/common/library/reader/rc;ILcom/mobipocket/common/parser/h;IZ)V
+Lcom/mobipocket/common/parser/h;
+(Lcom/mobipocket/common/library/reader/rc;Lcom/mobipocket/common/library/reader/ib;)Z
+Lcom/mobipocket/common/library/reader/ib;
+(Lcom/mobipocket/common/library/reader/rc;)Z
+(Lcom/mobipocket/common/library/reader/rc;IZILcom/mobipocket/common/parser/h;I)V
+(Lcom/mobipocket/common/library/reader/rc;Lcom/mobipocket/common/library/reader/z;Lcom/mobipocket/common/library/reader/z;)Z
+Lcom/mobipocket/common/library/reader/z;
+(ILcom/mobipocket/common/parser/h;IZ)V
+[Lcom/mobipocket/common/library/reader/fd;
+[Lcom/mobipocket/common/library/reader/l;
+(Lcom/mobipocket/common/parser/h;)I
+Lcom/mobipocket/common/library/reader/fd;
+Lcom/mobipocket/common/parser/o;
+(Lcom/mobipocket/common/library/reader/cd;)V
+Lcom/mobipocket/common/library/reader/v;
+Lcom/mobipocket/common/library/reader/fb;
+(ISZII)Lcom/mobipocket/common/library/reader/yb;
+Lcom/mobipocket/common/library/reader/yb;
+(IZILcom/mobipocket/common/parser/h;I)V
+Lcom/mobipocket/common/parser/styles/a;
+Lcom/mobipocket/common/parser/k;
+(Z)Lcom/mobipocket/common/library/reader/v;
+(I)Lcom/mobipocket/common/library/reader/v;
+(II)Lcom/mobipocket/common/library/reader/fb;
+Lcom/amazon/a/b/k;
+(Lcom/mobipocket/common/library/reader/fd;I)V
+()Lcom/mobipocket/common/library/reader/fd;
+(Lcom/mobipocket/common/library/reader/l;)Z
+Lcom/mobipocket/common/library/reader/l;
+(Lcom/mobipocket/common/library/reader/z;Lcom/mobipocket/common/library/reader/z;)Z
+c
+(IZLcom/mobipocket/common/parser/styles/a;)V
+(IILcom/mobipocket/common/parser/styles/a;Lcom/mobipocket/common/parser/TagStack;Lcom/mobipocket/common/parser/styles/StyleStack;)V
+(Lcom/mobipocket/common/library/reader/ib;)Z
+C
+d
+(Ljava/lang/String;B)Lcom/mobipocket/common/library/reader/ib;
+Lcom/mobipocket/common/parser/a/c;
+Lcom/mobipocket/common/parser/a/d;
+Lcom/mobipocket/common/library/reader/eb;
+(Lcom/mobipocket/common/library/reader/gc;)V
+com/mobipocket/common/library/reader/rc
+ub
+dA
+Lcom/mobipocket/common/library/reader/mc;
+z
+(Lcom/mobipocket/common/library/reader/fd;Lcom/mobipocket/common/parser/d;I)V
+(Lcom/mobipocket/common/parser/h;)V
+E
+j
+g
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/library/reader/g;
+(Lcom/mobipocket/common/library/reader/cd;)[B
+M
+Lcom/mobipocket/common/library/reader/x;
+EA
+D
+()Lcom/mobipocket/common/parser/h;
+k
+J
+L
+(Lcom/mobipocket/common/parser/d;)V
+t
+(ILcom/mobipocket/common/parser/h;)Z
+G
+(Lcom/mobipocket/common/parser/styles/a;)Z
+(Lcom/mobipocket/common/parser/TagStack;Lcom/mobipocket/common/parser/styles/StyleStack;Lcom/mobipocket/common/parser/styles/a;[Lcom/mobipocket/common/library/reader/fd;)V
+(Lcom/mobipocket/common/parser/k;Lcom/mobipocket/common/parser/d;I)V
+(ILcom/mobipocket/common/parser/d;II)V
+()Lcom/mobipocket/common/parser/k;
+(Lcom/mobipocket/common/library/reader/gc;)Z
+(SLcom/mobipocket/common/parser/d;IIIII)V
+(Lcom/mobipocket/common/parser/styles/a;)I
+(Lcom/amazon/a/b/a;Lcom/mobipocket/common/parser/d;Lcom/mobipocket/common/library/reader/b/g;IIILcom/amazon/a/b/k;I)V
+h
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/amazon/a/b/a;
+H
+(Lcom/mobipocket/common/library/reader/gc;Z)Z
+Lcom/mobipocket/common/library/reader/jb;
+Q
+Lcom/mobipocket/common/library/reader/lb;
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/library/reader/f;
+()Lcom/amazon/a/b/c;
+(Lcom/mobipocket/common/library/reader/gc;)I
+DA
+Lcom/mobipocket/common/library/reader/qc;
+[Lcom/mobipocket/common/library/reader/cd;
+(Lcom/mobipocket/common/library/reader/gc;I)I
+(Lcom/mobipocket/common/library/reader/z;)V
+(Lcom/mobipocket/common/parser/h;II[B)V
+(Lcom/mobipocket/common/parser/h;I)[B
+r
+Lcom/mobipocket/common/library/reader/kb;
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/library/reader/mb;
+p
+Lcom/mobipocket/common/library/reader/wb;
+K
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/library/historizer/b;
+l
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/parser/n;
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/parser/styles/a;
+m
+n
+N
+(IZLcom/mobipocket/common/parser/styles/a;)Z
+()Lcom/mobipocket/common/library/reader/book/e;
+([Lcom/mobipocket/common/library/reader/l;ILcom/mobipocket/common/parser/h;)V
+(ILcom/mobipocket/common/parser/d;I)V
+()Lcom/mobipocket/common/parser/d;
+()Lcom/mobipocket/common/parser/styles/a;
+O
+y
+Lcom/mobipocket/common/library/reader/book/c;
+Lcom/mobipocket/common/library/reader/b/g;
+Lcom/mobipocket/common/library/reader/bd;
+f
+()Lcom/mobipocket/common/parser/a/d;
+o
+(Lcom/mobipocket/common/library/reader/gc;)Ljava/util/Vector;
+(Ljava/lang/String;Ljava/lang/String;BLcom/mobipocket/common/library/reader/eb;)V
+(Lcom/mobipocket/common/library/reader/gc;)Lcom/mobipocket/common/parser/i;
+com/mobipocket/common/library/reader/mc
+com/mobipocket/common/library/reader/g
+com/mobipocket/common/library/reader/x
+com/mobipocket/common/library/reader/cd
+com/mobipocket/common/parser/styles/b
+com/mobipocket/common/parser/v
+com/mobipocket/common/parser/k
+com/mobipocket/common/parser/d
+com/mobipocket/common/library/reader/jb
+com/mobipocket/common/library/reader/lb
+com/mobipocket/common/library/reader/f
+com/amazon/a/b/c
+com/mobipocket/common/library/reader/qc
+com/mobipocket/common/library/reader/kb
+com/mobipocket/common/library/reader/mb
+com/mobipocket/common/library/reader/wb
+com/mobipocket/common/library/historizer/b
+com/mobipocket/common/parser/n
+com/mobipocket/common/library/reader/book/e
+com/mobipocket/common/library/reader/z
+com/mobipocket/common/parser/styles/a
+com/mobipocket/common/library/reader/book/c
+com/mobipocket/common/library/reader/b/g
+com/mobipocket/common/library/reader/bd
+com/mobipocket/common/parser/a/d
+com/mobipocket/common/d/b
+com/mobipocket/common/parser/i
+com/mobipocket/common/library/reader/gc
+com/mobipocket/common/library/reader/ed
+com/mobipocket/common/library/reader/gb
+com/mobipocket/common/library/reader/v
+com/mobipocket/common/library/reader/fb
+com/amazon/a/b/k
+com/mobipocket/common/parser/o
+com/mobipocket/common/library/reader/fd
+com/mobipocket/common/library/reader/yb
+com/mobipocket/common/library/reader/l
+com/mobipocket/common/library/reader/eb
+com/mobipocket/common/parser/a/i
+com/mobipocket/common/parser/a/h
+com/mobipocket/common/parser/a/g
+com/mobipocket/common/parser/a/c
+com/mobipocket/common/library/reader/ib
+com/mobipocket/common/parser/h

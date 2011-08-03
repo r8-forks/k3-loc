@@ -1,0 +1,17 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+
+InnerClasses
+Lcom/amazon/ebook/booklet/reader/gui/view/periodicals/articlelistview/ArticleListPrelayoutEngine$1;
+imageUpdate
+(Ljava/awt/Image;IIIII)Z
+Ljava/awt/Image;
+I
+SourceFile
+com/amazon/ebook/booklet/reader/gui/view/periodicals/articlelistview/ArticleListPrelayoutEngine$1
+java/awt/Component
+a
+qj
