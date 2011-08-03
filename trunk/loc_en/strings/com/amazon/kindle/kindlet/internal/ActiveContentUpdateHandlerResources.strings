@@ -1,0 +1,35 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/kindle/kindlet/internal/ActiveContentUpdateHandlerResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+kindlet.update.message.transientFailure
+The update of this item failed. Please try updating again, or if the problem persists contact customer service at 1-866-321-8851.
+kindlet.update.message.internalError
+The update of this item failed. Please try updating again. If the problem persists, please restart your Kindle from the Menu in Settings and try again.
+kindlet.update.message.invalidRequest
+kindlet.update.message.serverError
+kindlet.update.message.insufficientSpace
+The update of this item failed due to insufficient storage space on your Kindle. Please free up space by removing content from Home and try updating again.
+kindlet.update.message.requireWiFiOrSideload
+Updating this item requires a Wi-Fi connection. Please connect to a Wi-Fi network and try updating again.
+kindlet.update.message.requireSideload
+This item cannot be updated wirelessly. Please download the update to your computer and transfer it to your Kindle via USB.
+kindlet.update.failure.title
+Update Failed
+kindlet.update.failure.message.generic
+kindlet.update.failure.message.specific
+{0}
+kindlet.update.failure.continue
+~~~~Would you like to open the older version?
+com/amazon/kindle/kindlet/internal/ActiveContentUpdateHandlerResources
+java/util/ListResourceBundle
+a
+zb

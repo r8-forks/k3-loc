@@ -1,0 +1,61 @@
+[Ljava/lang/String;
+I
+C
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()Ljava/lang/String;
+(Ljava/awt/event/KeyEvent;)V
+Ljava/lang/Runtime;
+c
+Ljava/lang/Exception;
+Ljava/awt/event/KeyEvent;
+<clinit>
+SourceFile
+com.amazon.ebook.booklet.reader.debugging.resources.RuntimeTestDebuggerResources
+restart.framework.with.test.booklet
+cycle.test
+run.test
+java/lang/StringBuffer
+ = restart framework with the test booklet on~~
+ = cycle between tests~~
+ = run test
+/test/ebook/testbooklet on
+lipc-send-event com.lab126.test runtest -s 
+java/lang/Exception
+java/lang/String
+com.amazon.ebook.booklet.reader.metadata.annotation.HighlightCreationDeletionTest
+com.amazon.ebook.booklet.reader.metadata.annotation.NoteCreationDeletionTest
+com.amazon.ebook.booklet.reader.metadata.annotation.SharingCreatesNoteTest
+com.amazon.ebook.booklet.reader.metadata.annotation.SubscribedNoteTest
+com.amazon.ebook.booklet.reader.sdk.a.c
+(Ljava/lang/String;)V
+(Ljava/lang/String;)C
+append
+(C)Ljava/lang/StringBuffer;
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+java/lang/Runtime
+getRuntime
+()Ljava/lang/Runtime;
+java/awt/event/KeyEvent
+getKeyChar
+()C
+exec
+(Ljava/lang/String;)Ljava/lang/Process;
+lastIndexOf
+(I)I
+substring
+(I)Ljava/lang/String;
+printStackTrace
+consume
+a
+A
+b
+B
+Lcom/amazon/ebook/booklet/reader/debugging/c;
+com/amazon/ebook/booklet/reader/debugging/c
+jm
+com/amazon/ebook/booklet/reader/debugging/a

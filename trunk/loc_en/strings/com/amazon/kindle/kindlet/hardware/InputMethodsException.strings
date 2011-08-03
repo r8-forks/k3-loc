@@ -1,0 +1,17 @@
+<init>
+(Ljava/lang/Exception;)V
+Code
+LineNumberTable
+LocalVariableTable
+this
+Lcom/amazon/kindle/kindlet/hardware/InputMethodsException;
+cause
+Ljava/lang/Exception;
+(Ljava/lang/String;)V
+message
+Ljava/lang/String;
+SourceFile
+com/amazon/kindle/kindlet/hardware/InputMethodsException
+java/lang/Exception
+(Ljava/lang/Throwable;)V
+pnb

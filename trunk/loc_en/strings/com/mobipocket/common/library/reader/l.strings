@@ -1,0 +1,67 @@
+I
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+()Z
+()I
+(III)V
+(III)I
+(I)V
+<clinit>
+SourceFile
+ descentHeigth > currentDescentLineHeight
+baseLineHeigth > currentBaselineHeight
+java/lang/StringBuffer
+wrong bookPosition:
+strange2 (getRealSize)
+strange3 (getRealSize)
+must not be
+java/lang/Object
+(IZLjava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(ILjava/lang/String;)V
+a
+A
+b
+B
+Lcom/mobipocket/common/parser/d;
+c
+C
+d
+D
+e
+E
+Lcom/amazon/a/b/c;
+Lcom/mobipocket/common/library/reader/l;
+(Lcom/mobipocket/common/parser/d;)V
+()Lcom/mobipocket/common/parser/d;
+(Lcom/amazon/a/b/d;II)V
+Lcom/amazon/a/b/d;
+(Lcom/amazon/a/b/d;)V
+f
+F
+g
+G
+h
+H
+i
+j
+com/mobipocket/common/library/reader/l
+wv
+O
+o
+p
+N
+P
+(Lcom/amazon/a/b/c;)V
+()Lcom/amazon/a/b/c;
+com/mobipocket/common/parser/styles/a
+com/amazon/a/b/d
+com/mobipocket/common/parser/d
+com/mobipocket/common/d/b

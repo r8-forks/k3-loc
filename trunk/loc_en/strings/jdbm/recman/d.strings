@@ -1,0 +1,15 @@
+(Ljava/lang/String;)Ljava/io/FileInputStream;
+Exceptions
+(Ljava/lang/String;)Ljava/io/FileOutputStream;
+(Ljava/lang/String;Ljava/lang/String;)Ljava/io/RandomAccessFile;
+SourceFile
+FileFactory
+InnerClasses
+java/lang/Object
+java/io/IOException
+a
+A
+jdbm/recman/d
+zl
+jdbm/recman/w
+LocalVariableTable

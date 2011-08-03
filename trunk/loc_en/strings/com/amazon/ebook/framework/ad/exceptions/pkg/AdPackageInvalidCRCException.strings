@@ -1,0 +1,27 @@
+serialVersionUID
+J
+ConstantValue
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/ad/exceptions/pkg/AdPackageInvalidCRCException;
+Ljava/lang/String;
+SourceFile
+java/lang/StringBuffer
+ZipEntry 
+, CRC32 failure: 
+ != 
+com/amazon/ebook/framework/ad/exceptions/pkg/AdPackageInvalidCRCException
+com/amazon/ebook/framework/ad/exceptions/pkg/InvalidAdPackageException
+()V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(J)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+(Lcom/amazon/ebook/util/log/e;Ljava/lang/String;JJ)V
+a
+Lcom/amazon/ebook/util/log/e;
+dc
+(Lcom/amazon/ebook/util/log/e;Ljava/lang/String;)V

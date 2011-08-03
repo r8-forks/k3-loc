@@ -1,0 +1,17 @@
+I
+ConstantValue
+setVisible
+(Z)V
+(I)V
+(Ljava/lang/String;)V
+()V
+()Ljava/awt/Container;
+SourceFile
+java/lang/Object
+a
+B
+c
+C
+com/amazon/kindle/kindlet/internal/ui/a
+nf
+LocalVariableTable

@@ -1,0 +1,175 @@
+
+InnerClasses
+ReadPosInfoItem
+SBuffer
+I
+ConstantValue
+Ljava/lang/String;
+([B[BI)I
+Code
+LineNumberTable
+LocalVariableTable
+c
+[B
+<init>
+e
+Lcom/mobipocket/common/library/reader/InvalidBookException;
+Ljava/lang/Exception;
+Exceptions
+()Ljava/lang/String;
+()Z
+Ljava/io/IOException;
+size
+()V
+(I)I
+(I)[B
+(III)V
+(III)I
+([BI[BI)I
+([BII)I
+([BI)I
+Z
+([BII)[B
+([B)V
+[I
+Ljava/util/Vector;
+SourceFile
+com/mobipocket/common/library/reader/InvalidBookException
+java/lang/StringBuffer
+nbMaxTextRecord :
+java/lang/Exception
+this buffer is cached --> first cached buffer used
+Buffer informations:text nb characters=
+ ,begin pos=
+, current Pos=
+ ,binary uncompressed length=
+this buffer is cached --> second cached buffer used
+record 
+ is requested
+record got from the file, size of this buffer is 
+enfin !!!
+Decompress PalmDoc Compression
+java/io/IOException
+File corrupt
+EBook.java : error size after huffdic decompression
+Should not be default in decompression
+decompressed is null
+decoding encoding failed
+Buffer created:text nb characters=
+current Buffer has no text
+num record of absolute position 
+ is 
+error : pageNumber < 1
+Close Book
+Wrong length calculated by getTrailingBytesSpace
+java/util/Vector
+Table index is found but not the entry
+Table index is not found
+Entry is not found
+java/lang/Integer
+java/lang/Object
+java/io/EOFException
+com/mobipocket/common/library/reader/indexes/IndexException
+()[B
+([B[BZ)V
+(Ljava/lang/String;)Ljava/lang/String;
+(Ljava/lang/String;)Z
+EXPIRED
+(Ljava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(I)Ljava/lang/StringBuffer;
+toString
+(ILjava/lang/String;)V
+CORRUPTED
+java/lang/System
+arraycopy
+(Ljava/lang/Object;ILjava/lang/Object;II)V
+S
+(IZLjava/lang/String;)V
+([B[BI[BIIZ)V
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+([B)I
+([BIII)[C
+[C
+([BII)V
+()I
+([BZ)V
+(I)V
+addElement
+(Ljava/lang/Object;)V
+removeElementAt
+elementAt
+(I)Ljava/lang/Object;
+intValue
+(I)[I
+a
+Lcom/mobipocket/common/library/reader/b/d;
+A
+b
+B
+C
+Lcom/mobipocket/common/library/reader/b/b;
+d
+Lcom/mobipocket/common/library/reader/b/c;
+D
+Lcom/mobipocket/common/library/reader/book/c;
+Lcom/mobipocket/common/b/b;
+E
+f
+F
+Lcom/mobipocket/common/library/reader/b/g;
+(ILcom/mobipocket/common/library/reader/indexes/k;)Lcom/mobipocket/common/library/reader/indexes/e;
+Lcom/mobipocket/common/library/reader/indexes/k;
+Lcom/mobipocket/common/library/reader/indexes/e;
+Lcom/mobipocket/common/library/reader/book/a;
+Lcom/mobipocket/common/library/reader/b/e;
+Lcom/mobipocket/common/library/reader/indexes/h;
+(I)Lcom/mobipocket/common/library/reader/b/d;
+Lcom/mobipocket/common/c/f;
+(Lcom/mobipocket/common/library/reader/b/d;)I
+()Lcom/mobipocket/common/b/b;
+(Ljava/lang/String;Lcom/mobipocket/common/b/c;Lcom/amazon/a/c/c;)V
+Lcom/mobipocket/common/b/c;
+Lcom/amazon/a/c/c;
+com/mobipocket/common/library/reader/b/g
+nv
+(I)Lcom/mobipocket/common/library/reader/indexes/e;
+(Lcom/mobipocket/common/library/reader/indexes/k;)V
+(Lcom/mobipocket/common/library/reader/b/e;)I
+(Lcom/mobipocket/common/library/reader/b/e;I)I
+t
+(Lcom/mobipocket/common/library/reader/b/e;)V
+(Lcom/mobipocket/common/library/reader/b/g;Lcom/mobipocket/common/library/reader/book/a;Lcom/mobipocket/common/library/reader/b/f;)V
+Y
+P
+(Lcom/mobipocket/common/b/b;II)V
+N
+o
+(Lcom/mobipocket/common/library/reader/b/d;I)I
+(Lcom/mobipocket/common/library/reader/b/d;Lcom/mobipocket/common/library/reader/b/a;)Lcom/mobipocket/common/library/reader/b/a;
+O
+p
+EA
+cA
+CA
+DA
+y
+dA
+([BLcom/amazon/a/c/c;Ljava/lang/String;)Z
+(Ljava/lang/String;)Lcom/mobipocket/common/b/b;
+com/mobipocket/common/library/reader/indexes/k
+com/mobipocket/common/parser/b
+com/mobipocket/common/d/b
+com/mobipocket/common/b/b
+com/mobipocket/common/b/c
+com/mobipocket/common/library/reader/b/f
+com/mobipocket/common/library/reader/indexes/h
+com/mobipocket/common/library/reader/b/e
+com/mobipocket/common/library/reader/book/a
+com/mobipocket/common/library/reader/b/b
+com/mobipocket/common/library/reader/b/a
+com/mobipocket/common/library/reader/b/c
+com/mobipocket/common/c/f
+com/mobipocket/common/library/reader/b/d
+com/mobipocket/common/library/reader/book/c

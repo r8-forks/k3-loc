@@ -1,0 +1,119 @@
+Ljava/lang/String;
+I
+ConstantValue
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Exceptions
+e
+Ljava/io/EOFException;
+Lcom/mobipocket/common/library/reader/indexes/IndexException;
+Z
+(Ljava/lang/String;I)I
+[I
+Ljava/util/Vector;
+[B
+[[B
+SourceFile
+
+|
+java/lang/IllegalArgumentException
+The index should not be NULL
+The eBookIdentifier should not be NULL
+java/io/EOFException
+EOFException when trying to get the TOCItem from a position
+java/io/IOException
+com/mobipocket/common/library/reader/indexes/IndexException
+IndexException when trying to get the TOCItem from a position
+EOFException when trying to get the First Toc TOCItem entry
+IndexException when trying to get the First Toc TOCItem entry
+EOFException when trying to get parent TOCItem from the child TOCItem
+IndexException when trying to get parent TOCItem from the child TOCItem
+EOFException when trying to get the first child TOCItem from a parent TOCItem
+IndexException when trying to get the first child TOCItem from a parent TOCItem
+EOFException when trying to get the last child TOCItem from a parent TOCItem
+IndexException when trying to get the last child TOCItem from a parent TOCItem
+EOFException when trying to get the previous sibling
+IndexException when trying to get the previous sibling
+EOFException when trying to get the next sibling
+IndexException when trying to get the next sibling
+java/util/Vector
+author
+description
+mastheadImage
+java/lang/Object
+(Ljava/lang/String;)V
+java/lang/String
+equals
+(Ljava/lang/Object;)Z
+(ILjava/lang/String;)V
+getClass
+()Ljava/lang/Class;
+()Z
+(I)V
+(Ljava/lang/String;Ljava/util/Vector;Z)Z
+size
+()I
+elementAt
+(I)Ljava/lang/Object;
+([Ljava/lang/String;)V
+(I)[B
+addElement
+(Ljava/lang/Object;)V
+([[B)V
+printStackTrace
+a
+A
+b
+B
+Lcom/mobipocket/common/library/reader/indexes/h;
+c
+Lcom/mobipocket/common/library/reader/indexes/k;
+C
+d
+D
+(Lcom/mobipocket/common/library/reader/a;I)Lcom/mobipocket/common/library/reader/a;
+Lcom/mobipocket/common/library/reader/indexes/l;
+Lcom/mobipocket/common/library/reader/a;
+Lcom/mobipocket/common/library/reader/indexes/e;
+(Lcom/mobipocket/common/library/reader/indexes/a;)V
+Lcom/mobipocket/common/library/reader/indexes/a;
+Lcom/mobipocket/common/library/reader/indexes/d;
+(Lcom/mobipocket/common/library/reader/a;)Z
+(Lcom/mobipocket/common/library/reader/indexes/e;)Lcom/mobipocket/common/library/reader/a;
+Lcom/mobipocket/common/library/reader/indexes/g;
+(Lcom/mobipocket/common/library/reader/a;)Lcom/mobipocket/common/library/reader/a;
+E
+f
+F
+()Lcom/mobipocket/common/library/reader/a;
+(Lcom/mobipocket/common/library/reader/b/g;I)Lcom/mobipocket/common/library/reader/a;
+Lcom/mobipocket/common/library/reader/b/g;
+(Lcom/mobipocket/common/library/reader/indexes/k;II)V
+(Lcom/mobipocket/common/library/reader/indexes/k;Ljava/lang/String;)V
+com/mobipocket/common/library/reader/indexes/l
+aw
+com/mobipocket/common/library/reader/b
+(Lcom/mobipocket/common/library/reader/indexes/e;B)Z
+(Lcom/mobipocket/common/library/reader/indexes/e;I)[Ljava/lang/String;
+(Lcom/mobipocket/common/library/reader/indexes/e;I)[I
+(Lcom/mobipocket/common/library/reader/indexes/e;)V
+(Lcom/mobipocket/common/library/reader/indexes/e;I)Ljava/lang/String;
+(Lcom/mobipocket/common/library/reader/indexes/e;)Z
+(Lcom/mobipocket/common/library/reader/indexes/e;I)I
+(Lcom/mobipocket/common/library/reader/indexes/e;)Ljava/lang/String;
+()Lcom/mobipocket/common/library/reader/indexes/e;
+()Lcom/mobipocket/common/library/reader/indexes/g;
+(Ljava/lang/String;Lcom/mobipocket/common/library/reader/indexes/e;ZZ)Z
+(ILcom/mobipocket/common/library/reader/indexes/k;)Lcom/mobipocket/common/library/reader/indexes/e;
+(Lcom/mobipocket/common/library/reader/indexes/k;)V
+com/mobipocket/common/library/reader/indexes/g
+com/mobipocket/common/library/reader/indexes/k
+com/mobipocket/common/d/b
+com/mobipocket/common/library/reader/b/g
+com/mobipocket/common/library/reader/indexes/d
+com/mobipocket/common/library/reader/indexes/a
+com/mobipocket/common/library/reader/indexes/e
+com/mobipocket/common/library/reader/indexes/h

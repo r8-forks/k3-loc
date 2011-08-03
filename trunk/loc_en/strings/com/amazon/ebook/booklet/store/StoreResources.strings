@@ -1,0 +1,23 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/store/StoreResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+searchbar.hint
+Begin typing to search
+ad.details.error.msg
+Details for this ad are no longer available. Turn wireless on to receive the latest content.
+ad.details.error.msg.connected
+Details for this ad are no longer available.
+com/amazon/ebook/booklet/store/StoreResources
+java/util/ListResourceBundle
+a
+fnc

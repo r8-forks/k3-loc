@@ -1,0 +1,31 @@
+[Ljava/lang/Object;
+I
+<init>
+(I)V
+Code
+LineNumberTable
+LocalVariableTable
+(Ljava/lang/Object;Ljava/lang/Object;)V
+Ljava/lang/Object;
+(Ljava/lang/Object;)Ljava/lang/Object;
+(Ljava/lang/Object;)I
+()I
+SourceFile
+java/lang/Object
+An cache Identifier or Element must not be null --> not added
+how can we find it if pCacheSize <= 0 ???
+()V
+java/lang/System
+arraycopy
+(Ljava/lang/Object;ILjava/lang/Object;II)V
+(ILjava/lang/String;)V
+(IZLjava/lang/String;)V
+equals
+(Ljava/lang/Object;)Z
+a
+A
+b
+Lcom/mobipocket/common/library/historizer/e;
+com/mobipocket/common/library/historizer/e
+qx
+com/mobipocket/common/d/b

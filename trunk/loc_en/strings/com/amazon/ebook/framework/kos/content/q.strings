@@ -1,0 +1,61 @@
+Ljava/text/DateFormat;
+Ljava/lang/String;
+Ljava/util/Date;
+<init>
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/text/ParseException;
+()Ljava/lang/String;
+()Ljava/util/Date;
+toString
+Ljava/lang/StringBuffer;
+<clinit>
+()V
+SourceFile
+java/text/ParseException
+Server sent timestamp in unknown format
+java/util/Date
+java/lang/StringBuffer
+DeviceInfo [name=
+, serial=
+, type=
+, update=
+DeviceInfo
+java/text/SimpleDateFormat
+yyyy-MM-d'T'HH:mm:ss
+java/util/Locale
+
+java/lang/Object
+java/text/DateFormat
+parse
+(Ljava/lang/String;)Ljava/util/Date;
+java/lang/String
+length
+()I
+(J)V
+(Ljava/lang/String;)V
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+(C)Ljava/lang/StringBuffer;
+(Ljava/lang/String;Ljava/lang/String;)V
+(Ljava/lang/String;Ljava/util/Locale;)V
+a
+A
+b
+B
+c
+C
+Lcom/amazon/ebook/util/log/e;
+Lcom/amazon/ebook/framework/kos/content/q;
+com/amazon/ebook/framework/kos/content/q
+bxb
+d
+(Ljava/lang/String;)Lcom/amazon/ebook/util/log/e;
+D
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;)V
+Q
+Lcom/amazon/ebook/util/log/i;
+com/amazon/ebook/util/log/e

@@ -1,0 +1,16 @@
+Ljava/lang/String;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+(Ljava/lang/String;)V
+()Ljava/lang/String;
+SourceFile
+EBOK,EBSP,NWPR,MAGZ,AZW2,FEED,MESG,PSNL,PDOC,AUDI,AUSP
+java/lang/Object
+a
+Lcom/amazon/ebook/framework/device/comm/ws/g;
+com/amazon/ebook/framework/device/comm/ws/g
+obc
+com/amazon/ebook/framework/device/comm/ws/b

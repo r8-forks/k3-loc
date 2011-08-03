@@ -1,0 +1,17 @@
+Ljava/lang/String;
+ConstantValue
+I
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+SourceFile
+java/lang/Object
+META-INF/Kindlet.data
+a
+A
+b
+Lcom/amazon/kindle/kindlet/internal/security/g;
+com/amazon/kindle/kindlet/internal/security/g
+zgb

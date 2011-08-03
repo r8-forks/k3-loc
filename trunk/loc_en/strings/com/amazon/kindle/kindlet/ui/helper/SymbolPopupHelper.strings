@@ -1,0 +1,9 @@
+getSymbolPopup
+()Lcom/amazon/ebook/framework/gui/foundation/SymbolPopup;
+positionSymbolPopup
+(Lcom/amazon/kindle/kindlet/ui/KTextComponent;Lcom/amazon/ebook/framework/gui/foundation/SymbolPopup;Z)V
+SourceFile
+com/amazon/kindle/kindlet/ui/helper/SymbolPopupHelper
+java/lang/Object
+a
+LocalVariableTable

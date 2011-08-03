@@ -1,0 +1,15 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+JournalInputStream
+InnerClasses
+SourceFile
+java/io/InputStream
+a
+A
+Lcom/amazon/ebook/framework/service/c/h;
+com/amazon/ebook/framework/service/c/h
+gk
+com/amazon/ebook/framework/service/c/a

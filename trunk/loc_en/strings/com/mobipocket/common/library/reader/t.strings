@@ -1,0 +1,71 @@
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+[B
+Lcom/mobipocket/common/library/reader/indexes/IndexException;
+Exceptions
+()Z
+Z
+()V
+SourceFile
+IndexManager: pdbFactory is null
+BookItem is null !
+com/mobipocket/common/library/reader/InvalidBookException
+can't read the book. The PDBFactory.getReadPDB failed
+java/lang/StringBuffer
+The header of the book :
+ does not define TOC
+com/mobipocket/common/library/reader/indexes/IndexException
+The TOC of the eBook is not valid
+(IZLjava/lang/String;)V
+(ILjava/lang/String;)V
+UNKNOWN_ERROR
+Ljava/lang/String;
+(Ljava/lang/String;)V
+()Ljava/lang/String;
+java/lang/String
+equals
+(Ljava/lang/Object;)Z
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+toString
+()I
+(I)[B
+()[B
+([B[BZ)V
+I
+CORRUPTED
+a
+Lcom/mobipocket/common/library/reader/bd;
+A
+Lcom/mobipocket/common/b/b;
+b
+Lcom/mobipocket/common/b/c;
+()Lcom/mobipocket/common/library/reader/bd;
+Lcom/mobipocket/common/library/reader/t;
+B
+c
+(Lcom/mobipocket/common/library/reader/bd;)Z
+Lcom/mobipocket/common/library/reader/indexes/k;
+Lcom/mobipocket/common/library/reader/book/b;
+(Lcom/mobipocket/common/b/c;)V
+com/mobipocket/common/library/reader/t
+bw
+com/mobipocket/common/library/reader/b
+(Lcom/mobipocket/common/library/reader/indexes/k;II)V
+t
+P
+x
+(Lcom/mobipocket/common/library/reader/indexes/k;Ljava/lang/String;)V
+(Lcom/mobipocket/common/b/b;I)V
+(Ljava/lang/String;)Lcom/mobipocket/common/b/b;
+l
+com/mobipocket/common/b/b
+com/mobipocket/common/b/c
+com/mobipocket/common/library/reader/bd
+com/mobipocket/common/d/b
+com/mobipocket/common/library/reader/indexes/l
+com/mobipocket/common/library/reader/book/b
+com/mobipocket/common/library/reader/indexes/k

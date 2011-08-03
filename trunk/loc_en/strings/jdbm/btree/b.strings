@@ -1,0 +1,17 @@
+Z
+Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+RemoveResult
+InnerClasses
+SourceFile
+java/lang/Object
+jdbm/btree/BPage
+a
+A
+Ljdbm/btree/b;
+jdbm/btree/b
+gr

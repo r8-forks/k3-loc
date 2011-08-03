@@ -1,0 +1,76 @@
+I
+ConstantValue
+Z
+Ljava/lang/Object;
+Ljava/lang/String;
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/service/media/event/AudioExtensionException;
+Exceptions
+()V
+()Z
+()Ljava/io/File;
+Ljava/io/File;
+()I
+SourceFile
+java/lang/Object
+java/lang/IllegalArgumentException
+Device booklet context cannot be null
+Device audio service from the booklet context cannot be null
+com/amazon/ebook/framework/service/media/event/AudioExtensionException
+com/amazon/kindle/kindlet/internal/portability/media/AudioServiceException
+Cannot create Audio service
+Audio manager failed to initialize
+audio source cannot be null
+java/io/File
+audio-temp
+Failed to release the audio system resources
+(Ljava/lang/String;)V
+(Ljava/lang/String;Ljava/lang/Throwable;)V
+()Ljava/net/URL;
+()Ljava/lang/String;
+(Ljava/net/URL;Ljava/lang/String;)V
+()Ljava/io/InputStream;
+(Ljava/io/InputStream;Ljava/net/URL;Ljava/lang/String;)V
+(I)V
+(Ljava/io/File;Ljava/lang/String;)V
+exists
+mkdirs
+isDirectory
+delete
+a
+A
+b
+B
+Lcom/amazon/kindle/kindlet/internal/portability/media/c;
+c
+Lcom/amazon/kindle/kindlet/internal/portability/media/b;
+C
+Lcom/amazon/ebook/framework/service/media/d;
+d
+Lcom/amazon/ebook/framework/b/a;
+Lcom/amazon/kindle/kindlet/internal/portability/media/f;
+(Lcom/amazon/kindle/kindlet/internal/portability/media/l;)Lcom/amazon/kindle/kindlet/internal/portability/media/d;
+Lcom/amazon/kindle/kindlet/internal/portability/media/l;
+Lcom/amazon/ebook/framework/service/media/i;
+Lcom/amazon/ebook/framework/service/media/e;
+(Lcom/amazon/ebook/framework/b/a;)V
+com/amazon/kindle/kindlet/internal/portability/media/f
+iib
+com/amazon/kindle/kindlet/internal/portability/media/a
+h
+(Lcom/amazon/ebook/framework/service/media/e;Lcom/amazon/kindle/kindlet/internal/portability/media/l;Lcom/amazon/kindle/kindlet/internal/portability/media/b;Lcom/amazon/kindle/kindlet/internal/portability/media/c;Lcom/amazon/ebook/framework/b/a;)V
+(Lcom/amazon/ebook/framework/service/media/i;)Lcom/amazon/ebook/framework/service/media/e;
+()Lcom/amazon/ebook/framework/service/media/d;
+G
+()Lcom/amazon/ebook/framework/service/media/c;
+com/amazon/kindle/kindlet/internal/portability/media/l
+com/amazon/ebook/framework/service/media/d
+com/amazon/ebook/framework/service/media/c
+com/amazon/ebook/framework/b/a
+com/amazon/kindle/kindlet/internal/portability/media/i
+com/amazon/ebook/framework/service/media/i
+com/amazon/kindle/kindlet/internal/portability/media/h
+com/amazon/kindle/kindlet/internal/portability/media/g

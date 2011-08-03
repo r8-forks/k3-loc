@@ -1,0 +1,84 @@
+ScanThread
+InnerClasses
+Ljava/util/LinkedList;
+Z
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+run
+e
+Ljava/lang/Exception;
+Ljava/lang/InterruptedException;
+()Z
+<clinit>
+SourceFile
+PrefixFreeVolume.ScanThread
+Volume.ScanQueue.run: start
+java/lang/Exception
+volume.scan exception
+Volume.removeFromScanQueue: wait
+java/lang/InterruptedException
+Volume.removeFromScanQueue: interupt
+java/lang/StringBuffer
+Volume.removeFromScanQueue: size: 
+Volume.moveToEndOfScanQueue: 
+ size: 
+Volume.moveToEndOfScanQueue: isEmpty
+Volume.moveToEndOfScanQueue: contains volume.
+Volume.moveToEndOfScanQueue: add Last.
+Volume.addToScanQueue: addLast: 
+Volume.addToScanQueue: already on queue: 
+java/util/LinkedList
+java/lang/Thread
+(Ljava/lang/String;)V
+setDaemon
+(Z)V
+isEmpty
+com/amazon/ebook/framework/impl/Framework
+java/lang/Object
+wait
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+size
+()I
+(I)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+removeFirst
+()Ljava/lang/Object;
+I
+Ljava/lang/String;
+contains
+(Ljava/lang/Object;)Z
+addLast
+(Ljava/lang/Object;)V
+isAlive
+start
+notifyAll
+a
+A
+b
+Lcom/amazon/ebook/framework/impl/catalog/l;
+(Lcom/amazon/ebook/framework/impl/catalog/a;)V
+Lcom/amazon/ebook/framework/impl/catalog/a;
+(Lcom/amazon/ebook/framework/impl/catalog/a;)Z
+()Lcom/amazon/ebook/framework/impl/catalog/a;
+com/amazon/ebook/framework/impl/catalog/l
+ucc
+c
+D
+d
+C
+()Lcom/amazon/ebook/framework/kos/content/catalog/n;
+B
+()Lcom/amazon/ebook/framework/impl/booklet/a;
+(Lcom/amazon/ebook/util/log/i;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+Lcom/amazon/ebook/util/log/i;
+G
+Lcom/amazon/ebook/util/log/e;
+com/amazon/ebook/framework/kos/content/catalog/n
+com/amazon/ebook/framework/impl/booklet/a
+com/amazon/ebook/util/log/e
+com/amazon/ebook/framework/impl/catalog/a

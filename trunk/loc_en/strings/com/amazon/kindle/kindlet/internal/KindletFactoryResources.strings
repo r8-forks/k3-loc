@@ -1,0 +1,30 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/kindle/kindlet/internal/KindletFactoryResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+kindlet.load.main.class.not.found
+Main class not found.
+kindlet.load.main.class.not.public
+Main class or nullary constructor not public.
+kindlet.load.main.class.not.concrete
+Main class is not concrete.
+kindlet.load.main.class.static.failure
+Main class failed to load due to static initialization errors.
+kindlet.load.main.class.security
+Main class failed to load due to security exception.
+kindlet.load.main.class.class.cast
+Main class does not inherit from com.amazon.kindle.kindlet.Kindlet.
+kindlet.load.main.class.runtime.exception
+Main class instantiation threw a RuntimeException.
+com/amazon/kindle/kindlet/internal/KindletFactoryResources
+java/util/ListResourceBundle
+a
+wmb

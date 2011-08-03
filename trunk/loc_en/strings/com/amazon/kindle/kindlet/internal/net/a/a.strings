@@ -1,0 +1,80 @@
+I
+ConstantValue
+Ljava/util/Map;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Exceptions
+Ljava/text/MessageFormat;
+Ljava/lang/Integer;
+Ljava/lang/String;
+[Ljava/lang/Object;
+<clinit>
+Ljava/util/HashMap;
+SourceFile
+com/amazon/kindle/kindlet/net/ConnectivityStateException
+The application is not in a valid state to make a connection.
+java/lang/Integer
+java/lang/String
+java/text/MessageFormat
+A "{0}" error occurred while communicating with the Amazon Network Proxy.
+
+A "{0}: {1}" error occurred while communicating with the Amazon Network Proxy.
+java/lang/Object
+java/io/IOException
+NetworkExceptionFactory
+java/util/HashMap
+Bad Request
+Unauthorized
+Payment Required
+Forbidden
+Not Found
+Method Not Allowed
+Not Acceptable
+Proxy Authentication Required
+Request Timeout
+Conflict
+Gone
+Length Required
+Precondition Failed
+Request Entity Too Large
+Request-URI Too Long
+Unsupported Media Type
+Requested Range Not Satisfiable
+Expectation Failed
+Internal Server Error
+Not Implemented
+Bad Gateway
+Service Unavailable
+Gateway Timeout
+HTTP Version Not Supported
+()Z
+(Ljava/lang/String;)V
+()I
+(I)V
+java/util/Map
+get
+(Ljava/lang/Object;)Ljava/lang/Object;
+format
+(Ljava/lang/Object;)Ljava/lang/String;
+put
+(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+edu/emory/mathcs/backport/java/util/Collections
+unmodifiableMap
+(Ljava/util/Map;)Ljava/util/Map;
+a
+A
+b
+B
+Lcom/amazon/kindle/kindlet/internal/d/d;
+(Lcom/amazon/kindle/kindlet/internal/net/h;)V
+Lcom/amazon/kindle/kindlet/internal/net/a/a;
+Lcom/amazon/kindle/kindlet/internal/net/h;
+com/amazon/kindle/kindlet/internal/net/a/a
+kjb
+(Ljava/lang/String;)Lcom/amazon/kindle/kindlet/internal/d/d;
+c
+com/amazon/kindle/kindlet/internal/d/b
+com/amazon/kindle/kindlet/internal/net/h

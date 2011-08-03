@@ -1,0 +1,42 @@
+Ljava/lang/String;
+Synthetic
+RemoveFiles
+InnerClasses
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+
+run
+()Ljava/lang/Object;
+Ljava/io/File;
+SourceFile
+java/io/File
+java/lang/StringBuffer
+Cannot delete temporary audio file: 
+went to delete 
+ but it does not exist
+java/lang/Object
+java/security/PrivilegedAction
+()V
+(Ljava/lang/String;)V
+exists
+()Z
+delete
+append
+(Ljava/lang/String;)Ljava/lang/StringBuffer;
+toString
+()Ljava/lang/String;
+a
+Lcom/amazon/kindle/kindlet/internal/media/n;
+A
+Lcom/amazon/kindle/kindlet/internal/media/m;
+(Lcom/amazon/kindle/kindlet/internal/media/n;Ljava/lang/String;)V
+com/amazon/kindle/kindlet/internal/media/m
+ukb
+c
+(Lcom/amazon/kindle/kindlet/internal/media/r;)Lcom/amazon/kindle/kindlet/internal/d/d;
+(Lcom/amazon/kindle/kindlet/internal/media/n;)Lcom/amazon/kindle/kindlet/internal/media/r;
+com/amazon/kindle/kindlet/internal/d/d
+com/amazon/kindle/kindlet/internal/media/r
+com/amazon/kindle/kindlet/internal/media/n

@@ -1,0 +1,53 @@
+I
+ConstantValue
+[I
+[[I
+[[B
+<init>
+Code
+LineNumberTable
+LocalVariableTable
+Ljava/lang/Exception;
+(I)I
+(II)I
+[B
+([II)I
+SourceFile
+java/lang/Exception
+File corrupted OR book not supported
+read error
+recordNumber too big??
+MUST not be
+HuffdicTable not rightly initialized
+error (treated)
+error int getOffset()
+this is bad
+java/lang/Object
+()V
+(I)[B
+([BZ)V
+()I
+(Ljava/lang/String;)V
+(I)V
+()B
+()S
+(ILjava/lang/String;Ljava/lang/Throwable;)V
+(IZLjava/lang/String;)V
+(ILjava/lang/String;)V
+a
+A
+b
+B
+c
+C
+d
+D
+Lcom/mobipocket/common/library/reader/b/b;
+(Lcom/mobipocket/common/b/b;II)V
+Lcom/mobipocket/common/b/b;
+Lcom/mobipocket/common/library/reader/book/a;
+com/mobipocket/common/library/reader/b/b
+lv
+com/mobipocket/common/d/b
+com/mobipocket/common/b/b
+com/mobipocket/common/library/reader/book/a

@@ -1,0 +1,16 @@
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+(I)V
+I
+SourceFile
+Deprecated
+(Z)V
+(ZI)V
+a
+Lcom/amazon/ebook/framework/gui/foundation/qc;
+com/amazon/ebook/framework/gui/foundation/qc
+ric
+com/amazon/ebook/framework/gui/foundation/bb

@@ -1,0 +1,14 @@
+serialVersionUID
+J
+ConstantValue
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/readingexperience/UpdateHandlingException;
+SourceFile
+com/amazon/ebook/booklet/reader/readingexperience/UpdateHandlingException
+java/lang/Exception
+a
+uf

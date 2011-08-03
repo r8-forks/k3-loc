@@ -1,0 +1,16 @@
+()V
+()Z
+(Ljava/awt/Graphics;I)Ljava/util/List;
+(Ljava/awt/Graphics;)V
+(Ljava/awt/Graphics;I)V
+SourceFile
+java/lang/Object
+a
+A
+b
+B
+c
+com/amazon/ebook/booklet/reader/gui/view/periodicals/a
+t
+com/amazon/ebook/framework/gui/widgets/d
+LocalVariableTable

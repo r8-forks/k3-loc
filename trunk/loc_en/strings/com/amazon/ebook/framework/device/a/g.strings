@@ -1,0 +1,16 @@
+Ljava/lang/String;
+ConstantValue
+()Ljava/lang/String;
+SourceFile
+java/lang/Object
+switchChanged
+serviceStateChanged
+powerStateChanged
+dataStateChanged
+a
+A
+b
+B
+com/amazon/ebook/framework/device/a/g
+jl
+LocalVariableTable

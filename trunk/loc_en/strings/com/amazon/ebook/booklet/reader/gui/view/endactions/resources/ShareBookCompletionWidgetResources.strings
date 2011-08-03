@@ -1,0 +1,23 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/endactions/resources/ShareBookCompletionWidgetResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+button.text
+Tweet/share that you finished this book
+font.style
+java/lang/Integer
+steps.away.from.current.font.size
+com/amazon/ebook/booklet/reader/gui/view/endactions/resources/ShareBookCompletionWidgetResources
+java/util/ListResourceBundle
+(I)V
+a
+bk

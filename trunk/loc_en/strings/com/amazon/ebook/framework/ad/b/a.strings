@@ -1,0 +1,16 @@
+I
+ConstantValue
+()V
+()I
+SourceFile
+java/lang/Object
+a
+A
+b
+B
+()Lcom/amazon/ebook/framework/ad/a;
+c
+(Z)Lcom/amazon/ebook/framework/ad/a;
+(Lcom/amazon/ebook/framework/ad/b/b;)V
+com/amazon/ebook/framework/ad/b/a
+LocalVariableTable
