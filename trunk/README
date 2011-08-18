@@ -1,17 +1,19 @@
-This is translation files for Kindle 3 with 3.1 firmware.
+This is how-to translate Kindle 3 GUI with 3.0-3.2.1 firmware.
 
-*** First of all ***
+Currently translation must be done on Windows platform.
+
+*** Prepare ***
 2. Install Python 2.7
 3. Install OpenSSL
 4. To start, you must have these folders:
 	- bin
-	- loc_default
+	- loc_en
 
 *** How to translate ***
-1. Rename loc_default folder to your localization, i.e. loc_ru, loc_pl, loc_bg...
+1. Rename loc_en folder to your localization, i.e. loc_ru, loc_pl, loc_bg..., copy all files from root directory loc_ru (make.bat, loc-bin, loc-init... etc.)
 2. Translate images
-3. Translate files with *.translation extention. You must use Text Editor with UTF-8 support (in example UltraEdit-32). 
-	 Find any russian text and replace it with your translation. Each line contain original English phrase and translation. Use Tab key as delimiter between English and translation. 
+3. Translate files with *.strings extention and save it with *.translation extention. Not all file you must translate, you can find all *.translation files in loc_ru and translate same. See any *.translation files from loc_ru (or other) to see, how to translate. You must use Text Editor with UTF-8 support (in example UltraEdit-32).
+	 Each translated line contain original English phrase and translation. Use Tab key as delimiter between English and translation. 
 	 Use a double ~ symbol to replace the newline character.
 4. Translate *.properties files and store it as *.properties.translation
 	 Simply, replace English text with translation and store it as UTF-8 file.
