@@ -1,0 +1,60 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+secondary.indicator.size
+java/lang/Integer
+reading.indicator.side
+reading.indicator.height
+button.article.label
+Close Articles List	Artikelauswahl schließen
+Close Article List	Artikelauswahl schließen
+text.article.spacer
+section.list.button.label
+View Sections & Articles	Zeige Abschnitte & Artikel
+View Section List	Zeige Abschnittsauswahl
+article.list.button.label
+View Articles List	Zeige Artikelauswahl
+View Article List	Zeige Artikelauswahl
+page.section.info.font
+button.section.label
+Close Sections & Articles	Abschnitte & Artikel schließen
+Close Section List	Abschnittsliste schließen
+close.search.result.label
+Close Search Results	Suchergebnisse schließen
+article.prev.label
+prev article	vorheriger Artikel
+article.next.label
+next article	nächster Artikel
+footer.label.font
+SansSerif-aa
+footer.label.font.size
+footer.label.centre.font
+prev.next.marker.font
+next.article.marker.text
+next article: 	nächster Artikel: 
+next.article.marker.font
+footer.label.cursor.clearance
+color.foreground
+color.background
+next.article.marker.message
+java/text/MessageFormat
+next article: {0}	nächster Artikel: {0}
+rectangle.bounding.protrusion.length
+com/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIResources
+java/util/ListResourceBundle
+(I)V
+(IZ)Ljava/awt/Font;
+a
+gwc
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a

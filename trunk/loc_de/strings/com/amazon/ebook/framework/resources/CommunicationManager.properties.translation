@@ -1,0 +1,5 @@
+comm.message.connecting=3G verbindet
+comm.message.items.deleted=Objekte entfernt
+comm.message.items.downloaded=Objekte heruntergeladen
+comm.message.no.new.items=Keine neuen Objekte
+comm.message.radio.turned.off=Funk ausgeschaltet

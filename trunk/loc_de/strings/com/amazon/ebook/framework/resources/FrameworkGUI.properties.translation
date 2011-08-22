@@ -1,0 +1,14 @@
+gui.overlay.removal_confirmation.title = 
+gui.overlay.removal_confirmation.yes = OK
+gui.overlay.removal_confirmation.no = Nein
+gui.overlay.removal_confirmation.msg = Du bist dabei die Objekte von deinem Kindle zu löschen, möchtest du fortfahren?
+gui.overlay.removal_confirmation_for_group.msg = Du bist dabei alle Objekte dieser Gruppe zu löschen, möchtest du fortfahren?
+gui.overlay.removal_book_confirmation.msg = Die bist dabei den Inhalt den du derzeitig liest zu löschen, möchtest du fortfahren?
+gui.overlay.removal_confirmation.x = 93
+gui.overlay.removal_confirmation.y = 500
+gui.overlay.removal_confirmation.width = 550
+gui.overlay.removal_confirmation.height = 96
+gui.overlay.removal_confirmation.msgBox.x = 28
+gui.overlay.removal_confirmation.msgBox.y = 0
+gui.overlay.removal_confirmation.msgBox.width = 480
+gui.overlay.removal_confirmation.msgBox.height = 61
