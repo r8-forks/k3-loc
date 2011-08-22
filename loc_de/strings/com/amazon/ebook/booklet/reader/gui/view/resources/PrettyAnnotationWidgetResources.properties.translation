@@ -1,0 +1,10 @@
+margin.left = 40
+margin.top = 44
+label.bookmark = Lesezeichen
+label.note = Notiz
+label.highlight = Markierung
+label.popular_highlight = beliebte Markierung
+label.unknown = Unbekannt
+format.location = Textstelle {0}
+format.popular.highlight.contributor = {0} Markierer
+format.page = Seite {0}

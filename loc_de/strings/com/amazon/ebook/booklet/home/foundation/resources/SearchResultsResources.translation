@@ -1,0 +1,57 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/SearchResultsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+sr.matchcount.font
+sr.matchcount.left.offset
+java/lang/Integer
+sr.matchcount.left.width
+sr.matchcount.baseline.offset
+sr.matchcount.format
+java/text/MessageFormat
+({0})
+sr.notenoughspace.str
+Your search cannot be completed due to insufficient Kindle memory. Please free up memory by removing content from Home.	Die Suche konnte nicht ausgeführt werden, da zu wenig Speicher zur Verfügung steht. Bitte entferne Inhalte aus "Home".
+sr.notyetindexed.groupingtitle.str
+Items Not Yet Indexed	Objekte noch nicht indiziert
+sr.netyetindexed.text.2
+
+sr.yml.shortcut.prefix
+archiv	archivieren
+sr.backissues.shortcut.prefix
+back	zurück
+sr.header.filter.all.format
+java/text/ChoiceFormat
+0#Search Results: All {0,number,integer} Items|1#Search Results: All {0,number,integer} Item|2#Search Results: All {0,number,integer} Items	0#Suchergebnis: {0,number,integer} Objekte|1#Suchergebnis: {0,number,integer} Objekt|2#Suchergebnis: {0,number,integer} Objekte
+sr.header.filter.books.format
+0#Search Results: {0,number,integer} Books|1#Search Results: {0,number,integer} Book|2#Search Results: {0,number,integer} Books	0#Suchergebnis: {0,number,integer} Bücher|1#Suchergebnis: {0,number,integer} Buch|2#Suchergebnis: {0,number,integer} Bücher
+sr.header.filter.collections.format
+0#Search Results: {0,number,integer} Collections|1#Search Results: {0,number,integer} Collection|2#Search Results: {0,number,integer} Collections	0#Suchergebnis: {0,number,integer} Sammlungen|1#Suchergebnis: {0,number,integer} Sammlung|2#Suchergebnis: {0,number,integer} Sammlungen
+sr.header.filter.subs.format
+0#Search Results: {0,number,integer} Periodicals|1#Search Results: {0,number,integer} Periodical|2#Search Results: {0,number,integer} Periodicals	0#Suchergebnis: {0,number,integer} Abonnements|1#Suchergebnis: {0,number,integer} Abonnement|2#Suchergebnis: {0,number,integer} Abonnements
+sr.header.filter.pdocs.format
+0#Search Results: {0,number,integer} Personal Docs|1#Search Results: {0,number,integer} Personal Doc|2#Search Results: {0,number,integer} Personal Docs	0#Suchergebnis: {0,number,integer} eigene Dateien|1#Suchergebnis: {0,number,integer} eigene Datei|2#Suchergebnis: {0,number,integer} eigene Dateien
+sr.results.sound
+0#{0,number,integer} search results, |1#{0,number,integer} search result, |1<{0,number,integer} search results, 
+sr.view.sound
+search results
+sr.pause.sound
+, 
+com/amazon/ebook/booklet/home/foundation/resources/SearchResultsResources
+java/util/ListResourceBundle
+(I)Ljava/awt/Font;
+(I)V
+(Ljava/lang/String;)V
+a
+aod
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a

@@ -1,0 +1,49 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/YMLResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+yml.header
+Archived Items	Archivierte Objekte
+yml.filter.format
+java/text/ChoiceFormat
+0#Showing {0,number,integer} Archived Items|1#Showing {0,number,integer} Archived Item|2#Showing {0,number,integer} Archived Items	0#Zeige {0,number,integer} archivierte Objekte|1#Zeige {0,number,integer} archiviertes Objekt|2#Zeige {0,number,integer} archivierte Objekte
+yml.sort.title.label
+By Title	Nach Titeln
+yml.sort.author.label
+By Author	Nach Autoren
+yml.sort.title
+Title	Titel
+yml.sort.author
+Author	Autor
+yml.default.download.error.msg
+Your download was not successful. Please try again.	Das Herunterladen war nicht erfolgreich, bitte versuche es erneut.
+yml.download.error.notenoughspace
+"{0}" could not be downloaded due to insufficient Kindle memory. Please free up space by removing content from Home.	"{0}" konnte nicht heruntergeladen werden, da nicht genügend Speicherplatz zur Verfügung steht. Bitte entferne Objekte aus "Home".
+yml.wifi.required.overlay.title
+Wi-Fi Network Required	W-Lan Verbindung benötigt
+yml.wifi.required.overlay.body
+A Wi-Fi network connection is required to complete this task. Please connect to a Wi-Fi network.	Um fortzufahren wird eine W-Lan Verbindung benötigt. Bitte verbinde den Kindle mit einem W-Lan Netzwerk.
+yml.wifi.required.overlay.viewall.button
+view all networks	alle Netzwerke anzeigen
+yml.view.sound
+archived items
+yml.pause.sound
+, 
+yml.additem.sound
+add to home
+yml.item.position.sound.template
+item {0} of {1}
+com/amazon/ebook/booklet/home/foundation/resources/YMLResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+a
+vnd

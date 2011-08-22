@@ -1,0 +1,51 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+annotation.disable
+Annotating is disabled	Anmerkungen sind deaktiviert
+annotation.disable.sample
+Annotating is disabled for sample content	Anmerkungen sind für Auswahlinhalte deaktiviert
+annotation.disable.feed
+Annotating is disabled for blogs	Anmerkungen sind für Blogs deaktiviert
+annotation.disable.low.disk.space
+Annotating is disabled - Memory is full	Anmerkungen sind deaktiviert - der Speicher ist voll
+add.note
+Begin typing to create a note	Beginne zu tippen, um eine Notiz zu erstellen
+usual.cursor.interaction
+Begin typing to create a note or click to start a highlight	Beginne zu Tippen, um eine Notiz zu erstellen oder Klicke, um eine Markierung zu beginnen
+create.highlight
+Move cursor to create a highlight	Bewege den Cursor, um eine Markierung zu erstellen
+end.highlight.sharing.disabled
+Click to end highlight or press Back to cancel	Klicke, um die Markierung zu beenden oder drücke 'Back', um abzubrechen
+end.highlight.sharing.enabled
+Click to end highlight, {0} to tweet/share, or Back to cancel	Klicke, um die Markierung zu beenden, {0}, um zu sharen/tweeten oder 'Back', um abzubrechen
+java/lang/String
+Home_Icon_AltReturn.gif
+highlight.hover.sharing.disabled
+Begin typing to create a note or {0} to delete highlight	Tippe, um eine Notiz zu erstellen oder {0}, um eine Makierung zu löschen
+Home_Icon_Delete.gif
+highlight.hover.sharing.enabled
+Type to create note, {0} to delete highlight, {1} to share	Tippe, um eine Notiz zu erstellen, {0}, um eine Markierung zu löschen, {1} zu sharen
+highlight.hover.annotation.view.sharing.enabled
+{0} delete   {1} share	{0} löschen   {1} sharen
+highlight.hover.annotation.view.sharing.disabled
+{0} delete	{0} löschen
+link.hover
+Begin typing to create a note or click to follow the link	Tippe, um eine Notiz zu erstellen oder Klicke, um dem Link zu folgen
+com/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources
+java/util/ListResourceBundle
+(Ljava/lang/String;I)V
+(Ljava/lang/String;[Ljava/lang/String;I)V
+a
+uzc
+com/amazon/ebook/booklet/reader/gui/infobox/h

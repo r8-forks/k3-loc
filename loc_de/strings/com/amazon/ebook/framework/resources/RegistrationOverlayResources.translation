@@ -1,0 +1,78 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/resources/RegistrationOverlayResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+settings.pause.sound
+, 
+settings.longpause.sound
+.  
+settings.registration.pwd
+Password: 	Passwort: 
+settings.registration.email
+E-mail Address: 	E-mail Adresse: 
+settings.registration.submit
+submit	absenden
+settings.registration.createAccount
+create account	Konto erstellen
+settings.registration.defaultCursor
+Enter E-mail Address	E-Mail Adresse eingeben
+settings.registration.header
+Register Your Kindle	Deinen Kindle registrieren
+settings.registration.leadingBody
+An Amazon account is required to register your Kindle.	Um deinen Kindle zu registrieren, ist ein Amazon Konto notwendig.
+settings.registration.registerTitle
+If you already have an Amazon account:	Wenn du bereits ein Amazon Konto hast:
+settings.registration.registerDescription
+Enter the e-mail address and password associated with your account below. To enter "@" symbol, press the "SYM" key.	Bitte gib deine E-Mail Adresse und dein Passwort ein. Für ein "@" Symbol drücke die "SYM" Taste.
+settings.registration.creationTitle
+If you do not have an Amazon account:	Wenn du kein Amazon Konto hast:
+settings.registration.creationDescription
+Click here to create one and register your Kindle	Hier drücken, um ein Konto zu erstellen und deinen Kindle damit anzumelden
+settings.registration.eulaDescription
+By registering, you agree to the Kindle License Agreement and Terms of Use, found in the Kindle User's Guide.	Mit dem Anmelden stimmst du dem "Kindle License Agreement" und den "Terms of Use", welche du im "Kindle User's Guide" findest zu.
+settings.registration.failed
+The e-mail address and password you entered do not match any accounts on record. Please try again.	Die E-Mail Adresse und das Passwort passen nicht zusammen. Bitte versuche es erneut.
+settings.registration.server.error.text
+There was an error while registering your device. Please try again later.	Es kam beim Anmelden deines Gerätes zu einem Fehler. Bitte versuche es erneut.
+settings.registration.height.portrait
+java/lang/Integer
+settings.registration.height.landscape
+settings.registration.width.landscape
+settings.registration.indent.margin
+settings.registration.left.margin
+settings.registration.right.margin
+settings.registration.creationButton.front.margin
+settings.registration.button.right.margin
+settings.registration.error.y.offset.correction
+settings.registration.button.y.offset.correction
+settings.registration.symbol.y.offset.correction
+settings.registration.y.margin
+settings.registration.textfield.y.offset.correction
+settings.registration.textfield.y.height.correction
+settings.registration.eulabutton.y.offset
+settings.registration.line.spacing
+settings.registration.line.spacing.offset
+settings.registration.line.spacing.between.email.password
+settings.registration.header.font
+settings.registration.title.font
+settings.registration.main.font
+settings.registration.failed.font
+settings.registration.label.font
+settings.registration.field.font
+com/amazon/ebook/framework/resources/RegistrationOverlayResources
+java/util/ListResourceBundle
+(I)V
+(I)Ljava/awt/Font;
+a
+vvb
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a

@@ -1,0 +1,96 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/CollectionResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+collection.filter.all.format
+java/text/ChoiceFormat
+0#Showing All {0,number,integer} Items|1#Showing All {0,number,integer} Item|2#Showing All {0,number,integer} Items	0#Zeigt alle {0,number,integer} Objekte|1#Zeigt alle {0,number,integer} Objekt|2#Zeigt alle {0,number,integer} Objekte
+collection.filter.books.format
+0#Showing All {0,number,integer} Books|1#Showing All {0,number,integer} Book|2#Showing All {0,number,integer} Books	0#Zeigt alle {0,number,integer} Bücher|1#Zeigt alle {0,number,integer} Buch|2#Zeigt alle {0,number,integer} Bücher
+collection.filter.subs.format
+0#Showing All {0,number,integer} Periodicals|1#Showing All {0,number,integer} Periodical|2#Showing All {0,number,integer} Periodicals	0#Zeigt alle {0,number,integer} Abonnements|1#Zeigt alle {0,number,integer} Abonnement|2#Zeigt alle {0,number,integer} Abonnements
+collection.filter.pdocs.format
+0#Showing All {0,number,integer} Personal Documents|1#Showing All {0,number,integer} Personal Document|2#Showing All {0,number,integer} Personal Documents	0#Zeigt alle {0,number,integer} eigene Dateien|1#Zeigt alle {0,number,integer} eigene Dateie|2#Zeigt alle {0,number,integer} eigene Dateien
+collection.filter.all
+All My Items	Alle meine Objekte
+collection.filter.books
+Books	Bücher
+collection.filter.subs
+Subscriptions	Abonnements
+collection.filter.pdocs
+Personal Docs	Eigene Dateien
+collection.sort.recent.label
+By Most Recent First	Letzt gewählte zuerst
+collection.sort.title.label
+By Title	Nach Titeln
+collection.sort.author.label
+By Author	Nach Autoren
+collection.sort.recent
+Most Recent First	Letzt gewählte zuerst
+collection.sort.title
+Title	Titel
+collection.sort.author
+Author	Autor
+collection.menuitem.additems.name
+Add/Remove Items	Objekte dazufügen/löschen
+collection.menuitem.edit.collection.name
+Rename Collection	Sammlung umbenennen
+collection.menuitem.delete.collection
+Delete Collection	Sammlung löschen
+collection.menuitem.create.collection
+Create a New Collection	Neue Sammlung erstellen
+collection.menuitem.default.item
+java/lang/Integer
+collection.widget.font
+collection.enter.overlay.height
+collection.enter.overlay.x.margin
+collection.enter.overlay.textbox.x.margin
+collection.enter.overlay.y.margin
+collection.enter.overlay.textbox.y.buffer
+collection.enter.overlay.title.y.margin
+collection.enter.failed.overlay.height
+collection.enter.overlay.line.spacing
+collection.enter.overlay.max.chars
+collection.enter.overlay.save.button.label
+save	speichern
+collection.enter.overlay.title
+Enter Collection Name	Sammlungsname eingeben
+collection.edit.overlay.title
+Edit Collection Name	Sammlungsname ändern
+collection.edit.alreadyexists.overlay.title
+Collection Name Already Exists	Sammlungsname existiert bereits
+collection.edit.alreadyexists.overlay.msg
+The collection name that you entered already exists. Please enter a different name.	Der eingegebene Sammlungsname existiert bereits. Bitte wähle einen anderen Namen.
+collection.enter.overlay.title.font
+collection.enter.overlay.main.font
+collection.enter.overlay.field.font
+collection.view.sound.template
+{0} collection	{0} Sammlung
+collection.remove.sound
+remove from collection
+collection.text.offset
+collection.text.line.margin
+collection.line.thickness
+collection.line.x.margin
+collection.label.left.margin
+collection.label.right.margin
+collection.label.font
+com/amazon/ebook/booklet/home/foundation/resources/CollectionResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+(IZZ)Ljava/awt/Font;
+(I)Ljava/awt/Font;
+a
+qod
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a
