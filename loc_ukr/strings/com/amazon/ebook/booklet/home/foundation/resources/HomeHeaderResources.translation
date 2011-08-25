@@ -1,0 +1,101 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/HomeHeaderResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+home.header.font
+home.header.h
+java/lang/Integer
+home.header.text.offset
+home.header.cursor.offset
+home.header.cursor.height
+home.header.left.arrow
+Home_LeftSmArrow.gif
+home.header.right.arrow
+Home_RightSmArrow.gif
+home.header.left.arrow.gray
+Home_LeftSmArrowGray.gif
+home.header.right.arrow.gray
+Home_RightSmArrowGray.gif
+home.header.left.margin
+home.header.right.margin
+home.header.arrow.x.offset
+home.header.arrow.y.offset
+home.header.sel.margin
+home.header.enabled.text.color
+home.header.disabled.text.color
+home.header.filter.all.format
+java/text/ChoiceFormat
+0#Showing All {0,number,integer} Items|1#Showing All {0,number,integer} Item|2#Showing All {0,number,integer} Items	0#Показано {0,number,integer}|1#Показано {0,number,integer}|2#Показано {0,number,integer}
+home.header.filter.items.format
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing {0,number,integer} Items	0#Показано елементів: {0,number,integer}|1#Показано елементів: {0,number,integer}|2#Показано елементів: {0,number,integer}
+home.header.filter.books.format
+0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books	0#Показано книг: {0,number,integer}|1#Показано книг: {0,number,integer}|2#Показано книг: {0,number,integer}
+home.header.filter.subs.format
+0#Showing {0,number,integer} Subscriptions|1#Showing {0,number,integer} Subscription|2#Showing {0,number,integer} Subscriptions	0#Показано підписок: {0,number,integer}|1#Показано підписок: {0,number,integer}|2#Показано підписок: {0,number,integer}
+home.header.filter.pdocs.format
+0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs	0#Показано документів: {0,number,integer}|1#Показано документів: {0,number,integer}|2#Показано документів: {0,number,integer}
+home.header.filter.collections.format
+0#Showing {0,number,integer} Collections|1#Showing {0,number,integer} Collection|2#Showing All {0,number,integer} Collections	0#Показано колекцій: {0,number,integer}|1#Показано колекцій: {0,number,integer}|2#Показано колекцій: {0,number,integer}
+home.header.filter.addremove.format
+0#Add/Remove 0 Items|1#Add/Remove 1 Item|2#Add/Remove {0,number,integer} Items	0#Додати/видалити 0 елемент|1#Додати/видалити 1 елемент|2#Додати/видалити {0,number,integer} елементів
+home.header.filter.all
+All My Items	Всі елементи
+home.header.filter.books
+Books	Книги
+home.header.filter.subs
+Subscriptions	Підписки
+home.header.filter.pdocs
+Personal Docs	Документи
+home.header.filter.collections
+Collections	Колекції
+home.header.sort.recent.label
+By Most Recent First	Нещодавні
+home.header.sort.title.label
+By Title	За назвою
+home.header.sort.author.label
+By Author	За автором
+home.header.sort.collections.label
+By Collections	За колекціями
+home.header.sort.collectionsonly.label
+By Collections Only	Тільки за колекціями
+home.header.sort.relevance.label
+By Relevance	За релевантністю
+home.header.sort.recent
+Most Recent First	Нещодавні
+home.header.sort.title
+Title	Назві
+home.header.sort.author
+Author	Автору
+home.header.sort.collections
+By Collections	Колекції
+home.header.sort.collectionsonly
+Collections Only	Тільки за колекціями
+home.header.sort.relevance
+Relevance	Релевантності
+home.header.sound.separator
+, 
+home.header.filter.sound
+filter by 
+home.header.sort.sound
+sort by 
+com/amazon/ebook/booklet/home/foundation/resources/HomeHeaderResources
+java/util/ListResourceBundle
+(I)Ljava/awt/Font;
+(I)V
+Ljava/awt/Color;
+(Ljava/lang/String;)V
+a
+iod
+b
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/gui/d
+com/amazon/ebook/framework/c/a

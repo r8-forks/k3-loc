@@ -1,0 +1,122 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/common/gui/overlay/resources/PageActionsOverlayResources;
+getContents
+()[[Ljava/lang/Object;
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+tts.onoff
+Text-to-Speech	Читати вголос
+tts.onoff.on
+turn on	включити
+tts.onoff.off
+turn off	виключити
+tts.onoff.play
+play	
+tts.onoff.pause
+pause	пауза
+tts.speech.rate
+Speech Rate	Темп
+tts.speech.rate.low
+slower	повільніше
+tts.speech.rate.default
+default	за замовч.
+tts.speech.rate.high
+faster	швидше
+tts.speech.voice
+Speaking Voice	Голос
+tts.speech.voice.female
+female	жінка
+tts.speech.voice.male
+male	чоловік
+font.family
+Typeface	Шрифт
+font.family.option.1
+regular	звичайний
+font.family.option.2
+condensed	стислий
+font.family.option.3
+sans serif	рубаний
+font.family.alt.option.1
+std
+font.family.alt.option.2
+sans
+font.family.alt.option.3
+mono
+font.family.alt.option.4
+alt
+line.spacing
+Line Spacing	Міжрядковий інт.
+line.spacing.option.1
+small	малий
+line.spacing.option.2
+medium	середній
+line.spacing.option.3
+large	великий
+line.spacing.alt.option.1
+112
+line.spacing.alt.option.2
+125-small
+line.spacing.alt.option.3
+136-med
+line.spacing.alt.option.4
+150-lg
+line.spacing.alt.option.5
+162
+contrast.label
+Contrast	Контраст
+contrast.option.1
+lightest	-2
+contrast.option.2
+lighter	-1
+contrast.option.3
+contrast.option.4
+darker	+1
+contrast.option.5
+darkest	+2
+word.per.line
+Words per Line	Слів в рядку
+word.per.line.option.1
+fewest	мало
+word.per.line.option.2
+fewer	менше
+word.per.line.option.3
+auto.crop.onoff
+Auto-Crop	Автоообрізання
+auto.crop.onoff.on
+auto.crop.onoff.off
+auto.crop.onoff.best.effort
+best effort
+justification
+Justification	Вирівнювання
+justification.left
+Left	Зліва
+justification.full
+Full	По ширині
+zoom.level
+Zoom	Збільшення
+zoom.level.option.actual.size
+actual size	фактичний
+zoom.level.option.fit.page
+fit-to-page	на сторінку
+zoom.level.option.fit.width
+fit-to-width	по ширині
+zoom.level.option.fit.screen
+fit-to-screen	по екрану
+zoom.level.option.2
+150%
+zoom.level.option.3
+200%
+zoom.level.option.4
+300%
+accessibility.title
+Page Preferences
+com/amazon/ebook/common/gui/overlay/resources/PageActionsOverlayResources
+java/util/ListResourceBundle
+a
+mlc
