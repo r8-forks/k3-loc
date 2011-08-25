@@ -1,0 +1,36 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+downloading.items.format
+java/text/ChoiceFormat
+0#Downloading {0} items...|1#Downloading {0} item...|2#Downloading {0} items...	0#Завантаження {0} елеметів...|1#Завантаження {0} елементу...|2#Завантаження {0} елементів...
+downloaded.items.format
+0#Downloaded {0} items...|1#Downloaded {0} item...|2#Downloaded {0} items...	0#Завантажено {0} елементів...|1#Завантажено {0} елемент...|2#Завантажено {0} елементів...
+download.task.manager.one.item
+item	елемент
+download.task.manager.multiple.items
+items	елементів
+download.task.manager.downloading.message
+Downloading {0} {1}...	Завантаження {0} {1}...
+download.task.manager.downloaded.message
+Downloaded {0} {1}...	Завантажено {0} {1}...
+add.to.home.action.text
+add to home	Добавити додому
+add.to.home.action.text.offset
+java/lang/Integer
+com/amazon/ebook/booklet/home/foundation/resources/ActionArchiveResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+a
+uod
