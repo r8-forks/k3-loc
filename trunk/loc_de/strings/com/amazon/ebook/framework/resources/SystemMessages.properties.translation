@@ -1,6 +1,6 @@
-wn.cant.connect.msg=Dein Kindle kann keine Verbindung herstellen, bitte versuche es sp\ufffdter erneut. Falls das Problem weiterhin besteht starte deinen Kindle neu.
-wn.cant.connect.restart.msg=Dein Kindle kann keine Verbindung herstellen. Bitte stelle sicher, dass du in Reichweite des Netzes bist und versuche es erneut. Sollte das Problem weiterhin bestehen starte bitte deinen Kindle neu.
-wn.cant.reconnect.msg=Dein Kindle kann keine Verbindung herstellen. Bitte stelle sicher, dass du in Reichweite des Netzes bist und versuche es erneut. Sollte das Problem weiterhin bestehen starte bitte deinen Kindle neu.
+wn.cant.connect.msg=Dein Kindle kann keine Verbindung herstellen, bitte versuche es später erneut. Falls das Problem weiterhin besteht, starte deinen Kindle neu.
+wn.cant.connect.restart.msg=Dein Kindle kann keine Verbindung herstellen. Bitte stelle sicher, dass du in Reichweite des Netzes bist und versuche es erneut. Sollte das Problem weiterhin bestehen, starte bitte deinen Kindle neu.
+wn.cant.reconnect.msg=Dein Kindle kann keine Verbindung herstellen. Bitte stelle sicher, dass du in Reichweite des Netzes bist und versuche es erneut. Sollte das Problem weiterhin bestehen, starte bitte deinen Kindle neu.
 wn.radio.off.button.text=Wireless einschalten
 wn.radio.off.title=Wireless einschalten?
 wn.radio.off.msg=Deine Drahtlose Verbindung ist abgeschaltet. Möchtest du diese jetzt einschalten?

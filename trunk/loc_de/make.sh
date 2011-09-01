@@ -1,6 +1,6 @@
 #!/bin/sh
 HACKNAME=loc_de
-PKGVER=0.3
+PKGVER=0.4
 KindleUpdatePY=../bin/kindle_update_tool_x.py 
 
 # cp ../../K3Translator.jar .

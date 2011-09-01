@@ -19,6 +19,8 @@ settings.footer.version.format
 java/text/MessageFormat
 Version: {0}	Version: {0}
 settings.footer.page.format
+java/text/ChoiceFormat_DX
+1#Page 1 of 1|2#Page {0,number,integer} of {1,number,integer}	1#Seite 1 von 1|2#Seite {0,number,integer} von {1,number,integer}
 java/text/ChoiceFormat
 1#Page {0,number,integer} of {1,number,integer}	1#Seite {0,number,integer} von {1,number,integer}
 settings.footer.bar.date.format
@@ -43,11 +45,11 @@ settings.widget.desc.font
 settings.widget.footer.font
 settings.widget.link.font
 settings.desc.body.registered
-The following pages contain settings to personalize your Kindle experience. Press the Next and Previous page buttons to see all the settings.	Die folgenden Seiten enthalten die Einstellungen deines Kindles~~(Übersetzung von Zuphael/DrNWM 2011)
+The following pages contain settings to personalize your Kindle experience. Press the Next and Previous page buttons to see all the settings.	Die folgenden Seiten enthalten die Einstellungen deines Kindles~~(Übersetzung von Zuphael/DrNWM/diba 2011)
 settings.desc.bodyDX.registered
-The following pages contain settings to personalize your Kindle experience. Press the Next and Prev page buttons to see all the settings.	Die folgenden Seiten enthalten die Einstellungen deines Kindles~~(Übersetzung von Zuphael/DrNWM 2011)
+The following pages contain settings to personalize your Kindle experience. Press the Next and Prev page buttons to see all the settings.	Die folgenden Seiten enthalten die Einstellungen deines Kindles~~(Übersetzung von Zuphael/DrNWM/diba 2011)
 settings.desc.body.not.registered
-This page contains settings to personalize your Kindle experience.	Diese Seite enthält Einstellungen, um dein Kindle-Erlebnis anzupassen.
+This page contains settings to personalize your Kindle experience.	Auf diese Seite kannst Du deine Kindle-Einstellungen anpassen.
 settings.wifi.header
 Wi-Fi Settings 	W-LAN Einstellungen
 settings.wifi.subheader.not.connected
@@ -90,6 +92,8 @@ settings.device.info.footer.lines.template.with.wifi
 Wi-Fi MAC Address: {0}~~Serial Number: {1}~~Network Capability: {2}	W-Lan MAC Adresse: {0}~~Seriennummer: {1}~~Netzwerk-Typ: {2}
 settings.device.info.footer.lines.template.without.wifi
 Serial Number: {0}~~Network Capability: {1}	Seriennummer: {0}~~Netzwerk-Typ: {1}
+settings.device.infoDX.footer.lines.template.without.wifi
+Software Version: {0}~~Serial Number: {1}	Software Version: {0}~~Seriennummer: {1}
 settings.device.info.sn.default
 Unavailable	nicht verfügbar
 settings.device.info.wifi.mac.address.default
@@ -118,7 +122,7 @@ Butn_Submit2.gif
 settings.device.time.header
 Device Time	Gerätezeit
 settings.device.time.body
-Set the local time on your Kindle.	Ändere die Zeit auf deinem Kindle
+Set the local time on your Kindle.	Ändere die Systemzeit deines Kindles.
 settings.device.time.cursor.edit
 settings.device.time.cursor.set
 set	ändern
@@ -269,7 +273,7 @@ settings.pwd.overlay.height
 settings.pwd.incorrect.height
 settings.pwd.font
 settings.pwd.2.set.body
-Create a password to protect your Kindle.  If you forget your password, you can reset your Kindle, which will also remove all content to prevent other people from accessing it.	Erstelle ein Passwort um deinen Kindle zu schützen. Wenn du dein Passwort vergisst, kannst du dein Kindle zurücksetzen, was alle gespeicheten Informationen löscht. Dies soll andere Leute daran hindern auf deine Inhalte zuzugreifen.
+Create a password to protect your Kindle.  If you forget your password, you can reset your Kindle, which will also remove all content to prevent other people from accessing it.	Erstelle ein Passwort, um deinen Kindle zu schützen. Wenn du dein Passwort vergisst, kannst du dein Kindle zurücksetzen, was alle gespeicheten Informationen löscht. Dies soll andere Leute daran hindern auf deine Inhalte zuzugreifen.
 settings.pwd.2.y.body
 settings.pwd.2.set.title
 settings.pwd.2.edit.title
@@ -429,7 +433,7 @@ set_time_and_date.content_panel.separator.day_and_year
 set_time_and_date.content_panel.auto_sync.label.offset.y
 set_time_and_date.content_panel.auto_sync.spacing
 time.date.change.warning.overlay.message
-You are about to change the date on your Kindle by more than a day. An incorrect date may prevent your Kindle from working properly. Are you sure you want to proceed?	Du bist dabei das Datum auf deinem Kindle um mehr als einen Tag zu ändern. Ein falsches Datum verhindert unter Umständen, das dein Kindle richtig funktioniert. Möchtest du trotzdem fortfahren?
+You are about to change the date on your Kindle by more than a day. An incorrect date may prevent your Kindle from working properly. Are you sure you want to proceed?	Du bist dabei, das Datum auf deinem Kindle um mehr als einen Tag zu ändern. Ein falsches Datum verhindert unter Umständen, dass dein Kindle richtig funktioniert. Möchtest du trotzdem fortfahren?
 settings.view.sound
 settings
 settings.pause.sound

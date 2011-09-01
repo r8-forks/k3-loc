@@ -19,11 +19,11 @@ share.highlight.processing
 no.external.accounts.title
 Social Networks Not Registered	Soziales Netzwerk nicht angemeldet
 no.external.accounts.message
-Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	Dein Kindle ist bei keinem sozialen Netzwerk registriert. "Wähle 'Verbinden' um die Seite "Verwalte deine Sozialen Netzwerke" zu öffnen, so dass du deine Konto Informationen eingeben kannst. Wenn deine Registrierung abgeschlossen ist, wähle 'Lesen fortsetzen" um fortzufahren.
+Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	Dein Kindle ist bei keinem sozialen Netzwerk registriert. "Wähle 'Verbinden', um die Seite "Verwalte deine Sozialen Netzwerke" zu öffnen, so dass du deine Konto Informationen eingeben kannst. Wenn deine Registrierung abgeschlossen ist, wähle 'Lesen fortsetzen", um fortzufahren.
 authentication.error.title
 Invalid Social Networks	Ungültige Soziale Netzwerke
 authentication.error.message
-One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	Ein oder mehrere soziale Netzwerke, die mit deinen Kindle verbunden sind, wurden nicht richtig konfiguriert. "Wähle 'Konten verwalten' um die "Verwalte deine Sozialen Netzwerke" Webseite zu öffnen und den Fehler zu beheben. Wenn du fertig bist wähle 'Lesen fortsetzen' um fortzufahren.
+One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	Ein oder mehrere soziale Netzwerke, die mit deinen Kindle verbunden sind, wurden nicht richtig konfiguriert. "Wähle 'Konten verwalten', um die "Verwalte deine Sozialen Netzwerke" Webseite zu öffnen und den Fehler zu beheben. Wenn du fertig bist, wähle 'Lesen fortsetzen', um fortzufahren.
 server.unavailable.title
 Sharing unavailable. Try later	Sharing nicht möglich. Bitte später versuchen
 server.unavailable.message
@@ -85,7 +85,7 @@ Enter Your Message	Nachricht eingeben
 social.message.subtitle
 A link to your highlight will be appended to your message.	Ein Link zu deiner Markierung wird deiner Nachricht beigefügt.
 social.message.counter.format
-{0,choice,-2#{1} characters over |-1#{1} character over | 0#{1} characters left | 1#{1} character left | 2#{1} characters left}	{0,choice,-2#{1} Zeichen zuviel|-1#1} Zeichen zuviel| 0#noch {1} Zeichen| 1#noch {1} Zeichen| 2#noch {1} Zeichen}
+{0,choice,-2#{1} characters over |-1#{1} character over | 0#{1} characters left | 1#{1} character left | 2#{1} characters left}	{0,choice,-2#{1} Zeichen zuviel |-1#{1} Zeichen zuviel | 0#noch {1} Zeichen | 1#noch {1} Zeichen | 2#noch {1} Zeichen}
 title.subtitle.content.panel.default.font
 title.subtitle.content.panel.title.subtitle.spacing
 title.subtitle.content.panel.title.text.spacing

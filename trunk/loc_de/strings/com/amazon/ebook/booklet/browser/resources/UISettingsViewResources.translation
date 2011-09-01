@@ -24,7 +24,7 @@ Disable Javascript	Javascript deaktivieren
 enable.images.label
 Enable Images	Bilder anzeigen
 disable.images.label
-Disable Images	Bilder ausbelden
+Disable Images	Bilder ausblenden
 com/amazon/ebook/booklet/browser/resources/UISettingsViewResources
 java/util/ListResourceBundle
 a

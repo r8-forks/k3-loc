@@ -17,7 +17,7 @@ adList.subheader.top.margin
 java/lang/Integer
 adList.subheader.height
 adList.wireless.notice.text
-(choosing an item turns wireless on)	(Auswahl eines Objektes schaltet Netzwerk an)
+(choosing an item turns wireless on)	(Auswahl eines Objektes schaltet Netzwerk ein)
 adList.wireless.notice.font
 adList.filter.format
 java/text/ChoiceFormat
@@ -25,7 +25,7 @@ java/text/ChoiceFormat
 adList.pause.sound
 , 
 adList.view.sound
-Special offers and sponsors, choosing an item turns wireless on	Sonderangebote und Sponsoren, Auswahl schaltet Netzwerk an
+Special offers and sponsors, choosing an item turns wireless on	Sonderangebote und Sponsoren, Auswahl schaltet Netzwerk ein
 adList.additem.sound
 Show Detail Page
 adList.item.position.sound.template
