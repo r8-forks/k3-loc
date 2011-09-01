@@ -14,8 +14,7 @@ java/lang/Object
 switch.wireless.provider.overlay.label
 Switching Wireless Providers	Ändere W-Lan Provider
 switch.wireless.provider.overlay.body.without.current.provider
-Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not successfully reconnect to the Amazon Whispernet network. Do you wish to continue?
-Ваш Kindle отключится от беспроводной сети в процессе изменения GSM оператора и по окончании процесса он может не подключится к сети Amazon Whispernet. Продолжить?
+Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not successfully reconnect to the Amazon Whispernet network. Do you wish to continue?	Dein Kindle wird während des Vorgangs die Verbindung trennen. Ein manueller Wechsel des Providers wird mehrere Minuten benötigen und dein Kindle wird möglicherweise nicht erfolgreich ins Amazon Whispernet einloggen können. Fortsetzen?
 wireless.provider.page.footer.text
 
 wireless.provider.page.header.text
