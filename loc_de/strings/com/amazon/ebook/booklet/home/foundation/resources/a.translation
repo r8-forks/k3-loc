@@ -36,6 +36,8 @@ bw.widget.label
 Web Browser	Web Browser
 bw.widget.cursor.label
 launch browser	Browser starten
+bw.widget_DX.desc
+Select this item to launch our Basic Web browser and browse, choose a bookmark, or enter a URL. Works best with web sites that are mostly text.	Diesen Punkt auswählen, um den Browser zu starten und surfe, wähle ein Lesezeichen oder gebe eine Adresse ein. Funktioniert am besten bei Seiten mit überwiegend Text.
 bw.widget.desc
 Select this item to launch Web Browser and browse, choose a bookmark, or enter a URL.	Diesen Punkt auswählen, um den Browser zu starten und surfe, wähle ein Lesezeichen oder gebe eine Adresse ein.
 mp3.widget.label
@@ -44,6 +46,8 @@ mp3.widget.cursor.label.play
 play music	Abspielen
 mp3.widget.cursor.label.pause
 pause music	Pausieren
+mp3.widget_DX.desc
+Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst du die MP3 Dateien von deinem Computer in den 'music'-Ordner auf deinem Kindle kopieren.
 mp3.widget.desc
 Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle's 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst du die MP3 Dateien von deinem Computer in den 'music'-Ordner auf deinem Kindle kopieren.
 mp3.not.found.alert.text

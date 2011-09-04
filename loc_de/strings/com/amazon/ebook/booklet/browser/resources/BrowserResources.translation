@@ -11,6 +11,10 @@ getContents
 SourceFile
 [Ljava/lang/Object;
 java/lang/Object
+search.error.msg
+Search failed.	Suche gescheitert.
+bookmark.remove_oldest.prompt_DX.msg
+Too many bookmarks, remove oldest one?	Zu viele Lesezeichen! Ältestes löschen?
 bookmark.overwrite.prompt.msg
 Another page with the same title is already bookmarked. Do you want to overwrite it?	Eine andere Seite mit dem gleichen Titel existiert bereits. Mit dieser Seite überschreiben?
 bookmark.remove_oldest.prompt.msg

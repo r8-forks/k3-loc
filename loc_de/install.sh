@@ -101,21 +101,22 @@ logmsg "I" "update" "translate JARs"
 # Translate all JARs in 'booklet' and 'lib' folders
 update_progressbar 20
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_BLT translation.jar $DESTFOLDER_BLT /mnt/us >> ${MNT_US_LOC}/install.log 2>&1
-update_progressbar 50
+update_progressbar 40
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_LIB translation.jar $DESTFOLDER_LIB /mnt/us >> ${MNT_US_LOC}/install.log 2>&1
-update_progressbar 55
+update_progressbar 60
 
 # Unpack config dir (Rest of the language specific strings)
 tar -xvzf config.tar.gz
 
 logmsg "I" "update" "translate config"
 # Translate all config files in 'config' folders
-update_progressbar 65
+update_progressbar 75
+mkdir ${DESTFOLDER_CNF}
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/msp_prefs     ${DESTFOLDER_CNF}/msp_prefs     config/msp_prefs     >> /mnt/us/localization/install.log 2>&1
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/browser_prefs ${DESTFOLDER_CNF}/browser_prefs config/browser_prefs >> /mnt/us/localization/install.log 2>&1
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/reader.conf   ${DESTFOLDER_CNF}/reader.conf   config/reader.conf   >> /mnt/us/localization/install.log 2>&1
 
-update_progressbar 70
+update_progressbar 80
 
 logmsg "I" "update" "copy images"
 # Unpack and copy UI images

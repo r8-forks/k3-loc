@@ -1,0 +1,59 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/lab126/booklet/browser/resources/NativeEngineErrorCodeResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+-196
+Basic Web is unable to connect at this time. Please try again later.	Basis Webbrowser kann zur Zeit keine Verbindung aufbauen. Versuche es später erneut.
+-195
+-194
+Your wireless service was interrupted and your Kindle was unable to reconnect. Please try again later.	Dein drahtlose Verbindung wurde unterbrochen und dein Kindle kann sie nicht wieder aufbauen. Versuche es später erneut.
+-193
+-200
+-198
+-199
+-197
+-191
+Basic Web is unable to make a secure connection at this time. Please try again later.	Basis Webbrowser kann zur Zeit keine sichere Verbindung aufbauen. Versuche es später erneut.
+-192
+-190
+-189
+-188
+The website you requested is not responding. Please try again later.	Die angeforderte Webseite antwortet nicht. Versuche es später erneut.
+-187
+-180
+-6
+Basic Web is running low on memory. Please restart your device from Settings.	Basis Webbrowser hat nicht mehr genügend Speicher. Starte deine Gerät neu über Einstellungen.
+-599
+-184
+Sorry, Basic Web does not support the authentication method of this website.	Entschuldige, Basis Webbrowser unterstützt die Methode zur Authentifizierung dieser Webseite nicht.
+-183
+-182
+-598
+Your Kindle is unable to access this website at this time. Please try again later.	Basis Webbrowser kann zur Zeit die Webseite nicht erreichen. Versuche es später erneut.
+-1
+Basic Web encountered an error. Please restart your device from Settings.	Basis Webbrowser hat einen Fehler erkannt. Starte deine Gerät neu über Einstellungen.
+5
+The URL you entered is not valid. Please check the URL and try again.	Die eingegebene URL ist ungültig. Bitte überprüfe die URL und versuche es erneut.
+6
+Basic Web cannot download this kind of file. Only files with the extension .AZW, .AZW1, .PRC, .MOBI, or .TXT can be downloaded to your Kindle.	Basis Webbrowser kann diesen Dateityp nicht auf das Gerät herunterladen. Nur Dateien mit den Endungen .AZW .AZW1 .PRC .MOBI oder .TXT können auf den Kindle geladen werden.
+16
+various	verschiedene
+13
+Basic Web was unable to save this file because a file with the same name already exists on your Kindle. Please remove the existing file using Home and try again.	Basis Webbrowser kann zur Zeit keine sichere Verbindung aufbauen. Versuche es später erneut.
+14
+Your Kindle memory is full. Please make more Kindle memory available by removing content from Home.	Dein Speicher im Kindle ist voll. Schaffe Platz durch Löschen von Inhalten.
+15
+Basic Web was unable to download this file. Please try again later.	Basis Webbrowser konnte diese Datei nicht laden. Versuche es später erneut.
+com/lab126/booklet/browser/resources/NativeEngineErrorCodeResources
+java/util/ListResourceBundle
+a
+py
