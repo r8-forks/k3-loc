@@ -1,0 +1,66 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/lab126/booklet/browser/resources/UIHeaderResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+page.number.msg
+Page {0,number,integer} of {1,number,integer}	Seite {0,number,integer} von {1,number,integer}
+default.mode.msg
+Basic Mode	Einfach Modus
+height
+java/lang/Integer
+progress.percent.margin.left
+progress.percent.baseline
+progress.percent.dimension
+java/awt/Dimension
+progress.percent.font
+progress.done.caption
+Done	Erledigt
+page.number.baseline
+page.number.dimension
+page.number.font
+view.mode.text.baseline
+view.mode.text.dimension
+view.mode.text.font
+forward.button.margin.left
+search.label.margin.bottom
+search.right.arrow.margin.right
+search.right.arrow.margin.bottom
+goto.button.margin.right
+goto.button.margin.bottom
+lock.icon.margin.bottom
+url.text.field.font
+url.text.field.height
+url.text.field.margin.right
+url.text.field.margin.bottom
+advanced.mode.msg
+Desktop Mode	Desktop Modus
+insets
+java/awt/Insets
+search.label.margin.right
+lock.icon.margin.left
+url.text.field.margin.left
+Advanced Mode	Erweiterter Modus
+com/lab126/booklet/browser/resources/UIHeaderResources
+java/util/ListResourceBundle
+()Z
+([Ljava/lang/Object;[Ljava/lang/Object;)[[Ljava/lang/Object;
+(I)V
+(II)V
+(IZ)Ljava/awt/Font;
+(IIII)V
+a
+A
+b
+ny
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a
+com/lab126/booklet/browser/a/a

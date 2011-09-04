@@ -1,0 +1,43 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/lab126/booklet/browser/resources/UISettingsViewResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+use.default.mode.label
+Switch to Basic Mode	Schalte in den Einfach Modus
+clear.cache.label
+Clear Cache	Lösche den Cache
+clear.history.label
+Clear History	Lösche die Chronik
+clear.cookies.label
+Clear Cookies	Lösche Cookies
+enable.js.label
+Enable Javascript	Aktiviere Javascript
+disable.js.label
+Disable Javascript	Deaktiviere Javascript
+js.description
+Always disabled in Basic Mode	Immer im Einfach Modus abgeschaltet
+enable.images.label
+Enable Images	Aktiviere Bildanzeige
+disable.images.label
+Disable Images	Deaktiviere Bildanzeige
+use.advanced.mode.label
+Switch to Desktop Mode	Schalte in den Desktop Modus
+Switch to Advanced Mode	Schalte in den Erweiterten Modus
+com/lab126/booklet/browser/resources/UISettingsViewResources
+java/util/ListResourceBundle
+()Z
+([Ljava/lang/Object;[Ljava/lang/Object;)[[Ljava/lang/Object;
+a
+A
+b
+my
+com/lab126/booklet/browser/a/a

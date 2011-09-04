@@ -29,11 +29,11 @@ java/lang/StringBuffer
 Page 	Seite 
  of 	 von 
 java/awt/Dimension
-height
+height	Höhe
 (Z)Ljava/util/List;
 (Ljava/util/List;)I
 java/util/List
-size
+size	Größe
 ()I
 (II)V
 append

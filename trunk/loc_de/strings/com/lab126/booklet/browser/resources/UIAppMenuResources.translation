@@ -1,0 +1,39 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/lab126/booklet/browser/resources/UIAppMenuResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+use.default.mode.msg
+Use Basic Mode	Benutze Einfach Modus
+open.history.view.label
+History	Chronik
+open.bookmarks.view.label
+Bookmarks	Lesezeichen
+open.settings.view.label
+Settings	Einstellungen
+bookmark.this.page.label
+Bookmark This Page	Seite zu Lesezeichen hinzufügen
+go.to.top.label
+Go to Top	Gehe zum Seitenanfang
+enter.url.label
+Enter URL	Gib eine URL ein
+use.advanced.mode.msg
+Use Desktop Mode	Benutze Desktop Modus
+Use Advanced Mode	Benutze Erweiterten Modus
+com/lab126/booklet/browser/resources/UIAppMenuResources
+java/util/ListResourceBundle
+()Z
+([Ljava/lang/Object;[Ljava/lang/Object;)[[Ljava/lang/Object;
+a
+A
+b
+oy
+com/lab126/booklet/browser/a/a
