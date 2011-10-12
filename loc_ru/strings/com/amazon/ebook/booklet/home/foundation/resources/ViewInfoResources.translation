@@ -66,7 +66,7 @@ Go to Beginning	Перейти к началу
 vi.goto.location
 Go to Location...	Перейти к позиции
 vi.goto.page
-Go to Page...	Перейти на станицу
+Go to Page...	Перейти на страницу
 vi.goto.index
 Go to Index	Открыть содержание
 vi.goto.frontpage
