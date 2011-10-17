@@ -1,5 +1,5 @@
 set HACKNAME=loc_ru
-set PKGVER=0.15
+set PKGVER=0.16
 
 rem copy ..\..\K3Translator.jar .\
 

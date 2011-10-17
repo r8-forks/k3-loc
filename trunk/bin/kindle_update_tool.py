@@ -285,7 +285,9 @@ def convert_bin(basename, tgz_fname, type, kver):
 #3.2
 #    header = struct.pack("<4sIIHBB", sig, 0, 0x221D372A, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
 #3.2.1
-    header = struct.pack("<4sIIHBB", sig, 0, 0x22597CE0, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
+#    header = struct.pack("<4sIIHBB", sig, 0, 0x22597CE0, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
+#3.3
+    header = struct.pack("<4sIIHBB", sig, 0, 0x24757F16, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
     
     of.write(header)
     of.write(md(s_md5(f)))
