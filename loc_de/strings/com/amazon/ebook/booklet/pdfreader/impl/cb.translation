@@ -140,7 +140,7 @@ java/lang/StringBuffer
  --- PDF BookViewer completes the renderDirect call time taken = 
 java/lang/NullPointerException
 Exiting drawPage }}}
-Opening page 	Öffne Seite
+Opening page 	Öffne Seite 
  of 	 von 
 E_PDF_UNKNOWN_SECURITY_HANDLER
 gui.reader.unsupported_pdf_feature

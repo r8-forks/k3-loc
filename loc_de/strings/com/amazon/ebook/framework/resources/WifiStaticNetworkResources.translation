@@ -33,17 +33,17 @@ margin.headerText
 margin.landscape.headerText
 margin.textHeight
 text.title
-Network Information	Netzwerkinformationen
+Network Information	Netzwerk-Informationen
 text.headerText
-You can set up the Wi-Fi network connection and security options for the network named below.	Du kannst für das unten genannte Netzwerk Einstellungen und Sicherheitsoptionen vornehmen.
+You can set up the Wi-Fi network connection and security options for the network named below.	Du kannst für das unten genannte Netzwerk Verbindungs- und Sicherheits-Optionen einstellen.
 text.rowlabel.networkName
 Network Name:	Netzwerkname:
 text.rowlabel.conType
 Connection Type:	Verbindungstyp:
 text.rowlabel.ipAddress
-IP Address:	IP Adresse:
+IP Address:	IP-Adresse:
 text.rowlabel.subnetMask
-Subnet Mask:	Subnetz Maske:
+Subnet Mask:	Subnetz-Maske:
 text.rowlabel.router
 Router:	Router:
 text.rowlabel.dns
@@ -55,7 +55,7 @@ Password:	Passwort:
 text.contype.dhcp
 DHCP
 text.contype.static
-Static
+Static	statisch
 text.security.none
 none	keine
 text.security.wep
@@ -65,7 +65,7 @@ WPA
 text.security.wpa2
 WPA2
 text.button.connect
-connect	verbinden
+connect	Verbinden
 font.title
 font.widget
 font.headerText

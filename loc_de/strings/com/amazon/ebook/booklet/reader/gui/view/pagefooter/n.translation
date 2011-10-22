@@ -28,13 +28,13 @@ com.amazon.ebook.booklet.reader.gui.view.pagefooter.resources.PageFooterUIResour
 text.article.spacer
 java/lang/Integer
 java/awt/Font
-Previous Section	Vorheriger Abschnitt
-Next Section	nächster Abschnitt
+Previous Section	Vorherige Rubrik
+Next Section	Nächste Rubrik
 
 InnerClasses
 java/awt/Rectangle
 java/lang/StringBuffer
-next section: 	nächster Abschnitt: 
+next section: 	nächste Rubrik: 
 java/util/ResourceBundle
 getBundle
 (Ljava/lang/String;)Ljava/util/ResourceBundle;

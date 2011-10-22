@@ -20,7 +20,7 @@ sr.matchcount.format
 java/text/MessageFormat
 ({0})
 sr.notenoughspace.str
-Your search cannot be completed due to insufficient Kindle memory. Please free up memory by removing content from Home.	Die Suche konnte nicht ausgeführt werden, da zu wenig Speicher zur Verfügung steht. Bitte entferne Inhalte aus "Home".
+Your search cannot be completed due to insufficient Kindle memory. Please free up memory by removing content from Home.	Die Suche konnte aus Speicherplatzmangel nicht abgeschlossen werden. Bitte entferne Inhalte über "Home".
 sr.notyetindexed.groupingtitle.str
 Items Not Yet Indexed	Objekte noch nicht indiziert
 sr.netyetindexed.text.2
@@ -41,7 +41,7 @@ sr.header.filter.subs.format
 sr.header.filter.pdocs.format
 0#Search Results: {0,number,integer} Personal Docs|1#Search Results: {0,number,integer} Personal Doc|2#Search Results: {0,number,integer} Personal Docs	0#Suchergebnis: {0,number,integer} eigene Dateien|1#Suchergebnis: {0,number,integer} eigene Datei|2#Suchergebnis: {0,number,integer} eigene Dateien
 sr.results.sound
-0#{0,number,integer} search results, |1#{0,number,integer} search result, |1<{0,number,integer} search results, 
+0#{0,number,integer} search results, |1#{0,number,integer} search result, |1<{0,number,integer} search results, 	0#{0,number,integer} Suchergebnisse, |1#{0,number,integer} Suchergebnis, |1<{0,number,integer} Suchergebnisse, 
 sr.view.sound
 search results
 sr.pause.sound

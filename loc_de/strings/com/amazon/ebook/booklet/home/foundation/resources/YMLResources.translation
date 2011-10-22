@@ -15,11 +15,11 @@ yml.header
 Archived Items	Archivierte Objekte
 yml.filter.format
 java/text/ChoiceFormat
-0#Showing {0,number,integer} Archived Items|1#Showing {0,number,integer} Archived Item|2#Showing {0,number,integer} Archived Items	0#Zeige {0,number,integer} archivierte Objekte|1#Zeige {0,number,integer} archiviertes Objekt|2#Zeige {0,number,integer} archivierte Objekte
+0#Showing {0,number,integer} Archived Items|1#Showing {0,number,integer} Archived Item|2#Showing {0,number,integer} Archived Items	0#{0,number,integer} archivierte Objekte, sortiert nach|1#{0,number,integer} archiviertes Objekt, sortiert nach|2#{0,number,integer} archivierte Objekte, sortiert nach
 yml.sort.title.label
-By Title	Nach Titeln
+By Title	Titel
 yml.sort.author.label
-By Author	Nach Autoren
+By Author	Autor
 yml.sort.title
 Title	Titel
 yml.sort.author
@@ -27,11 +27,11 @@ Author	Autor
 yml.default.download.error.msg
 Your download was not successful. Please try again.	Das Herunterladen war nicht erfolgreich, bitte versuche es erneut.
 yml.download.error.notenoughspace
-"{0}" could not be downloaded due to insufficient Kindle memory. Please free up space by removing content from Home.	"{0}" konnte nicht heruntergeladen werden, da nicht genügend Speicherplatz zur Verfügung steht. Bitte entferne Objekte aus "Home".
+"{0}" could not be downloaded due to insufficient Kindle memory. Please free up space by removing content from Home.	"{0}" konnte aufgrund Speicherplatzmangels nicht heruntergeladen werden. Bitte entferne Objekte über "Home".
 yml.wifi.required.overlay.title
-Wi-Fi Network Required	W-Lan Verbindung benötigt
+Wi-Fi Network Required	Wi-Fi-Verbindung erforderlich
 yml.wifi.required.overlay.body
-A Wi-Fi network connection is required to complete this task. Please connect to a Wi-Fi network.	Um fortzufahren wird eine W-Lan Verbindung benötigt. Bitte verbinde den Kindle mit einem W-Lan Netzwerk.
+A Wi-Fi network connection is required to complete this task. Please connect to a Wi-Fi network.	Um fortzufahren wird eine Wi-Fi-Verbindung benötigt. Bitte verbinde den Kindle mit einem WiFi-Netzwerk.
 yml.wifi.required.overlay.viewall.button
 view all networks	alle Netzwerke anzeigen
 yml.view.sound

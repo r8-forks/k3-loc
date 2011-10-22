@@ -13,35 +13,35 @@ java/lang/Object
 tts.onoff
 Text-to-Speech	Vorlesefunktion
 tts.onoff.on
-turn on	einschalten
+turn on	Einschalten
 tts.onoff.off
-turn off	ausschalten
+turn off	Ausschalten
 tts.onoff.play
-play	abspielen
+play	Abspielen
 tts.onoff.pause
-pause	pausieren
+pause	Pausieren
 tts.speech.rate
-Speech Rate	Lesegeschwindigkeit
+Speech Rate	Sprechtempo
 tts.speech.rate.low
 slower	langsamer
 tts.speech.rate.default
-default	standard
+default	Standard
 tts.speech.rate.high
 faster	schneller
 tts.speech.voice
 Speaking Voice	Sprecherstimme
 tts.speech.voice.female
-female	weiblich
+female	Deutsch
 tts.speech.voice.male
-male	männlich
+male	Englisch
 font.family
-Typeface	Schriftyp
+Typeface	Schriftart
 font.family.option.1
-regular	normal
+regular	Normal
 font.family.option.2
-condensed	gestaucht
+condensed	Schmal
 font.family.option.3
-sans serif	sans serif
+sans serif	Sans Serif
 font.family.alt.option.1
 std
 font.family.alt.option.2
@@ -53,11 +53,11 @@ alt
 line.spacing
 Line Spacing	Zeilenabstand
 line.spacing.option.1
-small	klein
+small	Klein
 line.spacing.option.2
-medium	mittel
+medium	Mittel
 line.spacing.option.3
-large	groß
+large	Groß
 line.spacing.alt.option.1
 112
 line.spacing.alt.option.2
@@ -82,9 +82,9 @@ darkest	+2
 word.per.line
 Words per Line	Wörter pro Zeile
 word.per.line.option.1
-fewest	am wenigsten
+fewest	Wenig
 word.per.line.option.2
-fewer	weniger
+fewer	Mittel
 word.per.line.option.3
 auto.crop.onoff
 Auto-Crop	automatischer Umbruch
@@ -95,19 +95,19 @@ best effort
 justification
 Justification	Ausrichtung
 justification.left
-Left	links
+Left	Links
 justification.full
-Full	Blocktext
+Full	Blocksatz
 zoom.level
 Zoom	Zoom
 zoom.level.option.actual.size
-actual size	tatsächliche Größe
+actual size	1:1
 zoom.level.option.fit.page
 fit-to-page	an Seite anpassen
 zoom.level.option.fit.width
 fit-to-width	an Breite anpassen
 zoom.level.option.fit.screen
-fit-to-screen	an Bildschirm anpassen
+fit-to-screen	Einpassen
 zoom.level.option.2
 150%
 zoom.level.option.3

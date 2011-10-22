@@ -12,9 +12,9 @@ New game: 	Neues Spiel:
  (
 x
 , 
- mines)	 Mienen)
+ mines)	 Minen)
 com/amazon/ebook/framework/BookletException
-launch menu	Starte Menu
+launch menu	Starte Menü
 MSPAppMenu
 getBookletContext
 add

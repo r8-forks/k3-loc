@@ -14,7 +14,7 @@ java/lang/Object
 unindexed.header
 Items Not Yet Indexed	Objekte noch nicht indiziert
 unindexed.view.sound
-items not yet indexed
+items not yet indexed	Objekte noch nicht indiziert
 com/amazon/ebook/booklet/home/foundation/resources/UnindexedResources
 java/util/ListResourceBundle
 a

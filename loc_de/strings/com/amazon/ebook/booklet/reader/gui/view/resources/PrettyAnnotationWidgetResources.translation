@@ -32,7 +32,7 @@ format.subscribed_highlight
 format.location
 Location {0}	Textstelle {0}
 format.popular.highlight.contributor
-{0,number,integer} Highlighters	{0,number,integer} Markierungen
+{0,number,integer} Highlighters	{0,number,integer} Markierer
 format.page
 Page {0}	Seite {0}
 format.page_range.limits
@@ -43,9 +43,9 @@ format.page_range.choices
 java/lang/String
 Unnumbered Page (Location {1})	Unnummerierte Seite (Textstelle {1})
 Page {1}	Seite {1}
-Pages {1}–{2}	Seite {1}–{2}
+Pages {1}–{2}	Seiten {1}–{2}
 format.page_range.choices.spoken
-Pages {1} to {2}	Seite {1} bis {2}
+Pages {1} to {2}	Seiten {1} bis {2}
 com/amazon/ebook/booklet/reader/gui/view/resources/PrettyAnnotationWidgetResources
 java/util/ListResourceBundle
 (I)V

@@ -11,11 +11,11 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 section.list.view.title
-Sections List	Abschnittsliste
+Sections List	Rubrikenübersicht
 section.list.header.str1
-view section	zeige Sektion
+view section	Rubrik
 section.list.header.str2
-view articles	zeige Artikel
+view articles	Artikel
 section.list.article.count.speaking.suffixes
 java/lang/String
 0#articles|1#article|2#articles	0#Artikel|1#Artikel|2#Artikel

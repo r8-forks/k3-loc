@@ -1,5 +1,5 @@
-comm.message.connecting=Wireless verbindet
+comm.message.connecting=Verbindung wird hergestellt
 comm.message.items.deleted=Objekte entfernt
 comm.message.items.downloaded=Objekte heruntergeladen
 comm.message.no.new.items=Keine neuen Objekte
-comm.message.radio.turned.off=Funk ausgeschaltet
+comm.message.radio.turned.off=Wi-Fi deaktiviert

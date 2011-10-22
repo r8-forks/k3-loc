@@ -13,15 +13,15 @@ Code
 ()Ljava/util/List;
 (Ljava/util/ResourceBundle;)V
 Synthetic
-Full Screen Mode	Vollbild Modus
+Full Screen Mode	Vollbild-Modus
 java/util/ArrayList
 
-Anchor to Top Right	Oben rechts ausrichten
-Anchor to Top Left	Oben links ausrichten
+Anchor to Top Right	Oben rechts verankern
+Anchor to Top Left	Oben links verankern
 Use Partial Refresh	Nutze teilweisen "Refresh"
 Use Full Refresh	Nutze ganzen "Refresh"
-Disable Full Screen Mode	Vollbild Modus deaktivieren
-Enable Full Screen Mode	Vollbild Modus aktivieren
+Disable Full Screen Mode	Vollbild-Modus deaktivieren
+Enable Full Screen Mode	Vollbild-Modus aktivieren
 disable
 enable
 pan_to_next_page

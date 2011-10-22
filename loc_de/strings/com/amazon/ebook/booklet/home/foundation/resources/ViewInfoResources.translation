@@ -58,22 +58,22 @@ vi.cover.collection.num.shadows
 vi.unknown.data
 Unknown	Unbekannt
 vi.goto.lastpage
-Go to Last Page Read	Zur letzten gelesenen Seite
+Go to Last Page Read	Zur letztgelesenen Seite
 vi.goto.firstarticle
 Go to First Article	Zum ersten Artikel
 vi.goto.beginning
 Go to Beginning	Zum Anfang
 vi.goto.location
-Go to Location...	Zur Textstelle...
+Go to Location...	Zur Textstelle ...
 vi.goto.page
-Go to Page...	Zur Seite...
+Go to Page...	Zur Seite ...
 vi.goto.index
 Go to Index	Zum Index
 vi.goto.frontpage
 Go to Front Page	Zur Titelseite
 vi.goto.section
-Go to Sections & Articles	Zu Abschnitten und Artikeln
-Go to Section...	Zum Abschnitt...
+Go to Sections & Articles	Rubriken & Artikel
+Go to Section...	Zur Rubrik ...
 vi.bookdesc
 Book Description	Buchbeschreibung
 vi.searchbook
@@ -81,8 +81,8 @@ Search This Book	Buch durchsuchen
 vi.searchdoc
 Search This Document	Dokument durchsuchen
 vi.mynotes
-My Notes & Marks	Meine Notizen und Markierungen
-Notes & Marks	Notizen und Markierungen
+My Notes & Marks	Meine Notizen & Markierungen
+Notes & Marks	Notizen & Markierungen
 vi.mybookmarks
 My Bookmarks	Meine Lesezeichen
 vi.remove.device
@@ -127,7 +127,7 @@ vi.support.application
 Support	Hilfe
 vi.diskusage.offset
 vi.diskusage.format
-Using {0,number,integer} bytes	Benutze {0,number,integer} bytes
+Using {0,number,integer} bytes	Benutze {0,number,integer} Bytes
 vi.diskusage.font
 vi.activecontent.version.format
 Version {0}	Version {0}
@@ -136,7 +136,7 @@ vi.activecontent.version.font
 vi.view.collections.template
 Assigned Collections ({0})	Zugewiesene Sammlungen ({0})
 vi.add.collections
-Add to Collection...	Zur Sammlung hinzufügen...
+Add to Collection...	Zur Sammlung ... hinzufügen
 vi.disabled.color
 vi.enabled.color
 vi.delete.dialog.title
@@ -144,18 +144,18 @@ Delete Item	Objekt löschen
 vi.delete.collection.dialog.title
 Delete Collection	Sammlung löschen
 vi.delete.dialog.text
-This item will be permanently deleted. Would you like to continue?	Objekt wird endgültig gelöscht. Möchtest du fortfahren?
+This item will be permanently deleted. Would you like to continue?	Objekt wird endgültig gelöscht. Fortsetzen?
 vi.delete.dialog.text.collection
-This collection will be permanently deleted, but the contents will not be affected and will remain on your Kindle. Would you like to continue?	Die Sammlung wird endgültig gelöscht, aber ihre Inhalte sind nicht betroffen und bleiben erhalten. Möchtest du fortfahren?
+This collection will be permanently deleted, but the contents will not be affected and will remain on your Kindle. Would you like to continue?	Die Sammlung wird endgültig gelöscht, ihre Inhalte sind jedoch nicht betroffen und bleiben erhalten. Fortsetzen?
 vi.delete.dialog.text.kindleapp
-This item and its settings will be permanently deleted.  Would you like to continue?	Dieses Objekt und seine Einstellungen werden endgültig gelöscht? Willst du fortfahren?
+This item and its settings will be permanently deleted.  Would you like to continue?	Dieses Objekt und seine Einstellungen werden endgültig gelöscht. Fortsetzen?
 vi.collection.author.template
 java/text/ChoiceFormat
 0#0 Items|1#1 Item|2#{0,number,integer} Items	0#0 Objekte|1#1 Objekt|2#{0,number,integer} Objekte
 vi.open.collection
 Open Collection	Sammlung öffnen
 vi.edit.collection
-Add/Remove Items	Objekte dazufügen/löschen
+Add/Remove Items	Objekte hinzufügen/löschen
 vi.rename.collection
 Rename Collection	Sammlung umbenennen
 vi.delete.collection

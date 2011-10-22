@@ -12,7 +12,7 @@ java/lang/Object
 exp.label
 Experimental	Experimentell
 exp.text
-We are working on these experimental prototypes. Do you find them useful? Should we continue working on them? We would love to hear what you think, so please send your comments to {0}	Wir arbeiten noch an diesen Funktionen. Findest du Sie hilfreich? Sollen wir weiter an ihnen arbeiten? Wir würden uns freuen von dir zu hören, was du darüber denkst. Bitte sende dein Feedback an {0}
+We are working on these experimental prototypes. Do you find them useful? Should we continue working on them? We would love to hear what you think, so please send your comments to {0}	Wir arbeiten noch an diesen Funktionen. Findest Du sie hilfreich? Sollen wir weiter daran arbeiten? Wir würden uns freuen, Deine Meinung darüber zu hören. Bitte sende Dein Feedback an {0}
 exp.font
 exp.text.x
 java/lang/Integer
@@ -33,31 +33,31 @@ feedback.email.default
 kindle-feedback@amazon.com
 exp.cursor.disabled.color
 bw.widget.label
-Web Browser	Web Browser
+Web Browser	Webbrowser
 bw.widget.cursor.label
 launch browser	Browser starten
 bw.widget_DX.desc
-Select this item to launch our Basic Web browser and browse, choose a bookmark, or enter a URL. Works best with web sites that are mostly text.	Diesen Punkt auswählen, um den Browser zu starten und surfe, wähle ein Lesezeichen oder gebe eine Adresse ein. Funktioniert am besten bei Seiten mit überwiegend Text.
+Select this item to launch our Basic Web browser and browse, choose a bookmark, or enter a URL. Works best with web sites that are mostly text.	Diesen Punkt auswählen, um den Browser zu starten und zu surfen; wähle ein Lesezeichen oder gebe eine Adresse ein. Funktioniert am besten bei Seiten, die überwiegend aus Text bestehen.
 bw.widget.desc
-Select this item to launch Web Browser and browse, choose a bookmark, or enter a URL.	Diesen Punkt auswählen, um den Browser zu starten und surfe, wähle ein Lesezeichen oder gebe eine Adresse ein.
+Select this item to launch Web Browser and browse, choose a bookmark, or enter a URL.	Diesen Punkt auswählen, um den Browser zu starten und zu surfen; wähle ein Lesezeichen oder gebe eine Adresse ein.
 mp3.widget.label
-Play MP3	MP3 Player
+Play MP3	MP3-Player
 mp3.widget.cursor.label.play
 play music	Abspielen
 mp3.widget.cursor.label.pause
 pause music	Pausieren
 mp3.widget_DX.desc
-Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst du die MP3 Dateien von deinem Computer in den 'music'-Ordner auf deinem Kindle kopieren.
+Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während Du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst Du die MP3-Dateien von Deinem Computer in den 'music'-Ordner Deines Kindle kopieren.
 mp3.widget.desc
-Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle's 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst du die MP3 Dateien von deinem Computer in den 'music'-Ordner auf deinem Kindle kopieren.
+Select this item to listen to music or podcasts while you read. Hold down the 'ALT' key and press the spacebar to stop or play, or the 'F' key to skip to the next track. You must copy MP3 files from your computer to your Kindle's 'music' folder to use this feature.	Wähle diesen Punkt, um Musik oder Podcasts anzuhören, während Du liest. Halte die 'ALT' Taste und drücke die Leertaste fürs Abspielen oder Pausieren oder die 'F' Taste, um zum nächsten Titel zu springen. Um diese Funktion nutzen zu können, musst Du die MP3-Dateien von Deinem Computer in den 'music'-Ordner Deines Kindle kopieren.
 mp3.not.found.alert.text
-No MP3 Files Found~~~~To play MP3 files, you must first copy them from your computer to your Kindle's "music" folder.	Keine MP3 Dateien gefunden~~~~Um MP3 Dateien abspielen zu können, musst du diese zunächst in den Ordner 'music' auf deinem Kindle kopieren.
+No MP3 Files Found~~~~To play MP3 files, you must first copy them from your computer to your Kindle's "music" folder.	Keine MP3-Dateien gefunden~~~~Um MP3-Dateien abspielen zu können, musst Du diese zunächst in den 'music'-Ordner Deines Kindle kopieren.
 t2s.widget.label
 Text-to-Speech	Vorlesefunktion
 t2s.widget.cursor.label
 
 t2s.widget.desc
-Start Text-to-Speech in the Text menu while you are reading and your Kindle will start reading to you (where allowed by the rights holder). Hold down the 'Shift' key and press the 'SYM' key to stop or play.	Starte "Vorlesefunktion" im Textmenü, während du liest und dein Kindle wird dir vorlesen (wenn zugelassen). Halte 'Shift' und drücke 'SYM', um das Vorlesen zu starten oder zu stoppen.
+Start Text-to-Speech in the Text menu while you are reading and your Kindle will start reading to you (where allowed by the rights holder). Hold down the 'Shift' key and press the 'SYM' key to stop or play.	Starte "Vorlesefunktion" im Textmenü, während Du liest und Dein Kindle wird Dir vorlesen (sofern zugelassen). Halte 'Shift' und drücke 'SYM', um das Vorlesen zu starten oder zu stoppen.
 exp.view.sound
 Experimental Items
 exp.pause.sound

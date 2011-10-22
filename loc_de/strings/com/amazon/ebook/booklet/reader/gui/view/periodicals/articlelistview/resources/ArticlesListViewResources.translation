@@ -16,23 +16,23 @@ articleCountInfo.template.blogType
 articlepreview.ellipsis
 ...
 articlesList.close.label
-Close Articles List	Artikelauswahl schließen
+Close Articles List	Artikelliste schließen
 section.list.button.label
-View Sections & Articles	Zeige Abschnitte & Artikel
+View Sections & Articles	Zu Rubriken & Artikel
 pageInfo.template.blogType
 Page {0} of {1}	Seite {0} von {1}
 pageInfo.template.newsmagType
-{0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<- {2} }of {3}	{0,choice,0#Artikel|0<Artikel} {1} {0,choice,0#|0<- {2} }von {3}
+{0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<- {2} }of {3}	{0,choice,0#Artikel|0<Artikel} {1} {0,choice,0#|0<- {2}} von {3}
 currentItemAccessibilityText.template
 Item {0} of {1}	Objekt {0} von {1}
 pageInfo.accessibilityText.newsmag.template
-Showing {0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<to {2} }of {3}
+Showing {0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<to {2} }of {3}	Zeige {0,choice,0#Article|0<Articles} {1} {0,choice,0#|0<to {2}} von {3}
 pageInfo.accessibilityText.newsmag.addon
  in {0}
 pageInfo.accessibilityText.blog.template
-Showing Page {0} of {1}
+Showing Page {0} of {1}	Zeige Seite {0} of {1}
 viewOpening.accessibilityText.template
-Articles List
+Articles List	Artikelliste
 articlesList.systemStatusBar.text
 Articles List • {0}	Artikelliste • {0}
 masthead.height
@@ -129,7 +129,7 @@ article.title.numLines.824.5
 article.title.numLines.824.6
 article.title.numLines.824.7
 article.accessibility.template
-{0}{1,choice,0#|0<. {2}}{3,choice,0#|0<. Summary of the article, {4}}
+{0}{1,choice,0#|0<. {2}}{3,choice,0#|0<. Summary of the article, {4}}	{0}{1,choice,0#|0<. {2}}{3,choice,0#|0<. Zusammenfassung, {4}}
 article.accessibilityText.template
 {0}~~{1}
 default.num.rows.per.fontsize.periodical.articlelistview.800

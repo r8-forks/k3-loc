@@ -12,11 +12,11 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 go.to.page.action.template
-click to go to page {0,number,integer}	drücken, um zur Seite {0,number,integer} zu gehen
+click to go to page {0,number,integer}	Klicke, um Seite {0,number,integer} aufzurufen
 go.to.letter.action.titles.template
-click to go to {0} titles	drücken, um zu {0} Titeln zu gehen
+click to go to {0} titles	Klicke, um {0} Titel aufzurufen
 go.to.letter.action.authors.template
-click to go to {0} authors	drücken, um zu {0} Autoren zu gehen
+click to go to {0} authors	Klicke, um {0} Autoren aufzurufen
 com/amazon/ebook/booklet/home/foundation/resources/SearchActionResources
 java/util/ListResourceBundle
 a

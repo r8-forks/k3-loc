@@ -65,23 +65,6 @@ DESTFOLDER_IMG=${ORIGFOLDER_IMG}_loc
 DESTFOLDER_CNF=${ORIGFOLDER_CNF}_loc
 
 # Unbind folders to original locations
-logmsg "I" "update" "uninstall <=0.06 update"
-[ -d ${ORIGFOLDER_BLT}_ru ] && umount ${ORIGFOLDER_BLT}
-[ -d ${ORIGFOLDER_LIB}_ru ] && umount ${ORIGFOLDER_LIB}
-[ -d ${ORIGFOLDER_IMG}_ru ] && umount ${ORIGFOLDER_IMG}
-
-[ -d ${ORIGFOLDER_BLT}_ru ] && rm -rf ${ORIGFOLDER_BLT}_ru
-[ -d ${ORIGFOLDER_LIB}_ru ] && rm -rf ${ORIGFOLDER_LIB}_ru
-[ -d ${ORIGFOLDER_IMG}_ru ] && rm -rf ${ORIGFOLDER_IMG}_ru
-
-[ -f /opt/amazon/rus-bind ] && rm -f /opt/amazon/rus-bind
-[ -f /etc/init.d/rus-init  ] && rm -f /etc/init.d/rus-init
-[ -h /etc/rcS.d/S73rus-init  ] && rm -f /etc/rcS.d/S73rus-init
-[ -d /mnt/us/rus  ] && rm -rf /mnt/us/rus 
-
-update_progressbar 10
-
-# Unbind folders to original locations
 logmsg "I" "update" "restore bindings"
 [ -d ${DESTFOLDER_BLT} ] && umount ${ORIGFOLDER_BLT}
 [ -d ${DESTFOLDER_LIB} ] && umount ${ORIGFOLDER_LIB}
@@ -91,7 +74,14 @@ logmsg "I" "update" "restore bindings"
 # DX content
 [ -f ${DESTFOLDER_CNF}/reader.conf ] && umount ${ORIGFOLDER_CNF}/reader.conf
 [ -f ${DESTFOLDER_CNF}/browser_prefs ] && umount ${ORIGFOLDER_CNF}/browser_prefs
+update_progressbar 10
 
+# and (safely) deleting unmounted dirs
+[ -d $DESTFOLDER_BLT ] && rm -rf $DESTFOLDER_BLT
+[ -d $DESTFOLDER_LIB ] && rm -rf $DESTFOLDER_LIB
+[ -d $DESTFOLDER_IMG ] && rm -rf $DESTFOLDER_IMG
+# deleting all config files
+[ -d $DESTFOLDER_CNF ] && rm -rf $DESTFOLDER_CNF
 update_progressbar 15
 
 #Create localization dir at user store
@@ -100,8 +90,10 @@ update_progressbar 15
 logmsg "I" "update" "translate JARs"
 # Translate all JARs in 'booklet' and 'lib' folders
 update_progressbar 20
+
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_BLT translation.jar $DESTFOLDER_BLT /mnt/us >> ${MNT_US_LOC}/install.log 2>&1
 update_progressbar 40
+
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_LIB translation.jar $DESTFOLDER_LIB /mnt/us >> ${MNT_US_LOC}/install.log 2>&1
 update_progressbar 60
 
@@ -110,12 +102,12 @@ tar -xvzf config.tar.gz
 
 logmsg "I" "update" "translate config"
 # Translate all config files in 'config' folders
-update_progressbar 75
+update_progressbar 70
+
 mkdir ${DESTFOLDER_CNF}
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/msp_prefs     ${DESTFOLDER_CNF}/msp_prefs     config/msp_prefs     >> /mnt/us/localization/install.log 2>&1
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/browser_prefs ${DESTFOLDER_CNF}/browser_prefs config/browser_prefs >> /mnt/us/localization/install.log 2>&1
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs ${ORIGFOLDER_CNF}/reader.conf   ${DESTFOLDER_CNF}/reader.conf   config/reader.conf   >> /mnt/us/localization/install.log 2>&1
-
 update_progressbar 80
 
 logmsg "I" "update" "copy images"

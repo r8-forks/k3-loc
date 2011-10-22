@@ -54,11 +54,11 @@ teb.font
 teb.addcollection.button.label
 create	erstellen
 teb.addcollection.bar.shortcut.text
-Start typing to create a new collection	Tippen, um eine neue Sammlung zu erstellen
+Start typing to create a new collection	Tippe, um eine neue Sammlung zu erstellen
 teb.addcollection.already.added.alert.title
-Collection Name Already Exists	Sammlungsname existiert bereits
+Collection Name Already Exists	Sammlung existiert bereits
 teb.addcollection.already.added.alert.body
-The collection name you entered already exists. Please enter a different name.	Der gewählte Sammlungsname existiert bereits. Bitte wähle einen anderen Namen.
+The collection name you entered already exists. Please enter a different name.	Diese Sammlung existiert bereits. Bitte wähle einen anderen Namen.
 teb.editcollection.already.added.alert.title
 teb.editcollection.already.added.alert.body
 teb.editcollection.button.label
@@ -70,14 +70,14 @@ collection
 group.item.widget.suffix.template
  ({0})
 group.item.sound.items
-0#items|1#item|2#items
+0#items|1#item|2#items	0#Objekte|1#Objekt|2#Objekte
 hover.extra.height
 main.item.sound.pause
 , 
 main.item.sound.space
  
 main.item.position.sound.template
-item {0} of {1}
+item {0} of {1}	Objekt {0} von {1}
 com/amazon/ebook/booklet/home/foundation/resources/HomeGUIResources
 java/util/ListResourceBundle
 (I)V

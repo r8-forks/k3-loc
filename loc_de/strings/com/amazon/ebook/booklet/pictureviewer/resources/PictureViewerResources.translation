@@ -13,15 +13,15 @@ Enable	Aktivieren
 disable
 Disable	Deaktivieren
 rotate_to
-Rotate to	Drehen zu
+Rotate to	Drehen ins
 landscape
 Landscape	Querformat
 portrait
 Portrait	Hochformat
 dithering
-Dithering
+Dithering	"Dithering"
 pan_to_next_page
-Pan to Next Page
+Pan to Next Page	Schiebe zur Folgeseite
 com/amazon/ebook/booklet/pictureviewer/resources/PictureViewerResources
 java/util/ListResourceBundle
 Lcom/amazon/ebook/booklet/pictureviewer/resources/PictureViewerResources;

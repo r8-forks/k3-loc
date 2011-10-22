@@ -1,7 +1,7 @@
 set HACKNAME=loc_de
-set PKGVER=0.5
+set PKGVER=0.7
 
-rem copy ..\..\K3Translator.jar .\
+copy ..\bin\K3Translator.jar .\
 
 echo Pack images
 ..\bin\7z a ui_loc.tar  ui_loc\*.gif

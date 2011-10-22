@@ -12,13 +12,13 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 hint.move.to.desired.location
-Move cursor to a location and then~~begin typing to create a note or click to start a highlight	Cursor an einer Stelle positionieren.~~Tippe, zur Notizerstellung / Klicke, zum Markieren.
+Move cursor to a location and then~~begin typing to create a note or click to start a highlight	Cursor an gewünschter Stelle positionieren.~~Tippe zur Notiz-Erstellung / Klicke zum Markieren.
 hint.note.or.highlight
-Begin typing to create a note or click to start a highlight	Beginne zu Tippen, zur Notizerstellung oder Klicke, zum Markieren
+Begin typing to create a note or click to start a highlight	Tippe zur Notizerstellung / Klicke zum Markieren
 hint.start.selection
-Move cursor to highlight~~Click to end highlight	Cursorbewegen zum Markieren~~Klicke, zum Beenden der Markierung.
+Move cursor to highlight~~Click to end highlight	Cursor bewegen zum Markieren~~Klicke zum Beenden des Markierens.
 hint.end.selection
-Click to end highlight	Klicke, um die Markierung zu beenden
+Click to end highlight	Klicke zum Beenden des Markierens
 com/amazon/ebook/booklet/reader/gui/infobox/resources/AnnotationFlowHintsResources
 java/util/ListResourceBundle
 a

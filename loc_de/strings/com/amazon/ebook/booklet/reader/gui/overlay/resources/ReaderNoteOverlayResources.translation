@@ -14,16 +14,16 @@ java/lang/Object
 save.note.button.text
 save note	Notiz speichern
 save.and.share.button.text
-save & share	speichern & sharen
+save & share	Speichern & Freigeben
 delete.button.text
-delete	löschen
+delete	Löschen
 button.width
 java/lang/Integer
 shortcut.text
 
 clear.text
 empty.note.error
-You cannot save an empty note.	Eine leere Notiz kannst du nicht speichern.
+You cannot save an empty note.	Eine leere Notiz kann nicht gespeichert werden.
 com/amazon/ebook/booklet/reader/gui/overlay/resources/ReaderNoteOverlayResources
 java/util/ListResourceBundle
 (I)V

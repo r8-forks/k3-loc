@@ -12,15 +12,15 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 home.app.menu.main.menu.label.view.collections
-View My Collections	Meine Sammlungen anzeigen
+View My Collections	Meine Sammlungen
 home.app.menu.main.menu.label.create.new.collection
-Create New Collection	Neue Sammlung erstellen
+Create New Collection	Neue Sammlung
 home.app.menu.main.menu.label.ad.list
-View Special Offers	Sonderangebote zeigen
+View Special Offers	Sonderangebote
 home.app.menu.settings.menu.label.search.my.items
 Search	Suche
 home.app.menu.settings.menu.label.archived
-View Archived Items	Archivierte Objekte anzeigen
+View Archived Items	Archiv
 home.bare.menu.default.item
 java/lang/Integer
 home.standard.menu.default.item

@@ -14,10 +14,10 @@ Code
 (II)Z
 (II)V
 ()Ljava/lang/String;
-Press N to start a new game, S to swap positions,	Drücke "N" zum Starten eines neuen Spiels, "S" zum Position wechseln,
+Press N to start a new game, S to swap positions,	Drücke "N" zum Starten eines neuen Spiels, "S" zum Seitenwechsel,
 M to go back to the Mine Sweeper.	"M", um zurück zu Mine Sweeper zu kommen.
-The winner is the first player to get an unbroken	Der Gewinner ist der erste Spieler, der eine ununterbrochene Reihe 
-row of five crosses or zeros horizontally, vertically,	von 5 Kreuzen oder Nullen horizontal, vertikal
+The winner is the first player to get an unbroken	Es gewinnt der erste Spieler, der eine ununterbrochene 
+row of five crosses or zeros horizontally, vertically,	Reihe von 5 Kreuzen oder Nullen horizontal, vertikal
 or diagonally.	oder diagonal erzielt.
 YOU WON!	Du hast gewonnen!
 YOU LOST!	Du hast verloren!

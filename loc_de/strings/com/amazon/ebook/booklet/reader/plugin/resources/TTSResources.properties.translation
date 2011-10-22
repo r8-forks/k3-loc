@@ -1,9 +1,9 @@
-tts.no.text.msg=In diesem Objekt gibt es keinen weiteren Text, Vorlesen wird nun beendet.
+tts.no.text.msg=In diesem Objekt gibt es keinen weiteren Text, das Vorlesen wird beendet.
 # DEPRECATED 2009-01-29 - There has been no special low battery check for TTS for a while now, which is what PMs want. 
-tts.battery.low.msg=Vorlesen entdeckte einen unerwarteten Fehler. Wenn das Problem weiterbesteht, starte bitte das Gerät über Einstellungen.
-tts.unknown.error.msg=Vorlesen entdeckte einen unerwarteten Fehler. Wenn das Problem weiterbesteht, starte bitte das Gerät über Einstellungen.
-tts.player.decrease.speech.rate.text=Langsamer
-tts.player.increase.speech.rate.text=Schneller
+tts.battery.low.msg=Vorlesen entdeckte einen unerwarteten Fehler. Falls das Problem weiterbesteht, starte bitte das Gerät über Einstellungen neu.
+tts.unknown.error.msg=Vorlesen entdeckte einen unerwarteten Fehler. Falls das Problem weiterbesteht, starte bitte das Gerät über Einstellungen neu.
+tts.player.decrease.speech.rate.text=langsamer
+tts.player.increase.speech.rate.text=schneller
 tts.player.window.offset.from.bottom=3
 
 

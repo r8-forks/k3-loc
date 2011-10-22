@@ -1,9 +1,9 @@
 #!/bin/sh
 HACKNAME=loc_de
-PKGVER=0.5
+PKGVER=0.7
 KindleUpdatePY=../bin/kindle_update_tool_x.py 
 
-# cp ../../K3Translator.jar .
+cp ../bin/K3Translator-Unix.jar K3Translator.jar
 
 dlist="k3w k3g k3gb dxg dxi dx "
 if [ $# -eq 1 ] ; then
@@ -32,8 +32,8 @@ done
 #echo Create update archive
 zip update_${HACKNAME}_${PKGVER}.zip *.bin *.keyb
 
-#echo Clean up
-#rm  *.bin
-#rm  translation.jar
-#rm  ui_loc.tar.gz
-#rm  config.tar.gz
+echo Clean up
+rm  *.bin
+rm  translation.jar
+rm  ui_loc.tar.gz
+rm  config.tar.gz

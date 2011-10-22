@@ -14,7 +14,7 @@ java/lang/Object
 action.set.default.dictionary.path
 /opt/amazon/dict
 delete.action.delete.text
-delete	löschen
+delete	Löschen
 delete.action.remove.text
 remove from device	vom Gerät löschen
 delete.action.remove.from.collection.text
@@ -24,13 +24,13 @@ java/lang/Integer
 delete.action.confirm.header
 Delete Item	Objekt löschen
 delete.action.confirm.body
-This item will be permanently deleted. Would you like to continue?	Objekt wird endgültig gelöscht. Möchtest du fortfahren?
+This item will be permanently deleted. Would you like to continue?	Das Objekt wird endgültig gelöscht. Möchtest Du fortfahren?
 delete.collection.action.confirm.header
 Delete Collection	Sammlung löschen
 delete.action.confirm.body.kindleapp
-This item and its settings will be permanently deleted.  Would you like to continue?	Dieses Objekt und seine Einstellungen werden endgültig gelöscht? Willst du fortfahren?
+This item and its settings will be permanently deleted.  Would you like to continue?	Dieses Objekt und seine Einstellungen werden endgültig gelöscht? Möchtest Du fortfahren?
 delete.collection.action.confirm.body
-This collection will be permanently deleted, but the contents will not be affected and will remain on your Kindle. Would you like to continue?	Die Sammlung wird endgültig gelöscht, aber ihre Inhalte sind nicht betroffen und bleiben erhalten. Möchtest du fortfahren?
+This collection will be permanently deleted, but the contents will not be affected and will remain on your Kindle. Would you like to continue?	Die Sammlung wird endgültig gelöscht, ihre Inhalte sind jedoch nicht betroffen und bleiben erhalten. Möchtest Du fortfahren?
 delete.delay.millis
 java/lang/Long
 left.action.x.offset
@@ -44,7 +44,7 @@ Home_RightSmArrow.gif
 collection.widget.text.2
 
 collection.empty.alert.text
-This Collection is currently empty	Diese Sammlung ist derzeit leer
+This Collection is currently empty	Diese Sammlung ist leer
 com/amazon/ebook/booklet/home/foundation/resources/ActionResources
 java/util/ListResourceBundle
 (I)V

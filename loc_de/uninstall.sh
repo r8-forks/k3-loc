@@ -48,29 +48,58 @@ logmsg()
     [ "$_MSG_LEVEL" != "D" ] && echo "ota_install: $_MSG_LEVEL def:$_MSG_COMP:$_NVPAIRS:$_FREETEXT"
 }
 
+# Hack specific config (name and when to start/stop)
+ORIGFOLDER_BLT=/opt/amazon/ebook/booklet
+ORIGFOLDER_LIB=/opt/amazon/ebook/lib
+ORIGFOLDER_IMG=/opt/amazon/ebook/img/ui
+ORIGFOLDER_CNF=/opt/amazon/ebook/config
+#
+DESTFOLDER_BLT=${ORIGFOLDER_BLT}_loc
+DESTFOLDER_LIB=${ORIGFOLDER_LIB}_loc
+DESTFOLDER_IMG=${ORIGFOLDER_IMG}_loc
+DESTFOLDER_CNF=${ORIGFOLDER_CNF}_loc
+
 # Unbind folders to original locations
 logmsg "I" "update" "restore bindings"
-[ -d /opt/amazon/ebook/booklet_loc ] && umount /opt/amazon/ebook/booklet
+
+# unmounting
+[ -d $DESTFOLDER_BLT ] && umount $ORIGFOLDER_BLT
 update_progressbar 10
-[ -d /opt/amazon/ebook/lib_loc ] && umount /opt/amazon/ebook/lib
+
+[ -d $DESTFOLDER_LIB ] && umount $ORIGFOLDER_LIB
 update_progressbar 20
-[ -d /opt/amazon/ebook/img/ui_loc ] && umount /opt/amazon/ebook/img/ui
+
+[ -d $DESTFOLDER_IMG ] && umount $ORIGFOLDER_IMG
 update_progressbar 30
-[ -d /opt/amazon/ebook/booklet_loc ] && rm -rf /opt/amazon/ebook/booklet_loc
+
+[ -f $DESTFOLDER_CNF/msp_prefs     ] && umount $ORIGFOLDER_CNF/msp_prefs
+[ -f $DESTFOLDER_CNF/browser_prefs ] && umount $ORIGFOLDER_CNF/browser_prefs
+[ -f $DESTFOLDER_CNF/reader.conf   ] && umount $ORIGFOLDER_CNF/reader.conf
 update_progressbar 40
-[ -d /opt/amazon/ebook/lib_loc ] && rm -rf /opt/amazon/ebook/lib_loc
-[ -f /opt/amazon/ebook/config_loc/msp_prefs ] && umount /opt/amazon/ebook/config/msp_prefs
-[ -f /opt/amazon/ebook/config_loc/msp_prefs ] && rm -f /opt/amazon/ebook/config_loc/msp_prefs
-[ -d /opt/amazon/ebook/config_loc ] && rm -rf /opt/amazon/ebook/config_loc
+
+# and deleting
+[ -d $DESTFOLDER_BLT ] && rm -rf $DESTFOLDER_BLT
 update_progressbar 50
-[ -d /opt/amazon/ebook/img/ui_loc ] && rm -rf /opt/amazon/ebook/img/ui_loc
+
+[ -d $DESTFOLDER_LIB ] && rm -rf $DESTFOLDER_LIB
 update_progressbar 60
-[ -f /opt/amazon/loc-bind ] && rm -f /opt/amazon/loc-bind
+
+[ -d $DESTFOLDER_IMG ] && rm -rf $DESTFOLDER_IMG
+update_progressbar 75
+
+# deleting all config files
+[ -d $DESTFOLDER_CNF ] && rm -rf $DESTFOLDER_CNF
 update_progressbar 70
-[ -f /etc/init.d/loc-init  ] && rm -f /etc/init.d/loc-init
+
+[ -f /opt/amazon/loc-bind ] && rm -f /opt/amazon/loc-bind
 update_progressbar 80
+
+[ -f /etc/init.d/loc-init  ] && rm -f /etc/init.d/loc-init
+update_progressbar 85
+
 [ -h /etc/rcS.d/S73loc-init  ] && rm -f /etc/rcS.d/S73loc-init
 update_progressbar 90
+
 [ -d /mnt/us/localization  ] && rm -rf /mnt/us/localization
 
 logmsg "I" "update" "done"

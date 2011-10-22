@@ -25,7 +25,7 @@ text.field.title.font
 text.field.background.color
 text.field.foreground.color
 symbols.hint.text
-(press 'SYM' key for numbers 0 - 9)	(Drücke 'SYM' für die Zahlen 0 - 9)
+(press 'SYM' key for numbers 0 - 9)	('SYM' für die Zahlen 0 - 9)
 symbols.hint.top.spacing
 symbols.hint.height
 symbols.hint.font
@@ -37,7 +37,7 @@ button.spacing
 button.layer.spacing
 layer.spacing
 title
-Go to...	Gehe zu...
+Go to...	Gehe zu ...
 icon.label.location
 location	Textstelle
 icon.label.beginning

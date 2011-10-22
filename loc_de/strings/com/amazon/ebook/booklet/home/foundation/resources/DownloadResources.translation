@@ -18,17 +18,17 @@ header.right.str
 footer.close.button.str
 Close	Schließen
 text.2.complete
-download complete	Herunterladen fertig
+download complete	Herunterladen beendet
 text.2.pending
-pending - {0}%	schwebend  - {0}%
+pending - {0}%	in Warteschleife  - {0}%
 text.2.downloading
 downloading - {0}%	lade - {0}%
 text.2.wireless.required
-wireless connection required - {0}%	W-Lan Verbindung notwendig - {0}%
+wireless connection required - {0}%	Wi-Fi-Verbindung erforderlich - {0}%
 text.2.insufficient.space
 insufficient space - {0}%	nicht genügend Speicherplatz - {0}%
 text.2.wifi.required
-Wi-Fi required - {0}%	W-Lan Verbindung notwendig - {0}%
+Wi-Fi required - {0}%	Wi-Fi-Verbindung erforderlich - {0}%
 text.2.failed
 error	Fehler
 text.2.default

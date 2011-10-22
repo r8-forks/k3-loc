@@ -13,13 +13,13 @@ java/lang/Object
 now.playing.view.position.caption
 Position	Position
 now.playing.view.section.info.template
-Section {0} of {1}	Abschnitt {0} von {1}
+Section {0} of {1}	Rubrik {0} von {1}
 gui.now_playing.txtstatus.y
 java/lang/Integer
 audible.metadata.unknown
-Unknown
+Unknown	unbekannt
 audible.metadata.by.author.template
-by {0}
+by {0}	von {0}
 audible.metadata.narrator.template
 Narrator: {0}	Erzähler: {0}
 audible.metadata.no.narrator

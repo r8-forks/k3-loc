@@ -3,7 +3,7 @@ gui.language.0=en
 gui.language.default=en
 gui.language.current=en
 
-gui.title.de = Mienen Räumen!
+gui.title.en=Mienen Räumen!
 
 gui.middle_text.x = 100
 gui.middle_text.y = 0
@@ -46,11 +46,11 @@ board.config.4.columns=30
 board.config.4.mines=250
 board.config.4.cell_size=26
 
-messages.m_key.de = Druecke M Taste um Minen zu markieren
-messages.r_key.de = Druecke R für ein neues Spiel
-messages.g_key.de = Druecke G um GoMoKu zu spielen
-messages.lost.de = Du hast verloren!
-messages.won.de = Du hast gewonnen!
-messages.mines_left.de = Mienen übrig.
+messages.m_key.en = Drücke M Taste um Minen zu markieren
+messages.r_key.en = Drücke R für ein neues Spiel
+messages.g_key.en = Drücke G um GoMoKu zu spielen
+messages.lost.en = Du hast verloren!
+messages.won.en = Du hast gewonnen!
+messages.mines_left.en = Mienen übrig.
 
-messages.error.already_lost.de = Du hast verloren! Drücke R für ein neues Spiel.
+messages.error.already_lost.en = Du hast verloren! Drücke R für ein neues Spiel.

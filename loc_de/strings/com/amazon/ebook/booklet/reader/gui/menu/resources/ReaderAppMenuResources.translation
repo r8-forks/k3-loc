@@ -12,18 +12,18 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 clip.this.article.finish
-Article clipped	Kurzfassung
+Article clipped	abgeschnitten
 menu.go.to
-Go to...	Gehe zu...
+Go to...	Gehe zu ...
 menu.my.notes.and.marks
-View My Notes & Marks	Zeige meine Notizen & Markierungen
-View Notes & Marks	Zeige Notizen & Markierungen
+View My Notes & Marks	Meine Notizen & Markierungen
+View Notes & Marks	Notizen & Markierungen
 menu.popular.highlights
-View Popular Highlights	Zeige beliebte Markierungen
+View Popular Highlights	Beliebte Markierungen
 most.popular.highlights.max
 java/lang/Integer
 most.popular.highlights.label
-View Most Popular Highlights	Zeige die beliebtesten Markierungen
+View Most Popular Highlights	Beliebteste Markierungen
 com/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources
 java/util/ListResourceBundle
 (I)V
