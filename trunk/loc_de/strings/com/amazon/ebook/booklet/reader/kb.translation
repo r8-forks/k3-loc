@@ -217,7 +217,7 @@ DICTIONARY
 ALLOW_JUSTIFICATION_CHANGE
 ALLOW_TWO_COLUMN_VIEW
 ALLOW_ARTICLE_THUMBNAIL
- reader-plugin loaded.
+ reader-plugin loaded.	Leser-Plugin geladen.
 destroy()
 java/lang/Throwable
 do_pause()
@@ -240,8 +240,8 @@ Cannot continue because the current viewer is null!
 You cannot open a null searchURI
 java/io/File
 gui.alert.book_is_gone
-book is gone!	Buch ist gelöscht!
-The selected item could not be opened. If you purchased this item from Amazon, you can try redownloading the item from Archived Items in Home. For additional help, please call Kindle Customer Service at 1-866-321-8851 or 206-266-0927.
+book is gone!	Buch wurde gelöscht!
+The selected item could not be opened. If you purchased this item from Amazon, you can try redownloading the item from Archived Items in Home. For additional help, please call Kindle Customer Service at 1-866-321-8851 or 206-266-0927.	Die Auswahl kann nicht geöffnet werden. Falls Du das Objekt von Amazon gekauft hast, kannst Du versuchen, es über Home/Archivierte Objekte erneut herunterzuladen.
 com/amazon/ebook/booklet/reader/sdk/PasswordCancelException
 PATH
 com.amazon.ebook.booklet.reader.resources.ReaderResources
@@ -265,7 +265,7 @@ yyyy-MM-dd HH.mm.ss Z
 java/util/Locale
 java/util/Date
 unknown
-The book you are trying to open is corrupted or is not supported
+The book you are trying to open is corrupted or is not supported	Das Buch, welches Du öffnen willst, ist defekt oder wird nicht unterstützt
 getCurrentPageAnnotations should not get a null!
 getAnnotationEntries(int)
 getCurrentPageAnnotations only for type 
@@ -280,7 +280,7 @@ java/net/URISyntaxException
 closeBook()
 java/util/HashSet
 Reader#closeBook fails to invalidate cache 
-Could not get Viewer for book.
+Could not get Viewer for book.	Konnte keinen Betrachter für das Buch finden.
 java/awt/Graphics2D
 Reader.lookup(): exact match found
 Reader.lookup(): exact match not found
@@ -347,7 +347,7 @@ Reader::updateIndexView(): Index isn't open yet.
 gui.alert.book_not_indexed
 Book not indexed yet.	Buch noch nicht indiziert.
 gui.alert.not_enough_space_for_search
-Not enough space for search.	Ungenügend Speicher zum Suchen.
+Not enough space for search.	Zu wenig freier Speicher zum Suchen.
 com.amazon.ebook.booklet.reader
 social-clipping
 com/amazon/ebook/booklet/reader/gui/overlay/note/NoteFeatureDrivenOverlay

@@ -12,23 +12,23 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 textfield.symbol.hint.msg
-(press 'SYM' key for symbols)	(Drücke 'SYM' für Sonderzeichen)
+(press 'SYM' key for symbols)	('SYM' für Sonderzeichen)
 button.ok.text
-ok
+ok	OK
 button.close.text
-close	schließen
+close	Schließen
 button.cancel.text
-cancel	abbrechen
+cancel	Abbrechen
 button.activate.text
-activate	aktivieren
+activate	Aktivieren
 button.submit.text
-submit	absenden
+submit	Absenden
 button.clear.text
-clear	leeren
+clear	Leeren
 button.save.text
-save	speichern
+save	Speichern
 button.join.text
-join	beitreten
+join	Beitreten
 button.close.setting.text
 Close Settings	Einstellungen schließen
 button.close.bookmark.text
@@ -44,9 +44,9 @@ Username:	Benutzername:
 label.password
 Password:	Passwort:
 more.items
-More Items...	weitere Objekte...
+More Items...	Weitere Objekte ...
 group.menu.beginning.label
-Go to Beginning...	Zum Anfang...
+Go to Beginning...	Zum Anfang ...
 icon.button.separation
 java/lang/Integer
 image.icon.insets

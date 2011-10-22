@@ -13,15 +13,15 @@ SourceFile
 java/lang/Object
 collection.filter.all.format
 java/text/ChoiceFormat
-0#Showing All {0,number,integer} Items|1#Showing All {0,number,integer} Item|2#Showing All {0,number,integer} Items	0#Zeigt alle {0,number,integer} Objekte|1#Zeigt alle {0,number,integer} Objekt|2#Zeigt alle {0,number,integer} Objekte
+0#Showing All {0,number,integer} Items|1#Showing All {0,number,integer} Item|2#Showing All {0,number,integer} Items	0#{0,number,integer} Bücher, sortiert nach|1#{0,number,integer} Buch, sortiert nach|2#{0,number,integer} Bücher, sortiert nach
 collection.filter.books.format
-0#Showing All {0,number,integer} Books|1#Showing All {0,number,integer} Book|2#Showing All {0,number,integer} Books	0#Zeigt alle {0,number,integer} Bücher|1#Zeigt alle {0,number,integer} Buch|2#Zeigt alle {0,number,integer} Bücher
+0#Showing All {0,number,integer} Books|1#Showing All {0,number,integer} Book|2#Showing All {0,number,integer} Books	0#{0,number,integer} Bücher, sortiert nach|1#{0,number,integer} Buch, sortiert nach|2#{0,number,integer} Bücher, sortiert nach
 collection.filter.subs.format
-0#Showing All {0,number,integer} Periodicals|1#Showing All {0,number,integer} Periodical|2#Showing All {0,number,integer} Periodicals	0#Zeigt alle {0,number,integer} Abonnements|1#Zeigt alle {0,number,integer} Abonnement|2#Zeigt alle {0,number,integer} Abonnements
+0#Showing All {0,number,integer} Periodicals|1#Showing All {0,number,integer} Periodical|2#Showing All {0,number,integer} Periodicals	0#{0,number,integer} Abonnements, sortiert nach|1#{0,number,integer} Abonnement, sortiert nach|2#{0,number,integer} Abonnements, sortiert nach
 collection.filter.pdocs.format
-0#Showing All {0,number,integer} Personal Documents|1#Showing All {0,number,integer} Personal Document|2#Showing All {0,number,integer} Personal Documents	0#Zeigt alle {0,number,integer} eigene Dateien|1#Zeigt alle {0,number,integer} eigene Dateie|2#Zeigt alle {0,number,integer} eigene Dateien
+0#Showing All {0,number,integer} Personal Documents|1#Showing All {0,number,integer} Personal Document|2#Showing All {0,number,integer} Personal Documents	0#{0,number,integer} eigene Dateien, sortiert nach|1#{0,number,integer} eigene Datei, sortiert nach|2#{0,number,integer} eigene Dateien, sortiert nach
 collection.filter.all
-All My Items	Alle meine Objekte
+All My Items	Meine Objekte
 collection.filter.books
 Books	Bücher
 collection.filter.subs
@@ -29,19 +29,19 @@ Subscriptions	Abonnements
 collection.filter.pdocs
 Personal Docs	Eigene Dateien
 collection.sort.recent.label
-By Most Recent First	Letzt gewählte zuerst
+By Most Recent First	Zugriffsreihenfolge
 collection.sort.title.label
-By Title	Nach Titeln
+By Title	Titel
 collection.sort.author.label
-By Author	Nach Autoren
+By Author	Autor
 collection.sort.recent
-Most Recent First	Letzt gewählte zuerst
+Most Recent First	Zugriffsreihenfolge
 collection.sort.title
 Title	Titel
 collection.sort.author
 Author	Autor
 collection.menuitem.additems.name
-Add/Remove Items	Objekte dazufügen/löschen
+Add/Remove Items	Objekte hinzufügen/löschen
 collection.menuitem.edit.collection.name
 Rename Collection	Sammlung umbenennen
 collection.menuitem.delete.collection
@@ -63,13 +63,13 @@ collection.enter.overlay.max.chars
 collection.enter.overlay.save.button.label
 save	speichern
 collection.enter.overlay.title
-Enter Collection Name	Sammlungsname eingeben
+Enter Collection Name	Namen der Sammlung eingeben
 collection.edit.overlay.title
-Edit Collection Name	Sammlungsname ändern
+Edit Collection Name	Namen der Sammlung ändern
 collection.edit.alreadyexists.overlay.title
-Collection Name Already Exists	Sammlungsname existiert bereits
+Collection Name Already Exists	Sammlung existiert bereits
 collection.edit.alreadyexists.overlay.msg
-The collection name that you entered already exists. Please enter a different name.	Der eingegebene Sammlungsname existiert bereits. Bitte wähle einen anderen Namen.
+The collection name that you entered already exists. Please enter a different name.	Diese Sammlung existiert bereits. Bitte wähle einen anderen Namen.
 collection.enter.overlay.title.font
 collection.enter.overlay.main.font
 collection.enter.overlay.field.font

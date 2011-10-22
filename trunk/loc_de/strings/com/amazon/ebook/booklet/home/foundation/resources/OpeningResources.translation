@@ -12,9 +12,9 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 opening.str.1
-Now downloading the selected item...	Lädt nun das gewählte Objekt herunter...
+Now downloading the selected item...	Lade das gewählte Objekt ...
 opening.str.2
-When downloading is complete, the item will appear in Home, or, if you choose to stay on this page, the item will open automatically.	Wenn das Objekt heruntergeladen wurde, erscheint es in "Home", wenn du diese Seite offen lässt, öffnet sich das Objekt automatisch.
+When downloading is complete, the item will appear in Home, or, if you choose to stay on this page, the item will open automatically.	Sobald das Objekt heruntergeladen wurde, erscheint es in "Home". Wenn Du auf dieser Seite bleibst, öffnet sich das Objekt automatisch.
 opening.side.margin
 java/lang/Integer
 opening.line.margin

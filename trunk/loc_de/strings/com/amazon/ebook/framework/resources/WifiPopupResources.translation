@@ -38,33 +38,33 @@ connect	verbinden
 text.disconnect
 forget	vergessen
 text.connecting
-connecting...	verbinde...
+connecting...	Verbinde ...
 text.newNetwork
-enter other Wi-Fi network	anderem W-Lan Netzwerk beitreten
+enter other Wi-Fi network	mit anderem Wi-Fi-Netzwerk verbinden
 text.rescanning
-scanning...	scanne...
+scanning...	Scanne ...
 text.rescanLink
-rescan	erneut scannen
+rescan	Erneut scannen
 text.secureNetwork.accessible
 secure	gesichert
 text.openNetwork.accessible
 open	offen
 text.connectionRequired
-A Wi-Fi connection is required to complete this task. Connect to a Wi-Fi network or try again later.	Eine W-Lan Verbindung ist notwendig um fortzufahren. Stelle eine Verbindung her oder versuche es später erneut.
+A Wi-Fi connection is required to complete this task. Connect to a Wi-Fi network or try again later.	Eine W-Fi-Verbindung ist notwendig, um fortzufahren zu können. Stelle eine Verbindung her oder versuche es später erneut.
 text.button.advanced
 advanced	fortgeschritten
 message.enterPassword
 Enter password for {0}:	Bitte Passwort für {0} eingeben:
 message.unableToConnectHeader
-Unable to Connect to Wi-Fi Network~~~~	Keine Verbindung zum W-Lan Netzwerk möglich~~~~
+Unable to Connect to Wi-Fi Network~~~~	Keine Verbindung zum Wi-Fi-Netzwerk möglich~~~~
 message.unableToConnect
 Your Kindle is unable to connect to the Wi-Fi network "{0}". 	Dein Kindle konnte keine Verbindung zum Netzwerk "{0}" herstellen. 
 message.manuallyEnterSettingsUnsecure
-Would you like to try again or manually set up this network?	Möchtest du es erneut probieren oder die Daten manuell eingeben?
+Would you like to try again or manually set up this network?	Möchtest Du es erneut versuchen oder die Daten manuell eingeben?
 message.manuallyEnterSettingsSecure
-Would you like to enter the password again or manually set up this network?	Möchtest du das Passwort erneut eingeben oder das Netzwerk manuell einrichten?
+Would you like to enter the password again or manually set up this network?	Möchtest Du das Passwort erneut eingeben oder das Netzwerk manuell einrichten?
 message.availableNetworks
-{0} Wi-Fi Networks	{0} W-Lan Netzwerke
+{0} Wi-Fi Networks	{0} Wi-Fi-Netzwerke
 message.pageNumber
 Page {0} of {1}	Seite {0} von {1}
 font.title
@@ -76,9 +76,9 @@ font.action.connecting
 font.pageNumber
 color.connecting
 enter.new.wifi.network.overlay.header
-Enter other Wi-Fi network	Anderes W-Lan Netzwerk eingeben
+Enter other Wi-Fi network	Weiteres Wi-Fi-Netzwerk hinzufügen
 enter.new.wifi.network.overlay.ssid.label
-Network name:	Netzwerkname:
+Network name:	Netzwerk-Name:
 enter.new.wifi.network.overlay.password.label
 Password:	Passwort:
 enter.new.wifi.network.overlay.left.margin
@@ -94,43 +94,42 @@ set up network	Netzwerk einrichten
 button.enter.password.again.text
 enter password again	Passwort erneut eingeben
 button.enter.try.again.text
-try again	erneut versuchen
+try again	Erneut versuchen
 captive.title
 Sign-in required	Anmeldung notwendig
 captive.msg
-The Wi-Fi network you are connecting to requires you to sign in before accessing the Internet.~~~~Do you wish to go to Web Browser to sign in?
-Перед доступом в интернет, вам надо авторизоваться в Вашей сети.~~~~Хотите открыть браузер для аутентификации?
+The Wi-Fi network you are connecting to requires you to sign in before accessing the Internet.~~~~Do you wish to go to Web Browser to sign in?	Das Netzwerk, mit dem Du Dich verbinden willst, erfordert eine Registrierung.~~~~Den Browser starten, um die Registrierung durchzuführen?
 captive.button.text
 go to browser	Browser öffnen
 new.network.widget.action.overlay.width
 text.error.101
 The password you entered is incorrect or invalid.~~	Das eingegebene Passwort ist ungültig oder abgelaufen.~~
 text.error.102
-There is no Wi-Fi Profile configured for this network.~~	Kein W-Lan Profil für dieses Netzwerk eingerichtet.~~
+There is no Wi-Fi Profile configured for this network.~~	Es ist kein Wi-Fi-Profil für dieses Netzwerk eingerichtet.~~
 text.error.103
-Wi-Fi network connection failed.~~	W-Lan Verbindung fehlgeschlagen.~~
+Wi-Fi network connection failed.~~	Wi-Fi-Verbindung fehlgeschlagen.~~
 text.error.104
-Wi-Fi is not available right now. If the problem persists, please restart your device.~~	Momentan ist W-Lan nicht verfügbar. Wenn das Problem weiterhin besteht starte das Gerät neu.~~
+Wi-Fi is not available right now. If the problem persists, please restart your device.~~	Momentan ist Wi-Fi nicht verfügbar. Falls das Problem weiterhin besteht, starte das Gerät neu.~~
 text.error.105
 text.error.106
-Local network connection failed.~~	Verbindung zum lokalem Netzwerk fehlgeschlagen.~~
+Local network connection failed.~~	Verbindung zum lokalen Netzwerk fehlgeschlagen.~~
 text.error.107
 Internet connection failed.~~	Es konnte keine Internetverbindung hergestellt werden.~~
 text.error.201
-The name of the Wi-Fi network is too long.~~	Der Name des W-Lan Netzwerkes ist zu lang.~~
+The name of the Wi-Fi network is too long.~~	Der Name des Wi-Fi-Netzwerkes ist zu lang.~~
 text.error.202
 text.error.203
-Enterprise Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	Fimen W-Lan Netzwerke sind nicht vom Kindle unterstützt. Bitte versuche ein anderes Netzwerk.~~
+Enterprise Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	Firmen-Netzwerke werden vom Kindle nicht unterstützt. Versuche ein anderes Netzwerk zu verwenden.~~
 text.error.204
-The password you entered is longer than allowed by the Wi-Fi network. Try entering the password again.~~	Das eingegebene Passwort ist länger als vom W-Lan Netzwerk erlaubt. Bitte versuche es erneut~~
+The password you entered is longer than allowed by the Wi-Fi network. Try entering the password again.~~	Das eingegebene Passwort ist länger als vom Netzwerk akzeptiert. Bitte versuche es erneut.~~
 text.error.205
-The password you entered is missing one or more characters. Try entering the password again.~~	Dem eingegebenen Passwort fehlen einer oder oder mehr Zeichen. Bitte versuche es erneut.~~
+The password you entered is missing one or more characters. Try entering the password again.~~	Dem eingegebenen Passwort fehlen ein oder mehr Zeichen. Bitte versuche es erneut.~~
 text.error.206
-The security type you entered does not match the security type of the Wi-Fi network you are trying to connect to.~~	Die ausgewählte Sicherung passt nicht zu der des W-Lan Netzwerkes mit dem du dich Verbinden möchtest.~~
+The security type you entered does not match the security type of the Wi-Fi network you are trying to connect to.~~	Die Verschlüsselungsart passt nicht zu der des Netzwerkes, mit dem Du dich verbinden möchtest.~~
 text.error.207
-Peer-to-peer Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	Ad-Hoc Netzwerke werden nicht vom Kindle unterstützt, bitte versuche es erneut.~~
+Peer-to-peer Wi-Fi networks are not supported on Kindle. Try connecting to another network.~~	Ad-Hoc-Netzwerke werden vom Kindle nicht unterstützt. Versuche ein anderes Netzwerk zu verwenden.~~
 text.msg.unsupportedNetwork
-Unsupported Wi-Fi network~~~~Enterprise or peer-to-peer Wi-Fi networks are not supported. Try connecting to another network.	Nicht unterstütztes W-Lan Netzwerk~~~~Firmen-Netze und Ad-Hoc Verbindungen werden nicht unterstützt. Bitte wähle ein anderes Netzwerk.
+Unsupported Wi-Fi network~~~~Enterprise or peer-to-peer Wi-Fi networks are not supported. Try connecting to another network.	Nicht unterstütztes Wi-Fi-Netzwerk~~~~Firmen-Netze und Ad-Hoc-Verbindungen werden nicht unterstützt. Versuche ein anderes Netzwerk zu verwenden.
 com/amazon/ebook/framework/resources/WifiPopupResources
 java/util/ListResourceBundle
 (I)V

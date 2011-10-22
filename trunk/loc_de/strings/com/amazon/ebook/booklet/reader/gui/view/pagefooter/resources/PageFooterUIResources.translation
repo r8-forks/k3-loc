@@ -16,19 +16,19 @@ java/lang/Integer
 reading.indicator.side
 reading.indicator.height
 button.article.label
-Close Articles List	Artikelauswahl schließen
-Close Article List	Artikelauswahl schließen
+Close Articles List	Artikelliste schließen
+Close Article List	Artikelliste schließen
 text.article.spacer
 section.list.button.label
-View Sections & Articles	Zeige Abschnitte & Artikel
-View Section List	Zeige Abschnittsauswahl
+View Sections & Articles	Rubriken & Artikel
+View Section List	Zur Rubrikenansicht
 article.list.button.label
-View Articles List	Zeige Artikelauswahl
-View Article List	Zeige Artikelauswahl
+View Articles List	Zur Artikelliste
+View Article List	Zur Artikelliste
 page.section.info.font
 button.section.label
-Close Sections & Articles	Abschnitte & Artikel schließen
-Close Section List	Abschnittsliste schließen
+Close Sections & Articles	Rubriken & Artikel schließen
+Close Section List	Rubrikenansicht schließen
 close.search.result.label
 Close Search Results	Suchergebnisse schließen
 article.prev.label

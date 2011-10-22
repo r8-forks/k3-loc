@@ -12,17 +12,17 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 switch.wireless.provider.overlay.label
-Switching Wireless Providers	Ändere W-Lan Provider
+Switching Wireless Providers	Wechsele Netzbetreiber
 switch.wireless.provider.overlay.body.without.current.provider
-Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not successfully reconnect to the Amazon Whispernet network. Do you wish to continue?	Dein Kindle wird während des Vorgangs die Verbindung trennen. Ein manueller Wechsel des Providers wird mehrere Minuten benötigen und dein Kindle wird möglicherweise nicht erfolgreich ins Amazon Whispernet einloggen können. Fortsetzen?
+Your Kindle will lose its connection during this process. Manually switching wireless providers may take several minutes to complete, and your Kindle may not successfully reconnect to the Amazon Whispernet network. Do you wish to continue?	Dein Kindle wird während des Vorgangs die Verbindung trennen. Ein manueller Wechsel des Providers kann mehrere Minuten dauern, und Dein Kindle wird sich dann möglicherweise nicht wieder ins Amazon-Whispernet einloggen können. Fortsetzen?
 wireless.provider.page.footer.text
 
 wireless.provider.page.header.text
-Available Wireless Providers	Verfügbare W-Lan Provider
+Available Wireless Providers	Verfügbare Netzbetreiber
 wireless.provider.page.scanning.text.1
-Scanning for available wireless providers.	Suche nach verfügbaren W-Lan Providern
+Scanning for available wireless providers.	Suche nach verfügbaren Netzbetreibern.
 wireless.provider.page.scanning.text.2
-This may take several minutes...	Dies kann mehrere Minuten dauern...
+This may take several minutes...	Dies kann mehrere Minuten dauern ...
 wireless.provider.page.switch.automatically.text
 Switch automatically (recommended)	Automatisch wechseln (empfohlen)
 wireless.provider.main.item.name.with.technology.pattern
@@ -50,7 +50,7 @@ java/lang/Long
 mcs.defer.screen.saver.timer
 mcs.item.cursor.height
 wireless.provider.populating.page.instruction.text
-Select "Switch automatically" to allow your Kindle to automatically choose the best wireless provider (default).	Wähle "Automatisches wechseln" um dein Kindle automatisch den besten W-Lan Provider wählen zu lassen (Standard).
+Select "Switch automatically" to allow your Kindle to automatically choose the best wireless provider (default).	Wähle "Automatisch wechseln", um Deinen Kindle automatisch das beste Netz wählen zu lassen (Standard).
 mcs.connected.sound
 connected
 mcs.not.connected.sound

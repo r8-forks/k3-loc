@@ -29,7 +29,7 @@ import getopt
 
 ## For Signed Images Only
 
-BASE_CMD = "..\\bin\\openssl.exe dgst -sha256 "
+BASE_CMD = "openssl dgst -sha256 "
 CMD_SIGN = BASE_CMD + "-sign %(privkey)s -out %(outfile)s %(infile)s"
 KINDLE_HACK_DIR = "/etc/uks"
 KINDLE_HACK_KEYNAME = "pubprodkey01.pem"

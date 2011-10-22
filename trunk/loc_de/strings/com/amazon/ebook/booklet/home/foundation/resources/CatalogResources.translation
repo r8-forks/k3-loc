@@ -17,7 +17,7 @@ apps.citem.text.2
 
 apps.filter.format
 java/text/ChoiceFormat
-0#Showing {0,number,integer} Applications|1#Showing {0,number,integer} Application|2#Showing {0,number,integer} Applications
+0#Showing {0,number,integer} Applications|1#Showing {0,number,integer} Application|2#Showing {0,number,integer} Applications	0#{0,number,integer} Anwendungen, sortiert nach|1#{0,number,integer} Anwendung, sortiert nach|2#{0,number,integer} Anwendungen, sortiert nach
 archiveditems.citem.text.1
 Archived Items	Archivierte Objekte
 archiveditems.citem.text.2
@@ -25,10 +25,10 @@ collectionsitem.citem.text.1
 Collections	Sammlungen
 collectionsitem.citem.text.2
 backissues.citem.text.1
-Periodicals: Back Issues	Abonnements: vorherige Ausgaben
+Periodicals: Back Issues	Abonnements: ältere Ausgaben
 backissues.citem.text.2
 backissues.filter.format
-0#Showing {0,number,integer} Back Issues|1#Showing {0,number,integer} Back Issue|2#Showing {0,number,integer} Back Issues	0#Zeigt {0,number,integer} vorherige Ausgaben|1#Zeigt {0,number,integer} vorherige Ausgabe|2#Zeigt {0,number,integer} vorherige Ausgaben
+0#Showing {0,number,integer} Back Issues|1#Showing {0,number,integer} Back Issue|2#Showing {0,number,integer} Back Issues	0#{0,number,integer} ältere Ausgaben, sortiert nach|1#{0,number,integer} ältere Ausgabe, sortiert nach|2#Zeigt {0,number,integer} ältere Ausgaben, sortiert nach
 backissues.citem.date.string.none
 (none)	(keine)
 backissues.citem.date.single.format
@@ -40,24 +40,24 @@ blogs.citem.text.1
 Blogs	Blogs
 blogs.citem.text.2
 blogs.filter.format
-0#Showing {0,number,integer} Blogs|1#Showing {0,number,integer} Blog|2#Showing {0,number,integer} Blogs
+0#Showing {0,number,integer} Blogs|1#Showing {0,number,integer} Blog|2#Showing {0,number,integer} Blogs	0#Zeigt {0,number,integer} Blogs|1#Zeigt {0,number,integer} Blog|2#Zeigt {0,number,integer} Blogs
 books.citem.text.1
 Books	Bücher
 books.citem.text.2
 books.filter.format
-0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books
+0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books	0#Zeigt {0,number,integer} Bücher|1#Zeigt {0,number,integer} Buch|2#Zeigt {0,number,integer} Bücher
 collections.hiw.font
 collections.citem.text.2
 currentissues.citem.text.1
 Periodicals: Current Issues
 currentissues.citem.text.2
 currentissues.filter.format
-0#Showing {0,number,integer} Current Issues|1#Showing {0,number,integer} Current Issue|2#Showing {0,number,integer} Current Issues
+0#Showing {0,number,integer} Current Issues|1#Showing {0,number,integer} Current Issue|2#Showing {0,number,integer} Current Issues	0#Zeigt {0,number,integer} aktuelle Ausgaben|1#Zeigt {0,number,integer} aktuelle Ausgabe|2#Zeigt {0,number,integer} aktuelle Ausgaben
 pdocs.citem.text.1
 Personal Docs	Eigene Dateien
 pdocs.citem.text.2
 pdocs.filter.format
-0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs
+0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs	0#Zeigt {0,number,integer} eigene Dateien|1#Zeigt {0,number,integer} eigene Datei|2#Zeigt {0,number,integer} eigene Dateien
 unassigneditems.citem.text.1
 Unassigned Items
 unassigneditems.citem.text.2

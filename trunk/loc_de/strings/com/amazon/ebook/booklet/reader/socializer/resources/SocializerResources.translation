@@ -11,79 +11,79 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 share.note.success
-Message shared	Nachricht geteilt
+Message shared	Nachricht freigegeben
 share.note.processing
 
 share.highlight.success
 share.highlight.processing
 no.external.accounts.title
-Social Networks Not Registered	Soziales Netzwerk nicht angemeldet
+Social Networks Not Registered	Soziale Netzwerke nicht angemeldet
 no.external.accounts.message
-Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	Dein Kindle ist bei keinem sozialen Netzwerk registriert. "Wähle 'Verbinden', um die Seite "Verwalte deine Sozialen Netzwerke" zu öffnen, so dass du deine Konto Informationen eingeben kannst. Wenn deine Registrierung abgeschlossen ist, wähle 'Lesen fortsetzen", um fortzufahren.
+Your Kindle is not registered with any social networks. Selecting 'register' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your registration is complete, select 'Continue reading' to return to this item.	Dein Kindle ist bei keinem sozialen Netzwerk registriert. Wähle 'Verbinden', um die Seite "Verwalte deine Sozialen Netzwerke" zu öffnen, so dass Du Deine Konto-Informationen eingeben kannst. Wenn deine Registrierung abgeschlossen ist, wähle 'Lesen fortsetzen", um hierher zurückzukehren.
 authentication.error.title
 Invalid Social Networks	Ungültige Soziale Netzwerke
 authentication.error.message
-One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	Ein oder mehrere soziale Netzwerke, die mit deinen Kindle verbunden sind, wurden nicht richtig konfiguriert. "Wähle 'Konten verwalten', um die "Verwalte deine Sozialen Netzwerke" Webseite zu öffnen und den Fehler zu beheben. Wenn du fertig bist, wähle 'Lesen fortsetzen', um fortzufahren.
+One or more of the social networks registered to your Kindle are not configured properly. Selecting 'manage accounts' below will open the "Manage Your Social Networks" web page so you can enter your account information. When your changes are complete, select 'Continue reading' to return to this item.	Ein oder mehrere soziale Netzwerke, die mit deinem Kindle verbunden sind, sind nicht richtig konfiguriert. "Wähle 'Konten verwalten', um die "Verwalte deine Sozialen Netzwerke" Webseite zu öffnen und den Fehler zu beheben. Wenn Du fertig bist, wähle 'Lesen fortsetzen', um hierher zurückzukehren.
 server.unavailable.title
-Sharing unavailable. Try later	Sharing nicht möglich. Bitte später versuchen
+Sharing unavailable. Try later	Freigabe nicht verfügbar, später erneut versuchen
 server.unavailable.message
-The sharing service is currently unavailable. Please try again later.	Der Sharing-Dienst ist momentan nicht verfügbar. Versuche es bitte später erneut.
+The sharing service is currently unavailable. Please try again later.	Der Freigabe-Dienst ist momentan nicht verfügbar. Versuche es bitte später erneut.
 sharing.not.supported.title
-Sharing Not Supported	Sharing wird nicht unterstützt
+Sharing Not Supported	Freigabe wird nicht unterstützt
 sharing.not.supported.message
-This content does not support sharing.	Dieser Inhalt unterstützt sharing nicht.
+This content does not support sharing.	Dieser Inhalt unterstützt das Freigeben nicht.
 sharing.limit.reached.title
-Clipping Limit Reached	Ausschnittmaximum erreicht
+Clipping Limit Reached	Ausschnitt-Maximum erreicht
 sharing.limit.reached.message
-Unable to share. You have reached the clipping limit for this item.	Sharing nicht möglich. Du hast das Ausschnittmaximum für dieses Objekt erreicht.
+Unable to share. You have reached the clipping limit for this item.	Freigabe nicht möglich. Du hast das Ausschnitt-Maximum für dieses Objekt erreicht.
 sharing.pdf.password.protected.title
-Password Protected PDF File	passwortgeschützte PDF Datei
+Password Protected PDF File	Passwortgeschützte PDF-Datei
 sharing.pdf.password.protected.message
-Unable to share. This is a password protected PDF file.	Sharing nicht möglich. Diese PDF ist passwortgeschützt.
+Unable to share. This is a password protected PDF file.	Freigabe nicht möglich. Diese PDF-Datei ist passwortgeschützt.
 sharing.limit.by.publisher.reached.message.no.publisher.name
-Unable to share. You have reached the clipping limit for this item set by the publisher.	Sharing nicht möglich. Du hast das vom Verlag gesetzte Ausschnittlimit erreicht.
+Unable to share. You have reached the clipping limit for this item set by the publisher.	Freigabe nicht möglich. Du hast das vom Verlag gesetzte Ausschnitt-Limit erreicht.
 sharing.limit.by.publisher.reached.message
-Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	Sharing nicht möglich. Du hast das vom Verlag gesetzte Ausschnittlimit erreicht: {0}.
+Unable to share. You have reached the clipping limit for this item set by the publisher, {0}.	Freigabe nicht möglich. Du hast das vom Verlag gesetzte Ausschnitt-Limit erreicht: {0}.
 unknown.error.title
-Communication error. Try later	Kommunikationsfehler, bitte später versuchen
+Communication error. Try later	Kommunikationsfehler, später erneut versuchen
 unknown.error.message
-The sharing service encountered a communication error. Please try again later.	Der Sharing-Dienst hat einen Kommunikationsfehler, bitte versuche es später erneut.
+The sharing service encountered a communication error. Please try again later.	Der Freigabe-Dienst hat einen Kommunikationsfehler, bitte versuche es später erneut.
 failure.title
-Sharing Failed	Sharing fehlgeschlagen
+Sharing Failed	Freigabe fehlgeschlagen
 failure.message
-The sharing service encountered an unrecoverable error. Sharing aborted.	Beim Sharing-Dienst trat ein schwerer Fehler auf. Sharing wurde abgebrochen.
+The sharing service encountered an unrecoverable error. Sharing aborted.	Beim Freigabe-Dienst trat ein schwerer Fehler auf. Freigabe wurde abgebrochen.
 empty.note.title
 Empty Note	Leere Notiz
 empty.note.message
-You cannot share an empty note or note containing only whitespace.	Du kannst leere oder nur Leerzeichen enthaltende Notizen nicht sharen.
+You cannot share an empty note or note containing only whitespace.	Du kannst leere oder nur Leerzeichen enthaltende Notizen nicht freigeben.
 wireless.unavailable.title
-Wireless unavailable. Try later	3G W-Lan nicht möglich, versuche 3G.
+Wireless unavailable. Try later	WiFi/3G nicht verfügbar, später erneut versuchen.
 wireless.unavailable.message
-Wireless connectivity is currently unavailable. Please try again later.	W-Lan Verbindung momentan nicht verfügbar, bitte versuche es später erneut.
+Wireless connectivity is currently unavailable. Please try again later.	WiFi/3G ist momentan nicht verfügbar, bitte versuche es später erneut.
 note.too.long
 java/text/MessageFormat
 {0,choice,1#Your note is too long to share. Please remove one character.|2#Your note is too long to share. Please remove {0} characters.}	{0,choice,1#Deine Notiz ist zu lang, bitte entferne ein Zeichen.|2#Deine Notiz ist zu lang, bitte entferne {0} Zeichen.}
 browser.return.menu.button.text
 Continue reading	Lesen fortsetzen
 register.button.text
-register	verbinden
+register	Verbinden
 manage.accounts.button.text
 manage accounts	Konten verwalten
 cancel.button.text
-cancel	abbrechen
+cancel	Abbrechen
 append.to.shortened.string
 ...
 note.context.char.size
 java/lang/Integer
 note.context.word.size
 share.button.text
-share	sharen
+share	Freigeben
 social.message.button.width
 social.message.input.line.num
 social.message.title
 Enter Your Message	Nachricht eingeben
 social.message.subtitle
-A link to your highlight will be appended to your message.	Ein Link zu deiner Markierung wird deiner Nachricht beigefügt.
+A link to your highlight will be appended to your message.	Ein Link zu Deiner Markierung wird Deiner Nachricht angefügt.
 social.message.counter.format
 {0,choice,-2#{1} characters over |-1#{1} character over | 0#{1} characters left | 1#{1} character left | 2#{1} characters left}	{0,choice,-2#{1} Zeichen zuviel |-1#{1} Zeichen zuviel | 0#noch {1} Zeichen | 1#noch {1} Zeichen | 2#noch {1} Zeichen}
 title.subtitle.content.panel.default.font

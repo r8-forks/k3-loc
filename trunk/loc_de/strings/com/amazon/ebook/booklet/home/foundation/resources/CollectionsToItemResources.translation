@@ -14,9 +14,9 @@ java/lang/Object
 collectionstoitem.header.str
 Add to Collection	Zur Sammlung hinzufügen
 collectionstoitem.menu.select.all.label
-Select All Items on Page	Alle Objekte auf der Seite auswählen
+Select All Items on Page	Alle Objekte dieser Seite auswählen
 collectionstoitem.menu.deselect.all.label
-Deselect All Items on Page	Auswahl auf der Seite aufheben
+Deselect All Items on Page	Auswahl aufheben
 collectionstoitem.add.button.str
 add to this collection	zu dieser Sammlung hinzufügen
 collectionstoitem.remove.button.str

@@ -14,7 +14,7 @@ java/lang/Object
 page.number.msg
 Page {0,number,integer} of {1,number,integer}	Seite {0,number,integer} von {1,number,integer}
 default.mode.msg
-Basic Mode	Einfach Modus
+Basic Mode	Einfach-Modus
 height
 java/lang/Integer
 progress.percent.margin.left
@@ -42,7 +42,7 @@ url.text.field.height
 url.text.field.margin.right
 url.text.field.margin.bottom
 advanced.mode.msg
-Desktop Mode	Desktop Modus
+Desktop Mode	Desktop-Modus
 insets
 java/awt/Insets
 search.label.margin.right

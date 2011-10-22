@@ -14,34 +14,34 @@ java/lang/Object
 annotation.disable
 Annotating is disabled	Anmerkungen sind deaktiviert
 annotation.disable.sample
-Annotating is disabled for sample content	Anmerkungen sind für Auswahlinhalte deaktiviert
+Annotating is disabled for sample content	Anmerkungen sind für Leseproben deaktiviert
 annotation.disable.feed
 Annotating is disabled for blogs	Anmerkungen sind für Blogs deaktiviert
 annotation.disable.low.disk.space
 Annotating is disabled - Memory is full	Anmerkungen sind deaktiviert - der Speicher ist voll
 add.note
-Begin typing to create a note	Beginne zu tippen, um eine Notiz zu erstellen
+Begin typing to create a note	Tippe zum Erstellen einer Notiz
 usual.cursor.interaction
-Begin typing to create a note or click to start a highlight	Beginne zu Tippen, um eine Notiz zu erstellen oder Klicke, um eine Markierung zu beginnen
+Begin typing to create a note or click to start a highlight	Tippe zum Notiz Erstellen / Klicke zum Markieren
 create.highlight
-Move cursor to create a highlight	Bewege den Cursor, um eine Markierung zu erstellen
+Move cursor to create a highlight	Cursor bewegen zum Erstellen einer Markierung
 end.highlight.sharing.disabled
-Click to end highlight or press Back to cancel	Klicke, um die Markierung zu beenden oder drücke 'Back', um abzubrechen
+Click to end highlight or press Back to cancel	Klicke um Markierung zu beenden / Abbrechen mit 'Back'
 end.highlight.sharing.enabled
-Click to end highlight, {0} to tweet/share, or Back to cancel	Klicke, um die Markierung zu beenden, {0}, um zu sharen/tweeten oder 'Back', um abzubrechen
+Click to end highlight, {0} to tweet/share, or Back to cancel	Klicke um Markierung zu beenden, {0} zum Freigeben oder 'Back' um abzubrechen
 java/lang/String
 Home_Icon_AltReturn.gif
 highlight.hover.sharing.disabled
-Begin typing to create a note or {0} to delete highlight	Tippe, um eine Notiz zu erstellen oder {0}, um eine Makierung zu löschen
+Begin typing to create a note or {0} to delete highlight	Tippe zum Erstellen einer Notiz oder {0} zum Löschen der Markierung
 Home_Icon_Delete.gif
 highlight.hover.sharing.enabled
-Type to create note, {0} to delete highlight, {1} to share	Tippe, um eine Notiz zu erstellen, {0}, um eine Markierung zu löschen, {1} zu sharen
+Type to create note, {0} to delete highlight, {1} to share	Tippe zum Erstellen einer Notiz erstellen, {0} zum Löschen der Markierung, {1} zur Freigabe
 highlight.hover.annotation.view.sharing.enabled
-{0} delete   {1} share	{0} löschen   {1} sharen
+{0} delete   {1} share	{0} löschen   {1} freigeben
 highlight.hover.annotation.view.sharing.disabled
 {0} delete	{0} löschen
 link.hover
-Begin typing to create a note or click to follow the link	Tippe, um eine Notiz zu erstellen oder Klicke, um dem Link zu folgen
+Begin typing to create a note or click to follow the link	Tippe zum Notiz Erstellen / Klicke um dem Link zu folgen
 com/amazon/ebook/booklet/reader/gui/messages/resources/CursorHintsResources
 java/util/ListResourceBundle
 (Ljava/lang/String;I)V

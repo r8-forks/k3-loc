@@ -12,18 +12,18 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 search.overlay.hints
-(press 'SYM' key for symbols)	(Drücke 'SYM' für Sonderzeichen)
+(press 'SYM' key for symbols)	('SYM' für Sonderzeichen)
 search.overlay.find
-find	suche
+find	Suche
 search.overlay.find.active
 search.overlay.myitems
 my items	meine Objekte
 search.overlay.myitems.active
-search my items Objekte durchsuchen
+search my items meine Objekte durchsuchen
 search.overlay.store
-store	Store
+store	Shop
 search.overlay.store.active
-search store	Store durchsuchen
+search store	Shop durchsuchen
 search.overlay.google
 google
 search.overlay.google.active
@@ -40,7 +40,7 @@ search.overlay.note
 note	Notiz
 search.overlay.note.active
 search.overlay.cancel
-close	schließen
+close	Schließen
 search.overlay.next
 search next	nächstes anzeigen
 search.overlay.prev

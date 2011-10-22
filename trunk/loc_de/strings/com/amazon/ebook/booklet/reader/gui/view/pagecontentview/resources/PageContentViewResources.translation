@@ -20,11 +20,11 @@ highlighter.label.font.min.line.spacing.mapping
 highlighter.label.font.min.line.spacing
 highlighter.extra.linespacing
 popular.highlight.label.hint.show
-Press {0} to show number of highlighters	Drücke {0} für die Anzahl an Markierern
+Press {0} to show number of highlighters	Drücke {0} für die Anzahl der Markierer
 java/lang/String
 Home_Icon_ReturnArrow.gif
 popular.highlight.label.hint.hide
-Press {0} to hide number of highlighters	Drücke {0}, um die Anzahl an Markierern auszublenden
+Press {0} to hide number of highlighters	Drücke {0}, um die Anzahl der Markierer auszublenden
 highlighter.label.font.name
 SansSerif-aa
 pan.rectange.x.divider

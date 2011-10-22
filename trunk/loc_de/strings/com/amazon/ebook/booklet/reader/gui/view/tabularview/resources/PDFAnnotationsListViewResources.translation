@@ -12,7 +12,7 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 close.label
-Close Notes and Marks	Notizen und Markierungen schließen
+Close Notes and Marks	Notizen & Markierungen schließen
 com/amazon/ebook/booklet/reader/gui/view/tabularview/resources/PDFAnnotationsListViewResources
 java/util/ListResourceBundle
 a

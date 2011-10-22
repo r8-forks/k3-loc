@@ -13,16 +13,16 @@ SourceFile
 java/lang/Object
 backissues.header.format
 java/text/MessageFormat
-Back Issues: {0}	Frühere Ausgaben: {0}
+Back Issues: {0}	Ältere Ausgaben: {0}
 backissues.filter.format
 java/text/ChoiceFormat
-0#Showing {0,number,integer} Back Issues|1#Showing {0,number,integer} Back Issue|2#Showing {0,number,integer} Back Issues	0#Zeigt {0,number,integer} vorherige Ausgaben|1#Zeigt {0,number,integer} vorherige Ausgabe|2#Zeigt {0,number,integer} vorherige Ausgaben
+0#Showing {0,number,integer} Back Issues|1#Showing {0,number,integer} Back Issue|2#Showing {0,number,integer} Back Issues	0#{0,number,integer} ältere Ausgaben, sortiert nach|1#{0,number,integer} ältere Ausgabe, sortiert nach|2#{0,number,integer} ältere Ausgaben, sortiert nach
 backissues.sort.recent.label
-By Most Recent First	Letzt gewählte zuerst
+By Most Recent First	nach Zugriffsreihenfolge
 backissues.sort.title.label
-By Title	Nach Titeln
+By Title	nach Titeln
 backissues.sort.recent
-Most Recent First	Letzt gewählte zuerst
+Most Recent First	Zugriffsreihenfolge
 backissues.sort.title
 Title	Titel
 backissues.view.sound

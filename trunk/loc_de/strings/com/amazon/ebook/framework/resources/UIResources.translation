@@ -49,7 +49,7 @@ menuitem.spacer.default.height
 password.field.disguise.character
 java/lang/Character
 textfield.symbol.hint.msg
-(press 'SYM' key for symbols)	(Drücke 'SYM' für Sonderzeichen)
+(press 'SYM' key for symbols)	('SYM' für Sonderzeichen)
 symbols.default.font
 labelmi.default.font
 pubinfo.default.font

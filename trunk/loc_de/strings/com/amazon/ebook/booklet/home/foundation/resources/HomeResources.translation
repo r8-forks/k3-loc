@@ -16,11 +16,11 @@ Home
 home.menu.personalization.label
 My Kindle	Mein Kindle
 download.wan.off
-Your wireless is turned off, please turn it on and try again.	Die W-Lan Verbindung ist ausgeschaltet, bitte Einschalten und erneut versuchen.
+Your wireless is turned off, please turn it on and try again.	Die Wi-Fi-Verbindung ist deaktiviert, bitte aktivieren und erneut versuchen.
 exceeded.licenses.alert
-This item cannot be currently downloaded because all of its licenses are in use on your other devices.~~~~To download it to this device, you can either delete it from another one of your devices or purchase another copy from the Kindle store.~~~~	Dieses Objekt kann momentan nicht heruntergelanden werden, weil alle verfügbaren Lizenzen bereits auf anderen Geräten genutzt werden.~~~~Um es auf dieses Gerät zu laden kannst du es entweder von einem anderen Gerät löschen oder ein weiteres mal im Kindle Store kaufen.~~~~
+This item cannot be currently downloaded because all of its licenses are in use on your other devices.~~~~To download it to this device, you can either delete it from another one of your devices or purchase another copy from the Kindle store.~~~~	Dieses Objekt kann momentan nicht heruntergeladen werden, weil alle verfügbaren Lizenzen bereits genutzt werden.~~~~Um es auf dieses Gerät zu laden, kannst Du es entweder von einem anderen Gerät löschen oder es nochmals im Kindle-Shop kaufen.~~~~
 home.viewdownloaditem.menuitem.label
-View Downloading Items	Ladende Objekte anzeigen
+View Downloading Items	Downloadstatus
 home.view.sound
 home.delete.button.sound
 delete

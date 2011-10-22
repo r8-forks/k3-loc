@@ -12,9 +12,9 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 close.label
-Close Articles List	Artikelauswahl schließen
+Close Articles List	Artikelliste schließen
 view.name
-Articles List	Artikelauswahl
+Articles List	Artikelliste
 com/amazon/ebook/booklet/reader/gui/view/tabularview/resources/TableOfContentsViewResources
 java/util/ListResourceBundle
 a
