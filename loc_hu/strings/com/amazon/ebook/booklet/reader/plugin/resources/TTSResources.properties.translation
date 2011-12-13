@@ -1,9 +1,0 @@
-tts.no.text.msg=Nincs több olvasnivaló szöveg a könyvben. A Text-to-Speech kilép.
-# DEPRECATED 2009-01-29 - There has been no special low battery check for TTS for a while now, which is what PMs want. 
-tts.battery.low.msg=Text-to-Speech váratlan hibát okozott. Ha a probléma továbbra is fennáll, indítsa újra az eszközt a Beállítások menüből.
-tts.unknown.error.msg=Text-to-Speech váratlan hibát okozott. Ha a probléma továbbra is fennáll, indítsa újra az eszközt a Beállítások menüből.
-tts.player.decrease.speech.rate.text=Lassabb
-tts.player.increase.speech.rate.text=Gyorsabb
-tts.player.window.offset.from.bottom=3
-
-

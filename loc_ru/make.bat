@@ -1,40 +1,25 @@
-set HACKNAME=loc_ru
-set PKGVER=0.16
+set HACKNAME=ru_RU
+set PKGVER=4.1
 
-rem copy ..\..\K3Translator.jar .\
+copy ..\..\K3Translator.jar .\
 
-echo Pack images
-..\bin\7z a ui_loc.tar  ui_loc\*.gif
-..\bin\7z a ui_loc.tar.gz ui_loc.tar
-del ui_loc.tar
+echo Pack img images
+..\bin\7z a -r img.tar  img\*.gif
+..\bin\7z a img.tar.gz img.tar
+del img.tar
+
+echo Pack low_level_screens images
+..\bin\7z a -r low_level_screens.tar low_level_screens\*.png
+..\bin\7z a low_level_screens.tar.gz low_level_screens.tar
+del low_level_screens.tar
 
 echo Compile translation.jar
 java -cp bcel-5.2.jar;K3Translator.jar Translator mt ./strings translation.jar
 
 echo Create update files
-set DEVICE=k3w
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
-
-set DEVICE=k3g
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
-
-set DEVICE=k3gb
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
-
-set DEVICE=dxg
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
-
-set DEVICE=dxi
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
-
-set DEVICE=dx
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar msp_prefs loc-init loc-bind ui_loc.tar.gz
-..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
+set DEVICE=k4w
+..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar ru.properties low_level_screens.tar.gz img.tar.gz
+rem ..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
 
 echo Create update archive
 ..\bin\7z a update_%HACKNAME%_%PKGVER%.zip *.bin *.keyb
@@ -42,4 +27,5 @@ echo Create update archive
 echo Clean up
 del *.bin
 del translation.jar
-del ui_loc.tar.gz
+del low_level_screens.tar.gz 
+del img.tar.gz

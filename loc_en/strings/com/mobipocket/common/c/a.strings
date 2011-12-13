@@ -1,9 +1,0 @@
-(Ljava/lang/Object;Ljava/lang/Object;)I
-equals
-(Ljava/lang/Object;)Z
-SourceFile
-java/lang/Object
-a
-com/mobipocket/common/c/a
-vb
-LocalVariableTable

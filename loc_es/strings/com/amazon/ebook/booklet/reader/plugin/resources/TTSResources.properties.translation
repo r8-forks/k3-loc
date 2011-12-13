@@ -1,9 +1,0 @@
-tts.no.text.msg=Ya no hay nada que leer en este elemento. Saliendo de texto-a-voz.
-# DEPRECATED 2009-01-29 - There has been no special low battery check for TTS for a while now, which is what PMs want. 
-tts.battery.low.msg=Error inesperado en texto-a-voz. Si el problema persiste, reinicie el dispositivo desde Ajustes.
-tts.unknown.error.msg=Error inesperado en texto-a-voz. Si el problema persiste, reinicie el dispositivo desde Ajustes.
-tts.player.decrease.speech.rate.text=M\u00e1s lento
-tts.player.increase.speech.rate.text=M\u00e1s r\u00e1pido
-tts.player.window.offset.from.bottom=3
-
-

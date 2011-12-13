@@ -1,7 +1,7 @@
-#!/usr/bin/python
-# Kindle Firmware Update tool v0.11
-# Copyright (c) 2009-2010 Igor Skochinsky & Jean-Yves Avenard
-# $Id: kindle_update_tool.py 6765 2010-09-18 21:16:05Z NiLuJe $
+﻿#!/usr/bin/python
+# Kindle Firmware Update tool v0.13
+# Copyright (c) 2009-2011 Igor Skochinsky & Jean-Yves Avenard & AlexeyII
+# $Id$
 # History:
 #  2009-03-10 Initial release
 #  2009-10-22 Update for K2 International support
@@ -20,6 +20,10 @@
 #  2010-09-08 Add K3G UK support
 #  2010-09-08 Allow switching between FB01 MANUAL/FC02 OTA/FD03 OTA update type via a flag
 #  2010-09-08 Add extracting support for FD03 OTA updates
+#  2011-07-02 Add FB02 Manual update type
+#  2011-10-27 Add preliminary FC04 extraction
+#  2011-12-11 Add K4W(no touch) support
+#             Add extracting for some orig/custom packages
 
 import tarfile, gzip, array, hashlib, sys, struct
 from binascii import hexlify
@@ -29,7 +33,7 @@ import getopt
 
 ## For Signed Images Only
 
-BASE_CMD = "..\\bin\\openssl.exe dgst -sha256 "
+BASE_CMD = "..\\bin\\openssl.exe dgst -sha256 " 
 CMD_SIGN = BASE_CMD + "-sign %(privkey)s -out %(outfile)s %(infile)s"
 KINDLE_HACK_DIR = "/etc/uks"
 KINDLE_HACK_KEYNAME = "pubprodkey01.pem"
@@ -122,27 +126,53 @@ def runCommand(cmd):
 
 def extract_bin(binname):
     f = open(binname, "rb")
-    sig, fromVer, toVer, devCode, optional = struct.unpack("<4sIIHBx", f.read(16))
+    f.seek(0) # custom RSA1024 pre-K4w packages
+    sig0, dummy = struct.unpack("<4sI", f.read(8))
+    f.seek(192) # custom RSA1024 K4w packages
+    sig192, dummy = struct.unpack("<4sI", f.read(8))
+    f.seek(320) # orig RSA2048 K4w packages
+    sig320, dummy = struct.unpack("<4sI", f.read(8))
+    offset = -1
+    if sig0 in [ "FC02","FD03","FC04","FB01","FB02","FD04","FL01" ]:
+     offset = 0
 
-    if sig in [ "FC02","FD03" ]:
+    if sig192 in [ "FC02","FD03","FC04","FB01","FB02","FD04","FL01" ]:
+     offset = 192
+
+    if sig320 in [ "FC02","FD03","FC04","FB01","FB02","FD04","FL01" ]:
+     offset = 320
+
+    if offset == -1: 
+      print "Not a Kindle update file!"
+      return
+
+    f.seek(offset)
+    #sig, fromVer, toVer, devCode, optional = struct.unpack("<4sIIHBx", f.read(16))
+    # FIXME: make downward compatible
+    sig, fromVer, bla1, toVer, bla2, bla3, devCode, optional = struct.unpack("<4sIIIIHHBx", f.read(26))
+
+    if sig in [ "FC02","FD03","FC04","FD04","FL01" ]:
       typ="OTA update"
-    elif sig=="FB01":
+    elif sig in [ "FB01","FB02" ]:
       typ="Manual update"
     else:
       print "Not a Kindle update file!"
       return
 
     print "Signature: %s (%s)"%(sig,typ)
-    if sig in [ "FC02","FD03" ]:
+    if sig in [ "FC02","FD03","FC04","FD04","FL01" ]:
       print "min version: %d"%(fromVer)
       print "max version: %d"%(toVer)
       print "device code: %d%d"%divmod(devCode,256)
       print "optional: "+("yes" if optional else "no")
     print "md5 of tgz: %s"%dm(f.read(32))
     if sig in [ "FC02","FD03" ]:
-        f.seek(64)
-    elif sig=="FB01":
-        f.seek(131072)
+        f.seek(offset+64)
+    elif sig in [ "FC04","FD04","FL01" ]:
+        f.seek(offset+60)
+    elif sig in [ "FB01","FB02" ]:
+        # need check&fix
+        f.seek(offset+131072)
     open(binname+".tgz","wb").write(dm(f.read()))
 
 def add_tarfile(tarinfo, file, tar, mode=0100644):
@@ -159,7 +189,7 @@ def create_sig(keyfile, name, tar, finalname=''):
     cmd = CMD_SIGN % { 'privkey': keyfile,
                        'outfile': sigfile,
                        'infile': name}
-    print 'cmd = %s' % cmd
+    #print 'cmd = %s' % cmd
     status = runCommand(cmd)
     if status[0] != 0:
         raise ValueError("Openssl failed")
@@ -262,44 +292,72 @@ def make_bin(basename, filelist, type, kver, sign=0, jailbreak=0):
 
 def convert_bin(basename, tgz_fname, type, kver):
     print "making bin file"
-    if type==3:
+    if type==5:
+      BLOCK_SIZE=64
+      sig = "FC04"
+    elif type==3:
       BLOCK_SIZE=64
       sig = "FD03"
     elif type==2:
       BLOCK_SIZE=64
       sig = "FC02"
-    else:
+    elif type==1:
       BLOCK_SIZE=131072
       sig = "FB01"
+    else:
+      BLOCK_SIZE=131072
+      sig = "FB02"
 
     f = open(tgz_fname, "rb").read()
-    of = open(basename+".bin","wb")
-    #C4 1D 3C 07 C2 B5 A0 08
+    if type==5:
+      of = open(basename+".tmp","wb")
+      header = struct.pack("<4sIIIIBBHBB", sig, 0, 0, 0x7fffffff, 0, 0x1, 0, kver, 0, 0x81 )
+      of.write(header)
+      of.write(md(s_md5(f)))
+      of.write("\0"*2)
+      of.write(md(f))
+      of.close()
+      of = open(basename+".bin","wb")
+      header = struct.pack("<4sBB", "SP01", 0x0, 0) 
+      of.write(header)
+      of.write("\0"*58)
+      fd, tmpdat = tempfile.mkstemp()
+      fs = os.fdopen(fd,"wb")
+      fs.write(SIGN_KEY)
+      fs.close()
+      cmd = CMD_SIGN % { 'privkey': tmpdat,
+                       'outfile': basename+".tmp2",
+                       'infile': basename+".tmp"}
+      status = runCommand(cmd)
+      if status[0] != 0:
+        raise ValueError("Openssl failed") 
+      
+      f = open(basename+".tmp","rb").read()
+      f2 = open(basename+".tmp2","rb").read()
+      arr3 = array.array('B',f2)
+      of.write(arr3.tostring())
+      arr2 = array.array('B',f)
+      of.write(arr2.tostring())
+      of.close()
+      os.remove(basename+".tmp")
+      os.remove(basename+".tmp2")
+      os.remove(tmpdat)
+    else:
+      of = open(basename+".bin","wb")
+      #C4 1D 3C 07 C2 B5 A0 08
+      header = struct.pack("<4sIIHBB", sig, 0x0, 0x7fffffff, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
+      of.write(header)
+      of.write(md(s_md5(f)))
+      of.write("\0"*(BLOCK_SIZE - of.tell()))
+      of.write(md(f))
+      of.close()
 
-#3.0.3    
-#    header = struct.pack("<4sIIHBB", sig, 0, 0x1ffdb2f0, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-#3.0.2 new
-#    header = struct.pack("<4sIIHBB", sig, 0, 0x20F9515F, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-#3.1
-#    header = struct.pack("<4sIIHBB", sig, 0, 0x214D1600, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-#3.2
-#    header = struct.pack("<4sIIHBB", sig, 0, 0x221D372A, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-#3.2.1
-#    header = struct.pack("<4sIIHBB", sig, 0, 0x22597CE0, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-#3.3.
-    header = struct.pack("<4sIIHBB", sig, 0, 0x24757F16, kver, 0, 0x13) #signature, fromVer, toVer, devCode, optional
-    
-    of.write(header)
-    of.write(md(s_md5(f)))
-    of.write("\0"*(BLOCK_SIZE - of.tell()))
-    of.write(md(f))
-    of.close()
     print "output written to "+basename+".bin"
 
 def usage():
   print """
-    Kindle Firmware Update tool v0.11
-    Copyright (c) 2009-2010 Igor Skochinsky & Jean-Yves Avenard
+    Kindle Firmware Update tool v0.12
+    Copyright (c) 2009-2011 Igor Skochinsky & Jean-Yves Avenard
     Usage:
     kindle_update_tool.py e update_mmm.bin
       Extract a Kindle or Kindle 2 firmware update file. Outputs a .tgz file
@@ -307,7 +365,7 @@ def usage():
 
     kindle_update_tool.py m [flags] name file1 [file2 ...]
       Where flags is one of the following:
-        --k2 , --k2i, --dx, --dxi, --dxg, --k3g, --k3w, --k3gb
+        --k2 , --k2i, --dx, --dxi, --dxg, --k3g, --k3w, --k3gb, --k4w
       Makes a Kindle 2, Kindle 2 International, Kindle DX, Kindle DX International,
       Kindle DX Graphite, Kindle 3G or Kindle 3 WiFi OTA firmware update
       file from the list of files.
@@ -324,6 +382,7 @@ def usage():
         --k3g:   generate a package for Kindle 3G
         --k3w:   generate a package for Kindle 3 WiFi
         --k3gb:  generate a package for Kindle 3G UK
+	--k4w:   generate a package for Kindle 4 WiFi No Touch
 
         Flags for Firmware 2.2 and later:
         --sign: generate signed images.
@@ -340,9 +399,10 @@ def usage():
                 firmware 2.5 or later (DXg, k3g, k3w, k3gb).
 
         Flags for Firmware 2.5 and later:
-        --[fd|FD]: generate a FD03 OTA update (instead of a FC02)
-        --[fb|FB]: generate a FB01 MANUAL (recovery) update (instead of an OTA FC02).
-                   Probably not working right now, but here for completeness sake.
+        --[fd|FD]:   generate a FD03 OTA update (instead of a FC02)
+        --[fb|FB]:   generate a FB01 MANUAL (recovery) update (instead of an OTA FC02).
+        --[fb2|FB2]: generate a FB02 MANUAL (recovery) update (instead of an OTA FC02).
+                     Probably not working right now, but here for completeness sake.
 
     kindle_update_tool.py c [flags] name tarname]
       Convert a GZIPPED TAR file into a Kindle DX, Kindle 2, or
@@ -358,11 +418,13 @@ def usage():
         --k3g:   generate a package for Kindle 3G
         --k3w:   generate a package for Kindle 3 WiFi
         --k3gb:  generate a package for Kindle 3G UK
+        --k4w:   generate a package for Kindle 4 WiFi No Touch
 
         Flags for Firmware 2.5 and later:
-        --[fd|FD]: generate a FD03 OTA update (instead of a FC02)
-        --[fb|FB]: generate a FB01 MANUAL (recovery) update (instead of an OTA FC02).
-                   Probably not working right now, but here for completeness sake.
+        --[fd|FD]:   generate a FD03 OTA update (instead of a FC02)
+        --[fb|FB]:   generate a FB01 MANUAL (recovery) update (instead of an OTA FC02).
+        --[fb2|FB2]: generate a FB02 MANUAL (recovery) update (instead of an OTA FC02).
+                     Probably not working right now, but here for completeness sake.
 """
 
 if len(sys.argv)<3:
@@ -371,7 +433,7 @@ elif sys.argv[1]=="e":
     extract_bin(sys.argv[2])
 elif sys.argv[1]=="c":
     try:
-        opts, args = getopt.getopt(sys.argv[2:], "", ["k2", "k2i", "DX", "dx", "dxi", "DXi", "dxg", "DXg", "k3g", "k3w", "k3gb", "fd", "FD", "fb", "FB"])
+        opts, args = getopt.getopt(sys.argv[2:], "", ["k2", "k2i", "DX", "dx", "dxi", "DXi", "dxg", "DXg", "k3g", "k3w", "k3gb", "k4w", "fd", "FD", "fb", "FB", "fb2", "FB2"])
     except getopt.GetoptError:
         # print help information and exit:
         print "Unrecognised option: "
@@ -396,10 +458,15 @@ elif sys.argv[1]=="c":
             kver = 9
         elif o == "--k3gb":
             kver = 10
+        elif o == "--k4w":
+            kver = 14
+            type = 5
         elif o in [ "--FD","--fd" ]:
             type = 3
         elif o in [ "--FB","--fb" ]:
             type = 1
+        elif o in [ "--FB2","--fb2" ]:
+            type = 4
     if len(opts) < 1 or kver == 0:
         usage()
         sys.exit(2)
@@ -408,7 +475,7 @@ elif sys.argv[1]=="c":
     convert_bin("update_"+name, tarname, type, kver)
 elif sys.argv[1]=="m":
     try:
-        opts, args = getopt.getopt(sys.argv[2:], "", ["k2", "k2i", "DX", "dx", "DXi", "dxi", "DXg", "dxg", "k3g", "k3w", "k3gb", "sign", "ex", "fd", "FD", "fb", "FB"])
+        opts, args = getopt.getopt(sys.argv[2:], "", ["k2", "k2i", "DX", "dx", "DXi", "dxi", "DXg", "dxg", "k3g", "k3w", "k3gb", "k4w", "sign", "ex", "fd", "FD", "fb", "FB", "fb2", "FB2"])
     except getopt.GetoptError:
         # print help information and exit:
         print "Unrecognised option: "
@@ -436,6 +503,9 @@ elif sys.argv[1]=="m":
             kver = 9
         elif o == "--k3gb":
             kver = 10
+        elif o == "--k4w":
+            kver = 14
+            type = 5
         elif o == "--sign":
             sign = 1
         elif o == "--ex" and kver <= 5:
@@ -444,6 +514,8 @@ elif sys.argv[1]=="m":
             type = 3
         elif o in [ "--FB","--fb" ]:
             type = 1
+        elif o in [ "--FB2","--fb2" ]:
+            type = 4
     if len(opts) < 1 or kver == 0:
         usage()
         sys.exit(2)

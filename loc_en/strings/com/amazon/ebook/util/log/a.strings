@@ -1,7 +1,0 @@
-(Ljava/lang/StringBuffer;ILjava/lang/String;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/StringBuffer;
-SourceFile
-java/lang/Object
-a
-com/amazon/ebook/util/log/a
-th
-LocalVariableTable

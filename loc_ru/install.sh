@@ -52,70 +52,29 @@ logmsg()
 }
 
 # Hack specific config (name and when to start/stop)
-ORIGFOLDER_BOOKLET=/opt/amazon/ebook/booklet
 ORIGFOLDER_LIB=/opt/amazon/ebook/lib
-DESTFOLDER_BOOKLET=/opt/amazon/ebook/booklet_loc
-DESTFOLDER_LIB=/opt/amazon/ebook/lib_loc
-
-# Unbind folders to original locations
-logmsg "I" "update" "uninstall <=0.06 update"
-[ -d /opt/amazon/ebook/booklet_ru ] && umount /opt/amazon/ebook/booklet
-[ -d /opt/amazon/ebook/lib_ru ] && umount /opt/amazon/ebook/lib
-[ -d /opt/amazon/ebook/img/ui_ru ] && umount /opt/amazon/ebook/img/ui
-[ -d /opt/amazon/ebook/booklet_ru ] && rm -rf /opt/amazon/ebook/booklet_ru
-[ -d /opt/amazon/ebook/lib_ru ] && rm -rf /opt/amazon/ebook/lib_ru
-[ -d /opt/amazon/ebook/img/ui_ru ] && rm -rf /opt/amazon/ebook/img/ui_ru
-[ -f /opt/amazon/rus-bind ] && rm -f /opt/amazon/rus-bind
-[ -f /etc/init.d/rus-init  ] && rm -f /etc/init.d/rus-init
-[ -h /etc/rcS.d/S73rus-init  ] && rm -f /etc/rcS.d/S73rus-init
-[ -d /mnt/us/rus  ] && rm -rf /mnt/us/rus 
-
-update_progressbar 10
-
-# Unbind folders to original locations
-logmsg "I" "update" "restore bindings"
-[ -d /opt/amazon/ebook/booklet_loc ] && umount /opt/amazon/ebook/booklet
-[ -d /opt/amazon/ebook/lib_loc ] && umount /opt/amazon/ebook/lib
-[ -d /opt/amazon/ebook/img/ui_loc ] && umount /opt/amazon/ebook/img/ui
-[ -f /opt/amazon/ebook/config_loc/msp_prefs ] && umount /opt/amazon/ebook/config/msp_prefs
-
-update_progressbar 15
 
 #Create localization dir at user store
 [ -d /mnt/us/localization ] || mkdir /mnt/us/localization
 
-logmsg "I" "update" "translate JARs"
-# Translate all JARs in 'booklet' and 'lib' folders
-update_progressbar 20
-/usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_BOOKLET translation.jar $DESTFOLDER_BOOKLET /mnt/us >> /mnt/us/localization/install.log 2>&1
-update_progressbar 50
-/usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td $ORIGFOLDER_LIB translation.jar $DESTFOLDER_LIB /mnt/us >> /mnt/us/localization/install.log 2>&1
-update_progressbar 55
-/usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator tprefs /opt/amazon/ebook/config/msp_prefs /opt/amazon/ebook/config_loc/msp_prefs msp_prefs >> /mnt/us/localization/install.log 2>&1
+logmsg "I" "update" "Copy ru.properties"
+update_progressbar 10
+cp -f ru.properties /opt/amazon/ebook/config/locales
+
+logmsg "I" "update" "Translate JARs"
+update_progressbar 30
+/usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td4 /opt/amazon/ebook/lib translation.jar en_GB ru_RU >> /mnt/us/localization/install.log 2>&1
+
+update_progressbar 70
+
+logmsg "I" "update" "Copy images to img"
+tar -xvzf img.tar.gz >> /mnt/us/localization/install.log 2>&1
+cp -rf img /opt/amazon/ebook >> /mnt/us/localization/install.log 2>&1
 
 update_progressbar 90
-
-logmsg "I" "update" "copy images"
-# Unpack and copy UI images
-tar -xvzf ui_loc.tar.gz
-[ -d /opt/amazon/ebook/img/ui_loc ] && rm -rf /opt/amazon/ebook/img/ui_loc
-mv -f ui_loc /opt/amazon/ebook/img
-
-logmsg "I" "update" "init scripts and standalone files"
-# Almost done, copy init scripts and initialize it
-# Move init script
-mv -f loc-init /etc/init.d/loc-init
-# Make it runnable
-chmod +x /etc/init.d/loc-init
-# Add it to boot time
-if [ ! -h /etc/rcS.d/S73loc-init ]
-then
-   ln -fs /etc/init.d/loc-init /etc/rcS.d/S73loc-init
-fi 
-mv -f loc-bind /opt/amazon/loc-bind
-chmod +x /opt/amazon/loc-bind
-
-/opt/amazon/loc-bind
+logmsg "I" "update" "Copy images to lli"
+tar -xvzf low_level_screens.tar.gz >> /mnt/us/localization/install.log 2>&1
+cp -rf low_level_screens /opt/amazon >> /mnt/us/localization/install.log 2>&1
 
 logmsg "I" "update" "done"
 update_progressbar 100
