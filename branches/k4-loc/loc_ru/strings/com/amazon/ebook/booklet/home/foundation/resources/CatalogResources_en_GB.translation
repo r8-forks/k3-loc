@@ -19,7 +19,7 @@ apps.filter.format
 java/text/ChoiceFormat
 0#Showing {0,number,integer} Applications|1#Showing {0,number,integer} Application|2#Showing {0,number,integer} Applications	0#Показано программ: {0,number,integer}|1#Показано программ: {0,number,integer}|2#Показано программ: {0,number,integer}
 archiveditems.citem.text.1
-Archived Items	Документы в Архиве
+Archived Items	Архив документов
 archiveditems.citem.text.2
 collectionsitem.citem.text.1
 Collections	Коллекции
