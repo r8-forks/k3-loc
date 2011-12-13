@@ -1,0 +1,94 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/CatalogResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+apps.citem.text.1
+Applications	Программы
+apps.citem.text.2
+
+apps.filter.format
+java/text/ChoiceFormat
+0#Showing {0,number,integer} Applications|1#Showing {0,number,integer} Application|2#Showing {0,number,integer} Applications	0#Показано программ: {0,number,integer}|1#Показано программ: {0,number,integer}|2#Показано программ: {0,number,integer}
+archiveditems.citem.text.1
+Archived Items	Документы в Архиве
+archiveditems.citem.text.2
+collectionsitem.citem.text.1
+Collections	Коллекции
+collectionsitem.citem.text.2
+backissues.citem.text.1
+Periodicals: Back Issues	Периодика: Старые выпуски
+backissues.citem.text.2
+backissues.filter.format
+0#Showing {0,number,integer} Back Issues|1#Showing {0,number,integer} Back Issue|2#Showing {0,number,integer} Back Issues	0#Показано старых выпусков: {0,number,integer}|1#Показано старых выпусков: {0,number,integer}|2#Показано старых выпусков: {0,number,integer}
+backissues.citem.date.string.none
+(none)	(нет)
+backissues.citem.date.single.format
+backissues.citem.date.long.pattern
+{0,date,medium} - {1,date,medium}
+backissues.citem.date.medium.pattern
+backissues.citem.date.short.pattern
+backissues.citem.date.long.message.format
+java/text/MessageFormat
+{0,date,d/M/yy} - {1,date,d/M/yy}
+backissues.citem.date.medium.message.format
+{0,date,d/M} - {1,date,d/M/yy}
+blogs.citem.text.1
+Blogs	Блоги
+blogs.citem.text.2
+blogs.filter.format
+0#Showing {0,number,integer} Blogs|1#Showing {0,number,integer} Blog|2#Showing {0,number,integer} Blogs	0#Показано блогов: {0,number,integer}|1#Показано блогов: {0,number,integer}|2#Показано блогов: {0,number,integer}
+books.citem.text.1
+Books	Книги
+books.citem.text.2
+books.filter.format
+0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books	0#Показано книг: {0,number,integer}|1#Показано книг: {0,number,integer}|2#Показано книг: {0,number,integer}
+collections.hiw.font
+collections.citem.text.2
+currentissues.citem.text.1
+Periodicals: Current Issues	Периодика
+currentissues.citem.text.2
+currentissues.filter.format
+0#Showing {0,number,integer} Current Issues|1#Showing {0,number,integer} Current Issue|2#Showing {0,number,integer} Current Issues	0#Показано газет: {0,number,integer}|1#Показано газет: {0,number,integer}|2#Показано газет: {0,number,integer}
+pdocs.citem.text.1
+Personal Docs	Персональные документы
+pdocs.citem.text.2
+pdocs.filter.format
+0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs	0#Показано документов: {0,number,integer}|1#Показано документов: {0,number,integer}|2#Показано документов: {0,number,integer}
+unassigneditems.citem.text.1
+Unassigned Items	Неназначенные документы
+unassigneditems.citem.text.2
+backissues.monthdayyear.template
+backissues.default.timezone
+UTC
+group.catalog.item.file.path
+group.catalog.item.generation.number
+java/lang/Integer
+group.catalog.item.version.number
+archiveditems.device.unregistered.title
+No Archived Items	Нет архивных документов
+archiveditems.device.unregistered.message
+You must register your Kindle to view and download your Archived Items.	Вы должны зарегистрировать Kindle для просмотра Архива.
+archiveditems.device.unregistered.close
+cancel	отмена
+archiveditems.device.unregistered.register
+register	регистрация
+com/amazon/ebook/booklet/home/foundation/resources/CatalogResources_en_GB
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+java/text/DateFormat
+getDateInstance
+(I)Ljava/text/DateFormat;
+(IZZ)Ljava/awt/Font;
+a
+fwb
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a
