@@ -1,0 +1,110 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/resources/RegistrationOverlayResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+registration.view.header.text
+Settings
+registration.view.header.text.setup
+Set Up Kindle	Настройка Kindle
+registration.view.title.text
+Registration
+registration.view.setup.title.text
+Register your Kindle	Регистрация Вашего Kindle
+registration.view.title.font
+registration.view.subtitle.text
+An Amazon account is required to register your Kindle.	Для регистрации требуется учетная запись Amazon.
+registration.view.setup.subtitle.text
+Now that you are connected to Wi-Fi, register your Kindle to an Amazon account to buy books and use other features.	Вы подключились к Wi-Fi, зарегистрируйте ваш Kindle что бы имень возможность делать покупки и создавать коллекции.
+registration.view.desc.text
+By registering, you agree to the Kindle Licence Agreement and Terms of Use, found at www.kindle.com/support.	Регистрацией вы подтверждаете согласие с лицензией Amazon, которая приведена в конце руководства по эксплуатации Kindle.
+registration.view.desc.font
+registration.view.draw.color
+registration.view.x.offset.dnt
+java/lang/Integer
+registration.view.footer.button.text
+done	Ок
+registration.view.registered.setup.subtitle.text
+You are now connected to Wi-Fi.~~~~Your Kindle is currently registered to:	Вы подключились к Wi-Fi.~~~~Ваш Kindle зарегистрирован на:
+registration.view.user.name.font
+registration.button.spacing
+registration.button.width
+registration.line.spacing.dnt
+registration.bullet.format
+{0,number,#0}. 
+registration.bullet.line.spacing
+registration.instruction.view.title.text
+Create new account from a computer	Создать учетную запись с компьютера
+registration.instruction.view.text.1
+In a web browser, go to: www.kindle.com/account	В Веб браузере откройте страницу: www.kindle.com/account
+registration.instruction.view.text.2
+When asked for your device serial number, enter this: {0}	При запросе серийного номера, введите этот: {0}
+registration.instruction.view.text.3
+Follow the instructions to create your account. Your Kindle will be registered to this account automatically. 	Следуйте инструкции по созданию учетной записи (Account). Ваш Kindle зарегистрируется на это имя автоматически.
+registration.instruction.view.text.4
+Once you have completed these steps on your computer, select the "done" button below.	Как только вы завершите регистрацию на компьютере, нажмите кнопку "Ок"
+registration.instruction.view.cancel.text
+cancel	отмена
+registration.not.registered.title
+No Registration Found	Регистрация не найдена
+registration.not.registered.message
+Please check that you have completed steps 1 - 3.	Проверьте, выполнили ли вы пункты 1 - 3.
+registration.view.widget.title.font
+registration.view.widget.draw.color
+registration.view.widget.dotted.line.draw.color
+registration.view.widget.desc.font
+registration.view.widget.x.offset
+registration.view.widget.y.padding.dnt
+register.device.widget.title.text
+If you already have an Amazon account	Если у вас уже есть учетная запись Amazon
+register.device.widget.setup.title.text
+Use an existing Amazon account	Использовать существующую учетную запись Amazon
+register.device.widget.desc.text
+If you already have an Amazon account, enter the email address and password associated with your account.	Если у вас уже есть учетная запись Amazon, введите ваши e-mail и пароль указанные при регистрации на Amazon.
+register.device.widget.setup.desc.text
+
+register.device.widget.preregistered.title.text
+Use this account	Использовать эту учетную запись
+create.account.widget.title.text
+If you do not have an Amazon account	Если у вас нет учетной записи Amazon
+create.account.widget.setup.title.text
+Create an account from your Kindle	Создать учетную запись с вашего Kindle
+create.account.widget.empty.text
+create.account.widget.desc.text
+Create an account and register your Kindle.	Создать учетную запись и зарегистрировать ваш Kindle
+create.account.widget.setup.desc.text
+You can also create an account directly from your Kindle, if you do not have access to a computer.	Вы так же можете создать учетную запись прямо с вашего Kindle, если у вас нет доступа к компьютеру.
+computer.widget.title.text
+Create an account from a computer	Создать учетную запись с компьютера
+computer.widget.desc.text
+If you do not have an Amazon account, it is easiest to create an account from a computer.	Если у вас нет учетной записи Amazon, проще это сделать с вашего компьютера.
+create.new.account.widget.title.text
+Create a new account	Создать новую учетную запись
+create.new.account.widget.desc.text
+If you do not have an Amazon account, you can create a new one here.	Если у вас нет учетной записи, вы можете создать ее тут.
+change.registration.widget.title.text
+Re-register to a different account	Перерегистрировать на другую учетную запись
+setup.wifi.off.title
+Wi-Fi connection required	Требуется подключение к сети Wi-Fi
+setup.wifi.off.message
+Connect to a Wi-Fi network or try again later.	Подключитесь к Wi-Fi или попробуйте позже.
+setup.wifi.off.cancel
+close	закрыть
+setup.wifi.off.connect
+connect	подключиться
+com/amazon/ebook/booklet/home/foundation/resources/RegistrationResources_en_GB
+java/util/ListResourceBundle
+(I)V
+(I)Ljava/awt/Font;
+a
+vvb
+()Lcom/amazon/ebook/framework/c/a;
+com/amazon/ebook/framework/c/a

@@ -1,0 +1,39 @@
+[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/DeviceCollectionsResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+device.collections.header.format
+java/text/ChoiceFormat
+0#Showing {0,number,integer} Devices|1#Showing {0,number,integer} Device|2#Showing {0,number,integer} Devices	0#Показано устройств: {0,number,integer}|1#Показано устройств: {0,number,integer}|2#Показано устройств: {0,number,integer}
+device.collections.label
+Add Other Device Collections	Добавить коллекции с других устройств
+device.collections.widget.author.label
+
+device.collections.merge.title
+Add Collections	Добавить коллекции
+device.collections.merge.body.template
+You are about to add the collections from "{0}" to this Kindle.~~~~Any items that are currently on both devices will automatically be organised into the new collections. Adding the collections may take a few minutes if you have a large number of items, do you wish to continue?	Вы собираетесь добавить коллекции с устройства "{0}" на этот Kindle.~~~~Любые элементы находящиеся на обоих устройства будут добавлены в новые коллекции. Этот процесс может занять несколько минут, продолжить?
+device.collections.merge.message
+Importing collections...	Импорт коллекций...
+device.collections.merge.width
+java/lang/Integer
+device.collections.get.and.merge.collections.thread.name
+Fetching collections from backup	Загрузка коллекция из бекапа
+device.catalog.item.generation
+device.catalog.item.version
+device.collections.view.sound
+com/amazon/ebook/booklet/home/foundation/resources/DeviceCollectionsResources
+java/util/ListResourceBundle
+(Ljava/lang/String;)V
+(I)V
+a
+ood

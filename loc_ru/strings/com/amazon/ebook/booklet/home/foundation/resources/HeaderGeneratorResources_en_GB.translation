@@ -1,0 +1,70 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/home/foundation/resources/HeaderGeneratorResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+home.header.filter.sound
+filter by 
+home.header.filter.prompt.format
+{0}{1}
+home.header.filter.all
+All My Items	Все 
+home.header.filter.all.format
+0#Showing {0,number,integer} Items|1#Showing {0,number,integer} Item|2#Showing {0,number,integer} Items	0#Показано документов: {0,number,integer}|1#Показано документов: {0,number,integer}|2#Показано документов: {0,number,integer}
+home.header.filter.books
+Books	Книги
+home.header.filter.books.format
+0#Showing {0,number,integer} Books|1#Showing {0,number,integer} Book|2#Showing {0,number,integer} Books	0#Показано книг: {0,number,integer}|1#Показано книг: {0,number,integer}|2#Показано книг: {0,number,integer}
+home.header.filter.collections
+Collections	Коллекции
+home.header.filter.collections.format
+0#Showing {0,number,integer} Collections|1#Showing {0,number,integer} Collection|2#Showing {0,number,integer} Collections	0#Показано коллекций: {0,number,integer}|1#Показано коллекций: {0,number,integer}|2#Показано коллекций: {0,number,integer}
+home.header.filter.pdocs
+Personal Docs	Персональные документы
+home.header.filter.pdocs.format
+0#Showing {0,number,integer} Personal Docs|1#Showing {0,number,integer} Personal Doc|2#Showing {0,number,integer} Personal Docs	0#Показано документов: {0,number,integer}|1#Показано документов: {0,number,integer}|2#Показано документов: {0,number,integer}
+home.header.filter.subs
+Subscriptions	Подписки
+home.header.filter.subs.format
+0#Showing {0,number,integer} Subscriptions|1#Showing {0,number,integer} Subscription|2#Showing {0,number,integer} Subscriptions	0#Показано коллекций: {0,number,integer}|1#Показано коллекций: {0,number,integer}|2#Показано коллекций: {0,number,integer}
+home.header.no.options
+
+home.header.sort.sound
+sort by 
+home.header.sort.prompt.format
+home.header.sort.author
+Author	Автор
+home.header.sort.author.label
+By Author	По автору
+home.header.sort.collections
+home.header.sort.collections.label
+By Collections	По коллекциям
+home.header.sort.collectionsonly
+Collections Only	Только коллекции
+home.header.sort.collectionsonly.label
+By Collections Only Только по коллекциям
+home.header.sort.recent
+Most Recent First	Недавние
+home.header.sort.recent.label
+By Most Recent First	По недавним
+home.header.sort.relevance
+Relevance	Релевантность
+home.header.sort.relevance.label
+By Relevance	По релевантности
+home.header.sort.title
+Title	Название
+home.header.sort.title.label
+By Title	По названию
+com/amazon/ebook/booklet/home/foundation/resources/HeaderGeneratorResources_en_GB
+java/util/ListResourceBundle
+f
+a
+dyf

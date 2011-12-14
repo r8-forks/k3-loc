@@ -1,0 +1,52 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/overlay/resources/ReaderSearchOverlayResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+search.overlay.find
+find	найти
+search.overlay.find.active
+search.overlay.myitems
+my items	мои документы
+search.overlay.myitems.active
+ my items	 мои документы
+search.overlay.store
+store	магазин
+search.overlay.store.active
+ store	 магазине
+search.overlay.google
+google
+search.overlay.google.active
+ google	 google
+search.overlay.wikipedia
+wikipedia
+search.overlay.wikipedia.active
+ wikipedia	 wikipedia
+search.overlay.dictionary
+dictionary	словарь
+search.overlay.dictionary.active
+ dictionary	 словаре
+search.overlay.note
+note	заметки
+search.overlay.note.active
+search.overlay.cancel
+close	закрыть
+search.overlay.next
+search next	искать дальше
+search.overlay.prev
+search previous	искать предыд.
+search.overlay.bottom.margin
+java/lang/Integer
+com/amazon/ebook/booklet/reader/gui/overlay/resources/ReaderSearchOverlayResources
+java/util/ListResourceBundle
+(I)V
+a
+qyc

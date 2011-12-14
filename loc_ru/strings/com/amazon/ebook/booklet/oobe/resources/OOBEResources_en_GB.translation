@@ -1,0 +1,112 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/oobe/resources/OOBEResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+setup.draw.color
+setup.clear.color
+setup.gray.color
+setup.header.font
+setup.body.font
+setup.wifi.img
+01_LANGUAGE.png
+setup.registration.img
+02_WiFi.png
+setup.complete.img
+03_REGISTRATION.png
+setup.line.width
+java/lang/Integer
+setup.line.spacing
+setup.line.spacing.offset
+setup.line.left.margin
+setup.button.spacing
+setup.header.spacing
+setup.button.fixed.width
+setup.title
+Set Up Kindle	Настройка Kindle
+setup.wifi.header
+Welcome to Kindle	Добро пожаловать
+setup.wifi.body
+In order to buy books and use most features, you need to connect to a Wi-Fi network and register your Kindle.  You can do this in a few short steps.~~	Что бы воспользоваться покупкой книг и другими возможностями Kindle, вы должны его зарегистрировать. Это можно сделать буквально за несколько шагов.~~
+setup.wifi.button.connect
+connect to wi-fi	подключиться к wi-fi
+setup.wifi.button.skip
+set up later	настроить позже
+setup.wifi.skipped.header
+Set up Later	Настроить позже
+setup.wifi.skipped.skip.button
+setup.wifi.skipped.body
+You can complete setup later by selecting "Set Up Kindle" from Home.~~Are you sure you want to skip setup?	Вы можете выполнить настройку позже, выбрав на домашнем экране "Найстрока Kindle".~~Вы хотите пропустить сейчас настройку?
+setup.wifi.skipped.cancel
+cancel	отмена
+setup.wifi.complete.header
+Wi-Fi Connected	Wi-Fi Подключен
+setup.wifi.complete.body
+You have successfully set up your Wi-Fi connection and are now connected to {0}.~~~~ Click "register your kindle" to continue setting up your Kindle.	Вы успешно настроили Wi-Fi и теперь подключены к {0}.~~~~ Нажмите "регистрировать ваш Kindle" для продолжения настройки.
+setup.wifi.complete.button.next
+register your kindle	регистрировать ваш Kindle
+setup.wifi.error.title
+Cannot connect to Amazon	Невозможно подключиться к Amazon
+setup.wifi.error.body
+You can register your device later by selecting "Set Up Kindle" from Home, or through the Settings page.	Вы можете выполнить регистрацию позже, выбрав на домашнем экране "Найстрока Kindle" или через меню Настроек.?
+setup.complete.header
+Setup Complete	Настройка завершена
+setup.complete.body
+Congratulations, setup is complete.~~~~Get started by browsing the Kindle Store or learn more about how to use your Kindle by reading the Kindle User's Guide. Press the  button to go to the Home screen and access your Archived Items.	Поздравляем, настройка Kindle завершена.~~~~Вы можете начать с просмотра Магазина Amazon или прочитать как пользоваться вашим Kindle в Руководстве по эксплуатации. Нажмите кнопку  для перехода на Домашний экран (Home).
+setup.complete.button.viewguide
+learn more	узнать больше
+setup.complete.button.shop
+shop in kindle store	магазин Amazon
+setup.complete.already.body
+Setup is complete. You can change your Wi-Fi networks or Registration on the Settings page. To access Settings, press {0}, then {1} and select "Settings".	Настройка завершена. Вы можете изменить настройки Wi-Fi или регистрацию на странице Настроек. Для этого нажмите {0}, затем {1} и выберите пункт "Настройки".
+setup.complete.already.button
+return to home	вернуться домой
+setup.status.welcome
+Welcome	Добро пожаловать
+setup.status.wifi
+Wi-Fi
+setup.status.registration
+Registration	Регистрация
+setup.userguide.error.title
+User Guide is not found
+setup.userguide.error.body
+The Kindle User's Guide could not be opened because it has been removed from your Kindle. To read it, please go to Archived Items to download it.
+setup.userguide.error.button
+go to home	перейти домой
+setup.wifi.off.title
+Wi-Fi connection required	Требуется подключение к Wi-Fi
+setup.wifi.off.message
+A Wi-Fi connection is required to complete this task. Connect to a Wi-Fi network or try again later.	Для продолжения операции требуется подключение к Wi-Fi. Подключитесь к Wi-Fi или попробуйте позже.
+setup.wifi.off.cancel
+close	закрыть
+setup.wifi.off.connect
+connect	подключиться
+setup.loading.message
+Now opening Set Up Kindle, please wait...	Открывается настройка Kindle, подождите...
+setup.loading.margin
+setup.loading.font
+com/amazon/ebook/booklet/oobe/resources/OOBEResources_en_GB
+java/util/ListResourceBundle
+Ljava/awt/Color;
+getInstance
+(IZZ)Ljava/awt/Font;
+(I)Ljava/awt/Font;
+(I)V
+f
+a
+wlf
+Evb
+Kwb
+()Lcom/amazon/ebook/framework/font/h;
+l
+K
+com/amazon/ebook/framework/font/h
+com/amazon/ebook/framework/gui/c
