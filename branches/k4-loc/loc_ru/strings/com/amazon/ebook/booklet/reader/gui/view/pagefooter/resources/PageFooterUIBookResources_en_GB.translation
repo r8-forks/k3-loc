@@ -1,0 +1,29 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIBookResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+footer.choice.limits
+footer.choice.formats.location
+java/lang/String
+
+Location {1}	Позиция {1}
+Locations {1}	Позиции {1}
+footer.choice.formats.page
+Page {1}	Страница {1}
+Pages {1}-{2}	Страницы {1}-{2}
+footer.choice.format
+Location {3} of {4}	Позиция {3} из {4}
+Page {1} of {2} • Location {3} of {4}	Страница {1} из {2} • Позиция {3} из {4}
+com/amazon/ebook/booklet/reader/gui/view/pagefooter/resources/PageFooterUIBookResources
+java/util/ListResourceBundle
+a
+uj

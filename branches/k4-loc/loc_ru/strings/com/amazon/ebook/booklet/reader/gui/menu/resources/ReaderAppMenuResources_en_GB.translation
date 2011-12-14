@@ -1,0 +1,41 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+clip.this.article.finish
+Article saved	Статья сохранена
+menu.go.to
+Go to...	Перейти к...
+menu.my.notes.and.marks
+View Notes & Marks	Посмотреть заметки
+menu.popular.highlights
+View Popular Highlights	Популярные выделения
+most.popular.highlights.max
+java/lang/Integer
+most.popular.highlights.label
+View Most Popular Highlights	Наиболее популярные выделения
+menu.item.horizontal.justification
+menu.item.spacer.height
+menu.font.display
+Change Font Size	Изменить шрифт
+menu.screen.rotation
+Screen Rotation	Повернуть экран
+menu.zoom.contrast
+Zoom & Contrast	Маштаб и контраст
+menu.item.top.margin
+menu.item.bottom.margin
+menu.item.landscape.font
+com/amazon/ebook/booklet/reader/gui/menu/resources/ReaderAppMenuResources_en_GB
+java/util/ListResourceBundle
+(I)V
+a
+wzc

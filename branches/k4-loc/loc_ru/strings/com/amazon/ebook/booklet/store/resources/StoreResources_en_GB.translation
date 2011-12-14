@@ -1,0 +1,33 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/store/resources/StoreResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+store.background.color
+searchbar.store.label
+ store	 магазин
+battery.low.msg
+Your battery is running low. Please recharge your Kindle. To extend reading time, try turning wireless off.	У вашего Kindle села батарейка. Пожалуйста, зарядите его. Что бы увеличить время работы, отключите Wi-Fi.
+ad.details.error.msg
+Details for this ad are no longer available. Turn wireless on to receive the latest content.	Информация по этой рекламе больше не доступна. Подключитесь к Wi-Fi что бы обновить рекламу.
+ad.details.error.msg.connected
+Details for this ad are no longer available.	Информация по этой рекламе больше не доступна.
+pendingPurchaseOverlay.msg.pattern
+{0,choice,0#You have no pending orders for this special offer.|1#You already have a pending order for this special offer.|2#You already have {0,number,integer} pending orders for this special offer.}
+{0,choice,0#У вас нет покупок по этому спецпредложению.|1#У вас есть одна покупка по этому спецпредложению.|2#Увас есть {0,number,integer} покупок по этому спецпредложению.}
+com/amazon/ebook/booklet/store/resources/StoreResources_en_GB
+java/util/ListResourceBundle
+java/awt/Color
+WHITE
+Ljava/awt/Color;
+f
+a
+god
