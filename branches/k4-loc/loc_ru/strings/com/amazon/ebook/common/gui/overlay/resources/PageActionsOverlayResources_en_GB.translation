@@ -55,11 +55,11 @@ alt
 line.spacing
 Line Spacing	Межстрочное рас.
 line.spacing.option.1
-small	-1
+small	мелкий
 line.spacing.option.2
 medium	0
 line.spacing.option.3
-large	+1
+large	большой
 line.spacing.alt.option.1
 112
 line.spacing.alt.option.2
@@ -73,21 +73,21 @@ line.spacing.alt.option.5
 contrast.label
 Contrast	Контраст
 contrast.option.1
-lightest
+lightest	светлый
 contrast.option.2
-lighter
+lighter	светлее
 contrast.option.3
 contrast.option.4
-darker
+darker	темнее
 contrast.option.5
-darkest
+darkest	темный
 contrast.menu.justification
 word.per.line
 Words per Line	Слов в строке
 word.per.line.option.1
-fewest	-1
+fewest	меньше
 word.per.line.option.2
-fewer	0
+fewer	норм.
 word.per.line.option.3
 auto.crop.onoff
 Auto-Crop
@@ -96,21 +96,21 @@ auto.crop.onoff.off
 auto.crop.onoff.best.effort
 best effort
 justification
-Justification
+Justification	Выравнивание
 justification.left
-Left
+Left	Слева
 justification.full
-Full
+Full	По ширине
 zoom.level
-Zoom
+Zoom	Маштаб
 zoom.level.option.actual.size
-actual size
+actual size	актуальный
 zoom.level.option.fit.page
-fit to page
+fit to page	в страницу
 zoom.level.option.fit.width
-fit to width
+fit to width	по ширине
 zoom.level.option.fit.screen
-fit to screen
+fit to screen	на экран
 zoom.level.option.2
 150%
 zoom.level.option.3
@@ -119,10 +119,10 @@ zoom.level.option.4
 300%
 zoom.level.menu.justification
 accessibility.title.spoken
-Page Preferences
+Page Preferences	Настройки страницы
 embed.font.label.font
 embed.font.label.title
-This book is using custom typefaces that are not adjustable
+This book is using custom typefaces that are not adjustable	Эта книга использует специальный шрифт, размер которого не меняется
 embed.font.label.color
 com/amazon/ebook/common/gui/overlay/resources/PageActionsOverlayResources_en_GB
 java/util/ListResourceBundle
