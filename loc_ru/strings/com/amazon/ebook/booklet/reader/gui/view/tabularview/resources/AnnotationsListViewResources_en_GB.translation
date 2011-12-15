@@ -1,0 +1,36 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/booklet/reader/gui/view/tabularview/resources/AnnotationsListViewResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+close.label
+Close	Закрыть
+color.background
+options.overlay.cancel
+cancel	отмена
+options.overlay.delete
+delete	удалить
+options.overlay.edit
+edit	изменить
+options.overlay.share
+share	расшарить
+options.overlay.view
+view	открыть
+options.overlay.goto
+go to	перейти
+com/amazon/ebook/booklet/reader/gui/view/tabularview/resources/AnnotationsListViewResources_en_GB
+java/util/ListResourceBundle
+Ljava/awt/Color;
+f
+a
+yvd
+C
+com/amazon/ebook/framework/gui/c

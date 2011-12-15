@@ -1,0 +1,24 @@
+﻿[[Ljava/lang/Object;
+<init>
+()V
+Code
+LineNumberTable
+LocalVariableTable
+Lcom/amazon/ebook/framework/resources/KeyboardResources_en_GB;
+getContents
+()[[Ljava/lang/Object;
+<clinit>
+SourceFile
+[Ljava/lang/Object;
+java/lang/Object
+symbols.open.hint
+Press {0} to begin typing	Нажмите {0} для ввода текста
+symbols.close.hint
+Press {0} to close the keyboard	Нажмите {0} чтобы закрыть клавиатуру
+symbols.close.key.label
+Done	Закрыть
+com/amazon/ebook/framework/resources/KeyboardResources_en_GB
+java/util/ListResourceBundle
+f
+a
+esc
