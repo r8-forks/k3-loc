@@ -24,7 +24,7 @@ update.dialog.releasenotes.font
 update.dialog.releasenotes.margin.top
 update.dialog.releasenotes.margin.left
 update.connect.disallowed.dialog.title
-Wireless connection required	Требуется подключение к Wi-Fi(3G)
+Wireless connection required	Требуется подключение к Wi-Fi
 update.connect.disallowed.dialog.text
 Active content cannot be updated without a wireless connection. Please turn on wireless and try again.	Нельзя обновить приложение без подключения к сети Wi-Fi. Включите Wi-Fi и повторите снова.
 update.connect.error.dialog.title

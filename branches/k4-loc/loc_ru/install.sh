@@ -65,6 +65,8 @@ logmsg "I" "update" "Translate JARs"
 update_progressbar 30
 /usr/java/bin/cvm -Xms16m -classpath bcel-5.2.jar:K3Translator.jar Translator td4 /opt/amazon/ebook/lib translation.jar en_GB ru_RU >> /mnt/us/localization/install.log 2>&1
 
+#cp -f /opt/amazon/ebook/lib/*_ru_RU.jar /mnt/us/localization >> /mnt/us/localization/install.log 2>&1
+
 update_progressbar 70
 
 logmsg "I" "update" "Copy images to img"

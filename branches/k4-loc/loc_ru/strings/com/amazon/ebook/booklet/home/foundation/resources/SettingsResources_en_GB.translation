@@ -43,8 +43,7 @@ settings.widget.desc.font
 settings.widget.footer.font
 settings.widget.link.font
 settings.desc.body
-The following pages contain settings to personalise your Kindle experience. Press the Next and Previous page buttons to see all the settings.	Эти страницы содержат настройки Вашего Kindle.~~Перевод интерфейса выполнил Sir Alex, подробности читайте тут: http://goo.gl/HucCF~~Версия перевода: 4.1 от 13.12.2011
-The following pages contain settings to personalize your Kindle experience. Press the Next and Previous page buttons to see all the settings.	Эти страницы содержат настройки Вашего Kindle.~~Перевод интерфейса выполнил Sir Alex, подробности читайте тут: http://goo.gl/HucCF~~Версия перевода: 4.1 от 13.12.2011
+The following pages contain settings to personalise your Kindle experience. Press the Next and Previous page buttons to see all the settings.	Эти страницы содержат настройки Вашего Kindle.~~Перевод интерфейса выполнил Sir Alex, подробности читайте тут: http://goo.gl/HucCF~~Версия перевода: 4.03 от 18.12.2011
 settings.desc.body.not.registered
 This page contains settings to personalize your Kindle experience.	Эта страница содержит персональные настройки вашего Kindle.
 settings.wifi.header
@@ -207,7 +206,7 @@ settings.annotations.disable.cursor
 settings.annotations.header
 Annotations Backup	Сохранение аннотаций
 settings.annotations.body
-Automatically backup your device annotations, last page read, and collections at Amazon.	Автоматически сохранять аннотации, последнюю прочитанную страницу и коллекции на сайте Amazon.
+Automatically backup your device annotations, last page read and collections at Amazon.	Автоматически сохранять аннотации, последнюю прочитанную страницу и коллекции на сайте Amazon.
 settings.menu.default.item
 settings.menu.update
 Update Your Kindle	Обновление Kindle

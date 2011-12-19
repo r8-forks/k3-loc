@@ -12,9 +12,9 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 pre.delete.action.delete.button.sound
-delete
+delete	удалить
 pre.delete.action.remove.button.sound
-remove from device
+remove from device	удалить с Kindle
 delete.collection.action.confirm.header
 Delete Collection	Удалить коллекцию
 delete.collection.action.confirm.body
