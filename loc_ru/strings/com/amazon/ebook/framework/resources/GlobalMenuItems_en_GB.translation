@@ -14,17 +14,17 @@ SourceFile
 [Ljava/lang/Object;
 java/lang/Object
 wireless.switch.on
-Turn Wireless On	Включить Wi-Fi/3G
+Turn Wireless On	Включить Wi-Fi
 wireless.switch.off
-Turn Wireless Off	Выключить Wi-Fi/3G
+Turn Wireless Off	Отключить Wi-Fi
 store.body
 Shop in Kindle Store	Магазин Amazon
 settings.body
 Settings	Настройки
 view.special.offers.body
-View Special Offers	Спецпредложения (Реклама)
+View Special Offers	Спецпредложения
 exp.body
-Experimental	Экспериментальные возможности
+Experimental	Web браузер
 reset.body
 Reset	Перезагрузить Kindle
 factory.reset.body
@@ -42,7 +42,7 @@ command.line.private.symbol
 search.body
 Search	Поиск
 check.body
-Sync & Check for Items	Синхронизировать книги
+Sync & Check for Items	Синхронизация
 home.body
 Home	Домой
 sove.for.later.body

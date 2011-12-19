@@ -17,7 +17,7 @@ adList.subheader.top.margin
 java/lang/Integer
 adList.subheader.height
 adList.wireless.notice.text
-(choosing an item turns wireless on)	(WiFi(3G) подключится автоматически если открыть предложение)
+(choosing an item turns wireless on)	(WiFi подключится автоматически если открыть предложение)
 adList.wireless.notice.font
 adList.filter.format
 java/text/ChoiceFormat
@@ -53,7 +53,7 @@ Click to view all of your pending orders.	Кликните что бы увид�
 adList.widget.click.to.connect.headline
 Click to connect to Amazon now and complete the orders listed below.	Кликните для завершения покупки и подключения к Amazon.
 adList.widget.click.to.connect.subheadline
-(Turns wireless on)	(Включить Wi-Fi/3G)
+(Turns wireless on)	(Включить Wi-Fi)
 adList.widget.no.pending.transactions.headline
 All Orders Submitted	Все заказы отправлены
 adList.widget.no.pending.transactions.subheadline

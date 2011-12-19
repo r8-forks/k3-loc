@@ -1,5 +1,5 @@
 set HACKNAME=ru_RU
-set PKGVER=4.1
+set PKGVER=4.03
 
 copy ..\..\K3Translator.jar .\
 
@@ -26,6 +26,6 @@ echo Create update archive
 
 echo Clean up
 del *.bin
-del translation.jar
+rem del translation.jar
 del low_level_screens.tar.gz 
 del img.tar.gz

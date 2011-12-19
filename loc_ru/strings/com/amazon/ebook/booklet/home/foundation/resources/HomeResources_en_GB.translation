@@ -23,9 +23,9 @@ home.viewdownloaditem.menuitem.label
 View Downloading Items	Загружаемые сейчас книги
 home.view.sound
 home.delete.button.sound
-delete
+delete	удалить
 home.remove.button.sound
-remove from device
+remove from device	удалить с Kindle
 com/amazon/ebook/booklet/home/foundation/resources/HomeResources
 java/util/ListResourceBundle
 a

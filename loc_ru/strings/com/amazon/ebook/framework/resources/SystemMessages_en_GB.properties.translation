@@ -1,4 +1,4 @@
-﻿wn.cant.connect.msg=Your Kindle is unable to connect at this time. Please try again later. If the problem persists, please restart your Kindle from the Menu in Settings and try again.
+﻿wn.cant.connect.msg=Ваш Kindle не может подключиться в данный момент. Пожалуйста, попробуйте позже. Если проблема останется, попробуйте перезагрузить Kindle.
 wn.cant.connect.restart.msg=Your Kindle is unable to connect at this time. Please make sure you are within wireless range and try again. If the problem persists, restart your Kindle from the menu in Settings and try again.
 wn.cant.reconnect.msg=Your Kindle is unable to connect at this time. Please make sure you are within wireless range and try again. If the problem persists, please restart your Kindle from the Menu in Settings and try again.
 wn.radio.off.button.text=включить Wi-Fi
@@ -17,7 +17,7 @@ gm.memory.full.msg=Your download was not successful because your Kindle memory i
 um.battery.low.msg=Your battery is too low to safely install this update.  Please fully charge your Kindle and try again.
 um.no.update.msg=Нечего обновлять
 um.apply.update.title=Обновление Kindle
-um.apply.update.msg=Вы собираетесь установить обновление Kindle. Продолжаем?
+um.apply.update.msg=Вы собираетесь установить обновление Kindle. Продолжить?
 screen.wake.msg=Slide and release power switch to wake
 alert.repeat.occurs.pattern=0# |2#\u0020\u0020(occurs {0,number,integer} more times...)
 ad.reset.alert.msg=Специальные предложения были удалены с вашего Kindle.
