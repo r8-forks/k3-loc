@@ -16,7 +16,7 @@ Press {0} to begin typing	Нажмите {0} для ввода текста
 symbols.close.hint
 Press {0} to close the keyboard	Нажмите {0} чтобы закрыть клавиатуру
 symbols.close.key.label
-Done	Закрыть
+Done	Выйти
 com/amazon/ebook/framework/resources/KeyboardResources_en_GB
 java/util/ListResourceBundle
 f
