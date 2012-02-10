@@ -19,7 +19,7 @@ java -cp bcel-5.2.jar;K3Translator.jar Translator mt ./strings translation.jar
 echo Create update files
 set DEVICE=k4w
 ..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_install install.sh bcel-5.2.jar K3Translator.jar translation.jar ru.properties low_level_screens.tar.gz img.tar.gz
-rem ..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
+..\bin\kindle_update_tool.py m --%DEVICE% --sign %HACKNAME%_%PKGVER%_%DEVICE%_uninstall uninstall.sh
 
 echo Create update archive
 ..\bin\7z a update_%HACKNAME%_%PKGVER%.zip *.bin *.keyb
